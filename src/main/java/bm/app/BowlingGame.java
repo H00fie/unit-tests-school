@@ -2,8 +2,14 @@ package bm.app;
 
 public class BowlingGame {
 
+    private int score = 0;
+
     public int getScore() {
-        return -1;
+        return score;
+    }
+
+    public void roll(int bowls){
+        score += bowls;
     }
 
 
