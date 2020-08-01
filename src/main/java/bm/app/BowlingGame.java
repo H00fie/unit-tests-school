@@ -2,14 +2,30 @@ package bm.app;
 
 public class BowlingGame {
 
-    private int score = 0;
+    int roll = 0;
+    private int[] rolls = new int[21];
 
     public int getScore() {
+        int score = 0;
+        int cursor = 0;
+        for (int i = 0; i < 10; i++){
+            if (isSpare(cursor)){
+                score += 10 + rolls[cursor + 2];
+                cursor += 2;
+            }else {
+                score += rolls[cursor] + rolls[cursor + 1];
+                cursor += 2;
+            }
+        }
         return score;
     }
 
     public void roll(int bowls){
-        score += bowls;
+        rolls[roll++] = bowls;
+    }
+
+    private boolean isSpare(int cursor){
+        return rolls[cursor] + rolls[cursor + 1] == 10;
     }
 
 
