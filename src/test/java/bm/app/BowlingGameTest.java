@@ -16,29 +16,35 @@ class BowlingGameTest {
 
     @Test
     void shouldScoreZeroWhenNoBowlsDownTwentyTimes(){
-        rolling2(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        rollingButPrettier(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         assertThat(theGame.getScore()).isEqualTo(0);
     }
 
     @Test
     void shouldScoreTwentyWhenOneBowlDownTwentyTimes() {
-        rolling2(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
+        rollingButPrettier(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
         assertThat(theGame.getScore()).isEqualTo(20);
     }
 
     @Test
     void shouldScoreSpare(){
-        rolling2(5, 5, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        rollingButPrettier(5, 5, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         assertThat(theGame.getScore()).isEqualTo(18);
     }
 
     @Test
     void shouldScoreStrike(){
-        rolling2(10, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        rollingButPrettier(10, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         assertThat(theGame.getScore()).isEqualTo(26);
     }
 
-    private void rolling2(int... bowls){
+    @Test
+    void shouldScoreMasterStrike(){
+        rollingButPrettier(10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10);
+        assertThat(theGame.getScore()).isEqualTo(300);
+    }
+
+    private void rollingButPrettier(int... bowls){
         for (int bowl : bowls) {
                 theGame.roll(bowl);
         }

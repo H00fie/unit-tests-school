@@ -13,7 +13,7 @@ public class BowlingGame {
                 score += 10 + rolls[cursor + 1] + rolls[cursor + 2];
                 cursor++;
             }
-            if (isSpare(cursor)) {
+            else if (isSpare(cursor)) {
                 score += 10 + rolls[cursor + 2];
                 cursor += 2;
             } else {
