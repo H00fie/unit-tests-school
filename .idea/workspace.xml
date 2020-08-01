@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/BowlingGameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/BowlingGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/BowlingGameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/BowlingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/bowlinggame/BowlingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/bowlinggame/BowlingGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,21 +50,24 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="bm.app" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bm.app.bowlinggame" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingGameTest.shouldScoreMasterStrike">
+  <component name="RunManager" selected="JUnit.BowlingGameTest">
     <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.*" />
+          <option name="PATTERN" value="bm.app.bowlinggame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.BowlingGameTest" />
+      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -74,12 +77,12 @@
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.*" />
+          <option name="PATTERN" value="bm.app.bowlinggame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.BowlingGameTest" />
+      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
       <option name="METHOD_NAME" value="shouldScoreMasterStrike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -90,12 +93,12 @@
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.*" />
+          <option name="PATTERN" value="bm.app.bowlinggame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.BowlingGameTest" />
+      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
       <option name="METHOD_NAME" value="shouldScoreSpare" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -106,12 +109,12 @@
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.*" />
+          <option name="PATTERN" value="bm.app.bowlinggame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.BowlingGameTest" />
+      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
       <option name="METHOD_NAME" value="shouldScoreStrike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -122,12 +125,12 @@
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.*" />
+          <option name="PATTERN" value="bm.app.bowlinggame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.BowlingGameTest" />
+      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
       <option name="METHOD_NAME" value="shouldScoreTwentyWhenOneBowlDownTwentyTimes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -136,8 +139,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BowlingGameTest.shouldScoreMasterStrike" />
         <item itemvalue="JUnit.BowlingGameTest" />
+        <item itemvalue="JUnit.BowlingGameTest.shouldScoreMasterStrike" />
         <item itemvalue="JUnit.BowlingGameTest.shouldScoreSpare" />
         <item itemvalue="JUnit.BowlingGameTest.shouldScoreTwentyWhenOneBowlDownTwentyTimes" />
         <item itemvalue="JUnit.BowlingGameTest.shouldScoreStrike" />
@@ -155,7 +158,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596142659092</updated>
       <workItem from="1596142663097" duration="7686000" />
-      <workItem from="1596218248330" duration="13821000" />
+      <workItem from="1596218248330" duration="14753000" />
     </task>
     <servers />
   </component>
@@ -163,26 +166,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="566" y="278" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596273655041">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="566" y="278" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1596273655041" />
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596240270754">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596242869448">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596273727100">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596242869448" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596242869447">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596273727100">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596242869447" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596242869447">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596273727100">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596242869447" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596242869447">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596273727100">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596242869447" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
