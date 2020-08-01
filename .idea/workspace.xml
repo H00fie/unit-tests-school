@@ -6,7 +6,9 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/BowlingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/BowlingGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/BowlingGameTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bm/app/BowlingGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/BowlingGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/Dazikiri.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/BowlingGameTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/BowlingGameTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/DazikiriTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingGameTest">
+  <component name="RunManager" selected="JUnit.BowlingGameTest.shouldScoreSpare">
     <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -88,7 +90,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DazikiriTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BowlingGameTest.shouldScoreStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
@@ -97,13 +99,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bm.app" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.DazikiriTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.BowlingGameTest" />
+      <option name="METHOD_NAME" value="shouldScoreStrike" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DazikiriTest.shouldBeASpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BowlingGameTest.shouldScoreTwentyWhenOneBowlDownTwentyTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +115,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="bm.app" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.DazikiriTest" />
-      <option name="METHOD_NAME" value="shouldBeASpare" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.BowlingGameTest" />
+      <option name="METHOD_NAME" value="shouldScoreTwentyWhenOneBowlDownTwentyTimes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BowlingGameTest" />
         <item itemvalue="JUnit.BowlingGameTest.shouldScoreSpare" />
+        <item itemvalue="JUnit.BowlingGameTest.shouldScoreTwentyWhenOneBowlDownTwentyTimes" />
+        <item itemvalue="JUnit.BowlingGameTest.shouldScoreStrike" />
+        <item itemvalue="JUnit.BowlingGameTest" />
         <item itemvalue="JUnit.DazikiriTest.shouldReturnScore" />
-        <item itemvalue="JUnit.DazikiriTest.shouldBeASpare" />
-        <item itemvalue="JUnit.DazikiriTest" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +159,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596142659092</updated>
       <workItem from="1596142663097" duration="7686000" />
-      <workItem from="1596218248330" duration="11346000" />
+      <workItem from="1596218248330" duration="12899000" />
     </task>
     <servers />
   </component>
@@ -168,22 +171,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596239781782">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596241742352">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596239781782" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596239781781">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596241742352" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596241742352">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596239781781" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596239781781">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596241742352" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596241742352">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596239781781" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596239781782">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596241742352" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596241742352">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596239781782" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596241742352" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

@@ -16,22 +16,32 @@ class BowlingGameTest {
 
     @Test
     void shouldScoreZeroWhenNoBowlsDownTwentyTimes(){
-        rolling(20, 0);
+        rolling2(0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         assertThat(theGame.getScore()).isEqualTo(0);
     }
 
     @Test
     void shouldScoreTwentyWhenOneBowlDownTwentyTimes() {
-        rolling(20, 1);
+        rolling2(1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1);
         assertThat(theGame.getScore()).isEqualTo(20);
     }
 
     @Test
     void shouldScoreSpare(){
-        rolling(2, 5);
-        rolling(1, 4);
-        rolling(17, 0);
+        rolling2(5, 5, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
         assertThat(theGame.getScore()).isEqualTo(18);
+    }
+
+    @Test
+    void shouldScoreStrike(){
+        rolling2(10, 4, 4, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0);
+        assertThat(theGame.getScore()).isEqualTo(26);
+    }
+
+    private void rolling2(int... bowls){
+        for (int bowl : bowls) {
+                theGame.roll(bowl);
+        }
     }
 
     private void rolling(int numberOfThrows, int bowls) {
