@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/BowlingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/bowlinggame/BowlingGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/bowlinggame/BowlingGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +157,7 @@
       <updated>1596142659092</updated>
       <workItem from="1596142663097" duration="7686000" />
       <workItem from="1596218248330" duration="14753000" />
+      <workItem from="1596385202340" duration="2635000" />
     </task>
     <servers />
   </component>
@@ -198,10 +197,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1596218306771" />
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596220032775">
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596396266908">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1596220032775" />
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1596396266908" />
     <state x="499" y="174" width="538" height="495" key="extract.method.dialog" timestamp="1596146253118">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
