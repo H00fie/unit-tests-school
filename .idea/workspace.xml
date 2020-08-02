@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleOne/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleOne/StringCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleOne/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleOne/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +12,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -159,7 +157,7 @@
       <updated>1596142659092</updated>
       <workItem from="1596142663097" duration="7686000" />
       <workItem from="1596218248330" duration="14753000" />
-      <workItem from="1596385202340" duration="3880000" />
+      <workItem from="1596385202340" duration="6728000" />
     </task>
     <servers />
   </component>
@@ -167,6 +165,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1596400183275">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596400183275" />
     <state x="566" y="278" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596273655041">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
