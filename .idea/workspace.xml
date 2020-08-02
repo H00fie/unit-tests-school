@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleOne/StringCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleOne/StringCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleOne/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleOne/StringCalculatorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +48,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.moduleOne" />
       <recent name="bm.app" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -55,7 +58,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingGameTest">
+  <component name="RunManager" selected="JUnit.StringCalculatorTest">
     <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -87,49 +90,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BowlingGameTest.shouldScoreSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.bowlinggame.*" />
+          <option name="PATTERN" value="bm.app.moduleOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
-      <option name="METHOD_NAME" value="shouldScoreSpare" />
+      <option name="PACKAGE_NAME" value="bm.app.moduleOne" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleOne.StringCalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringCalculatorTest.shouldReturnANumberIntWhenANumberStringIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleOne.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleOne" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleOne.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="shouldReturnANumberIntWhenANumberStringIsGiven" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BowlingGameTest.shouldScoreStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalculatorTest.shouldSumUpNumbersProvidedAndDividedByAComma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.bowlinggame.*" />
+          <option name="PATTERN" value="bm.app.moduleOne.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
-      <option name="METHOD_NAME" value="shouldScoreStrike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingGameTest.shouldScoreTwentyWhenOneBowlDownTwentyTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.bowlinggame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
-      <option name="METHOD_NAME" value="shouldScoreTwentyWhenOneBowlDownTwentyTimes" />
+      <option name="PACKAGE_NAME" value="bm.app.moduleOne" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleOne.StringCalculatorTest" />
+      <option name="METHOD_NAME" value="shouldSumUpNumbersProvidedAndDividedByAComma" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -137,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StringCalculatorTest" />
+        <item itemvalue="JUnit.StringCalculatorTest.shouldSumUpNumbersProvidedAndDividedByAComma" />
+        <item itemvalue="JUnit.StringCalculatorTest.shouldReturnANumberIntWhenANumberStringIsGiven" />
         <item itemvalue="JUnit.BowlingGameTest" />
         <item itemvalue="JUnit.BowlingGameTest.shouldScoreMasterStrike" />
-        <item itemvalue="JUnit.BowlingGameTest.shouldScoreSpare" />
-        <item itemvalue="JUnit.BowlingGameTest.shouldScoreTwentyWhenOneBowlDownTwentyTimes" />
-        <item itemvalue="JUnit.BowlingGameTest.shouldScoreStrike" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +159,7 @@
       <updated>1596142659092</updated>
       <workItem from="1596142663097" duration="7686000" />
       <workItem from="1596218248330" duration="14753000" />
-      <workItem from="1596385202340" duration="2635000" />
+      <workItem from="1596385202340" duration="3880000" />
     </task>
     <servers />
   </component>
@@ -173,22 +175,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596273727100">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596398234807">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596273727100">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596398234807">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596273727100">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596398234807">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596273727100">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596398234807">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596273727100" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
