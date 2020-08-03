@@ -26,6 +26,7 @@ class VatServiceTest {
         BigDecimal result = vatService.getGrossPriceForDefaultVat(product);
         // then
         assertThat(result).isEqualTo("123.0");
+        Mockito.verify(vatProvider, Mockito.times(2)).getDefaultVat();
     }
 
     @Test

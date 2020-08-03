@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleTwo/VatServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleTwo/VatServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/Product.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/moduleTwo/VatServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/moduleTwo/VatServiceTest.class" afterDir="false" />
     </list>
@@ -146,8 +145,8 @@
       <list>
         <item itemvalue="JUnit.VatServiceTest" />
         <item itemvalue="JUnit.VatServiceTest.shouldCalculateGrossPriceForGivenVatValue" />
-        <item itemvalue="JUnit.VatServiceTest.shouldThrowIncorrectVatExceptionWhenVatValueIsTooHigh" />
         <item itemvalue="JUnit.VatServiceTest.shouldCalculateGrossPriceForDefaultVat" />
+        <item itemvalue="JUnit.VatServiceTest.shouldThrowIncorrectVatExceptionWhenVatValueIsTooHigh" />
         <item itemvalue="JUnit.StringCalculatorTest" />
       </list>
     </recent_temporary>
@@ -165,7 +164,7 @@
       <workItem from="1596142663097" duration="7686000" />
       <workItem from="1596218248330" duration="14753000" />
       <workItem from="1596385202340" duration="7990000" />
-      <workItem from="1596470406204" duration="9028000" />
+      <workItem from="1596470406204" duration="11054000" />
     </task>
     <servers />
   </component>
@@ -185,22 +184,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596486764526">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596493300697">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596486764526" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596486764526">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596493300697" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596493300697">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596486764526" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596486764526">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596493300697" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596493300697">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596486764526" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596486764526">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596493300697" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596493300697">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596486764526" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596493300697" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
