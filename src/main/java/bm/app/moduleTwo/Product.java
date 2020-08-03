@@ -17,4 +17,8 @@ public class Product {
     public BigDecimal getNetPrice() {
         return netPrice;
     }
+
+    public String getType() {
+        return type;
+    }
 }
