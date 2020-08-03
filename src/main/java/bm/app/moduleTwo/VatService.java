@@ -5,21 +5,26 @@ import java.math.MathContext;
 
 public class VatService {
 
-    BigDecimal vatValue;
+    VatProvider vatProvider;
 
-    public VatService() {
-        this.vatValue = new BigDecimal("0.23");
+    public VatService(VatProvider vatProvider) {
+        this.vatProvider = vatProvider;
     }
 
     public BigDecimal getGrossPriceForDefaultVat(Product product) throws IncorrectVatException {
-        return getGrossPrice(product.getNetPrice(), vatValue);
+        return calculateGrossPrice(product.getNetPrice(), vatProvider.getDefaultVat());
     }
 
-    public BigDecimal getGrossPrice(BigDecimal netPrice, BigDecimal vatValue) throws IncorrectVatException {
+    public BigDecimal getGrossPrice(BigDecimal netPrice, String productType) throws IncorrectVatException {
+        BigDecimal vatValue = vatProvider.getVatForType(productType);
+        return calculateGrossPrice(netPrice, vatValue);
+    }
+
+    private BigDecimal calculateGrossPrice(BigDecimal netPrice, BigDecimal vatValue) throws IncorrectVatException{
         MathContext precision = new MathContext(4);
-        if (vatValue.compareTo(BigDecimal.ONE) == 1) {
-            throw new IncorrectVatException("VAT cannot be higher than 1.");
+        if (vatValue.compareTo(BigDecimal.ONE) == 1){
+            throw new IncorrectVatException("VAT cannot be higher than 100% of the base price.");
         }
-        return netPrice.multiply(vatValue.add(BigDecimal.ONE)).round(precision);
+        return netPrice.multiply(BigDecimal.ONE.add(vatValue)).round(precision);
     }
 }
