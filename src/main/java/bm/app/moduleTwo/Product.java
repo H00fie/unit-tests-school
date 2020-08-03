@@ -4,8 +4,8 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 public class Product {
-    UUID id;
-    BigDecimal netPrice;
+    private UUID id;
+    private BigDecimal netPrice;
 
     public Product(UUID id, BigDecimal netPrice){
         this.id = id;

@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleOne/StringCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleOne/StringCalculatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/moduleOne/StringCalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/moduleOne/StringCalculatorTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +50,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.moduleTwo" />
       <recent name="bm.app.moduleOne" />
       <recent name="bm.app" />
     </key>
@@ -56,38 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StringCalculatorTest">
-    <configuration name="BowlingGameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.bowlinggame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingGameTest.shouldScoreMasterStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.bowlinggame.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.bowlinggame" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.bowlinggame.BowlingGameTest" />
-      <option name="METHOD_NAME" value="shouldScoreMasterStrike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.VatServiceTest.shouldCalculateGrossPriceForGivenVatValue">
     <configuration name="StringCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -99,22 +73,6 @@
       <option name="PACKAGE_NAME" value="bm.app.moduleOne" />
       <option name="MAIN_CLASS_NAME" value="bm.app.moduleOne.StringCalculatorTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringCalculatorTest.shouldReturnANumberIntWhenANumberStringIsGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.moduleOne.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.moduleOne" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.moduleOne.StringCalculatorTest" />
-      <option name="METHOD_NAME" value="shouldReturnANumberIntWhenANumberStringIsGiven" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,13 +93,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VatServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleTwo" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleTwo.VatServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VatServiceTest.shouldCalculateGrossPriceForDefaultVat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleTwo" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleTwo.VatServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalculateGrossPriceForDefaultVat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VatServiceTest.shouldCalculateGrossPriceForGivenVatValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleTwo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleTwo" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleTwo.VatServiceTest" />
+      <option name="METHOD_NAME" value="shouldCalculateGrossPriceForGivenVatValue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.VatServiceTest.shouldCalculateGrossPriceForGivenVatValue" />
+        <item itemvalue="JUnit.VatServiceTest" />
+        <item itemvalue="JUnit.VatServiceTest.shouldCalculateGrossPriceForDefaultVat" />
         <item itemvalue="JUnit.StringCalculatorTest" />
         <item itemvalue="JUnit.StringCalculatorTest.shouldSumUpNumbersProvidedAndDividedByAComma" />
-        <item itemvalue="JUnit.StringCalculatorTest.shouldReturnANumberIntWhenANumberStringIsGiven" />
-        <item itemvalue="JUnit.BowlingGameTest" />
-        <item itemvalue="JUnit.BowlingGameTest.shouldScoreMasterStrike" />
       </list>
     </recent_temporary>
   </component>
@@ -157,7 +162,8 @@
       <updated>1596142659092</updated>
       <workItem from="1596142663097" duration="7686000" />
       <workItem from="1596218248330" duration="14753000" />
-      <workItem from="1596385202340" duration="6728000" />
+      <workItem from="1596385202340" duration="7990000" />
+      <workItem from="1596470406204" duration="2250000" />
     </task>
     <servers />
   </component>
@@ -165,10 +171,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1596400183275">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1596475803843">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596400183275" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596475803843" />
     <state x="566" y="278" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596273655041">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -177,34 +183,34 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596398234807">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596402802769">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596398234807">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1596402802769" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596402802769">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596398234807">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1596402802769" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596402802769">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596398234807">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1596402802769" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596402802769">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596398234807" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1596402802769" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="584" y="352" key="ReplaceDuplicatesPrompt/0.0.1536.834@0.0.1536.834" timestamp="1596146258682" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1596218306771">
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1596472192983">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1596218306771" />
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596396266908">
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1596472192983" />
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596401875339">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1596396266908" />
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1596401875339" />
     <state x="499" y="174" width="538" height="495" key="extract.method.dialog" timestamp="1596146253118">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
