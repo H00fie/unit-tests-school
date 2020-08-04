@@ -1,4 +1,4 @@
-package bm.app.bowlinggame;
+package bm.app.bowlingGameKata;
 
 public class BowlingGame {
 

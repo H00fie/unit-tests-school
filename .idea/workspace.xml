@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleTwo/VatServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleTwo/VatServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/moduleTwo/VatServiceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/moduleTwo/VatServiceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/bowlinggame/BowlingGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/bowlingGameKata/BowlingGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/bowlinggame/BowlingGameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/bowlingGameKata/BowlingGameTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -164,7 +162,8 @@
       <workItem from="1596142663097" duration="7686000" />
       <workItem from="1596218248330" duration="14753000" />
       <workItem from="1596385202340" duration="7990000" />
-      <workItem from="1596470406204" duration="11054000" />
+      <workItem from="1596470406204" duration="11647000" />
+      <workItem from="1596560656881" duration="2915000" />
     </task>
     <servers />
   </component>
@@ -208,10 +207,10 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1596472192983" />
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596401875339">
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596569428349">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1596401875339" />
+    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1596569428349" />
     <state x="499" y="174" width="538" height="495" key="extract.method.dialog" timestamp="1596146253118">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

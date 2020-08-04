@@ -1,6 +1,5 @@
-package bm.app.bowlinggame;
+package bm.app.bowlingGameKata;
 
-import bm.app.bowlinggame.BowlingGame;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
