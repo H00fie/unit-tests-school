@@ -9,6 +9,7 @@ import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 class NameInverterTest {
 
     private NameInverter inverter;
+    private static final String EMPTY_STRING = "";
 
     @Test
     void shouldThrowExceptionWhenNullProvided(){
@@ -20,7 +21,13 @@ class NameInverterTest {
     @Test
     void shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided(){
         String inverted = inverter.invert("");
-        assertThat(inverted).isEqualTo("");
+        assertThat(inverted).isEqualTo(EMPTY_STRING);
+    }
+
+    @Test
+    void shouldReturnAnEmptyStringWhenSpacesAreGiven(){
+        String inverted = inverter.invert("   ");
+        assertThat(inverted).isEqualTo(EMPTY_STRING);
     }
 
     @BeforeEach
