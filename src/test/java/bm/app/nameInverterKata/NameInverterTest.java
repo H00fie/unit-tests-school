@@ -25,6 +25,12 @@ class NameInverterTest {
     }
 
     @Test
+    void shouldReturnInvertedFirstAndLastName(){
+        String inverted = inverter.invert("Dazikiri Anikar");
+        assertThat(inverted).isEqualTo("Anikar Dazikiri");
+    }
+
+    @Test
     void shouldReturnAnEmptyStringWhenSpacesAreGiven(){
         String inverted = inverter.invert("   ");
         assertThat(inverted).isEqualTo(EMPTY_STRING);
