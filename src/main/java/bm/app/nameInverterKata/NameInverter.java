@@ -19,7 +19,11 @@ class StringSupporter {
 
     public static String createInversion(String name) {
         String[] splitName = name.split(" ");
-        return String.format("%s %s", splitName[1], splitName[0]);
+        if (splitName.length > 2) {
+            return String.format("%s %s", splitName[2], splitName[1]);
+        } else {
+            return String.format("%s %s", splitName[1], splitName[0]);
+        }
     }
 
 }
