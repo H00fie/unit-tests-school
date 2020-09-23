@@ -37,12 +37,10 @@ class NameInverterTest {
     }
 
     @Test
-    void shouldReturnInvertedFirstAndLastNameWithoutHoorifics(){
+    void shouldReturnInvertedFirstAndLastNameWithoutHorifics(){
         String inverted = inverter.invert("Lady Dazikiri Anikar");
         assertThat(inverted).isEqualTo("Anikar Dazikiri");
     }
-
-
 
     @BeforeEach
     void setUp(){

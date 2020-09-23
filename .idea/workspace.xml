@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/nameInverterKata/NameInverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/nameInverterKata/NameInverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/NameInverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/NameInverter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/StringSupporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/StringSupporter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/nameInverterKata/NameInverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/nameInverterKata/NameInverterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -46,8 +50,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../udemyWayOfTheCode" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -172,7 +179,23 @@
       <workItem from="1596793043380" duration="592000" />
       <workItem from="1597081937415" duration="7427000" />
       <workItem from="1597101819743" duration="572000" />
-      <workItem from="1597154888779" duration="2473000" />
+      <workItem from="1597154888779" duration="3593000" />
+      <workItem from="1597353092075" duration="519000" />
+      <workItem from="1597525160526" duration="1208000" />
+      <workItem from="1597560714877" duration="1837000" />
+      <workItem from="1597944021630" duration="607000" />
+      <workItem from="1597959801778" duration="1766000" />
+      <workItem from="1598211809714" duration="1196000" />
+      <workItem from="1598291254448" duration="1486000" />
+      <workItem from="1598695325416" duration="1181000" />
+      <workItem from="1598791466179" duration="1156000" />
+      <workItem from="1598866880529" duration="1181000" />
+      <workItem from="1599078442381" duration="587000" />
+      <workItem from="1599456948506" duration="622000" />
+      <workItem from="1599506997051" duration="58888000" />
+      <workItem from="1599753607879" duration="1300000" />
+      <workItem from="1600603401985" duration="598000" />
+      <workItem from="1600805824875" duration="5543000" />
     </task>
     <servers />
   </component>
@@ -180,10 +203,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1596484488246">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1598013406523">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1596484488246" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1598013406523" />
+    <state x="477" y="171" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1598013390878">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="477" y="171" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.834@0.0.1536.834" timestamp="1598013390878" />
     <state x="566" y="278" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596273655041">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -192,34 +219,38 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1597082536216">
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1599756520172">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1597082536216" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1597178016935">
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599756520172" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1600889907379">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1597178016935" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1597178016935">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1600889907379">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1597178016935" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1597178016934">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1600889907379">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1597178016934" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1597178016935">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1600889907379">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1597178016935" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="584" y="352" key="ReplaceDuplicatesPrompt/0.0.1536.834@0.0.1536.834" timestamp="1596146258682" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1596813393257">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1600889614803">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1596813393257" />
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1600889614803" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1600806795143">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1600806795143" />
     <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596569428349">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -228,9 +259,9 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="174" width="538" height="495" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1596146253118" />
-    <state x="209" y="120" key="new project wizard" timestamp="1597082522238">
+    <state x="209" y="120" key="new project wizard" timestamp="1599577988402">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="209" y="120" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1597082522238" />
+    <state x="209" y="120" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1599577988402" />
   </component>
 </project>
