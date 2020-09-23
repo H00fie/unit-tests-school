@@ -22,7 +22,7 @@ public class NameInverter {
 class StringSupporter {
 
     public static String createInversion(ArrayList<String> splitName) {
-        splitName.removeIf(n -> "Lady".equals(n));
+        splitName.removeIf("Lady"::equals);
         return String.format("%s %s", splitName.get(1), splitName.get(0));
     }
 
