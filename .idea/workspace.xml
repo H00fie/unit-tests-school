@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/nameInverterKata/NameInverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/nameInverterKata/NameInverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/StringSupporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/StringSupporter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/nameInverterKata/NameInverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/nameInverterKata/NameInverterTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +67,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NameInverterTest">
+  <component name="RunManager" selected="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven">
     <configuration name="NameInverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -79,22 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameInverterTest.shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -106,22 +94,6 @@
       <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
       <option name="METHOD_NAME" value="shouldReturnAnEmptyStringWhenSpacesAreGiven" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -143,13 +115,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutHorifics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
+      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastNameWithoutHorifics" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
+      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven" />
+        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutHorifics" />
+        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" />
         <item itemvalue="JUnit.NameInverterTest" />
         <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutHoorifics" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastName" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +193,7 @@
       <workItem from="1599753607879" duration="1300000" />
       <workItem from="1600603401985" duration="598000" />
       <workItem from="1600805824875" duration="6173000" />
+      <workItem from="1600925753815" duration="374000" />
     </task>
     <servers />
   </component>
@@ -216,22 +221,22 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599756520172" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1600889907379">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1600926142439">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1600889907379">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1600926142439">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1600889907379">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1600926142439">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1600889907379">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1600926142439">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600889907379" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>

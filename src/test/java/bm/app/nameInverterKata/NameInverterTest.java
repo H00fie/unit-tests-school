@@ -42,6 +42,12 @@ class NameInverterTest {
         assertThat(inverted).isEqualTo("Anikar Dazikiri");
     }
 
+    @Test
+    void shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics(){
+        String inverted = inverter.invert("Lord Aruvel Hilieandil");
+        assertThat(inverted).isEqualTo("Hilieandil, Aruvel");
+    }
+
     @BeforeEach
     void setUp(){
         inverter = new NameInverter();
