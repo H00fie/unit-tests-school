@@ -27,10 +27,13 @@ class StringSupporter {
 
     public static String createInversion(ArrayList<String> splitName) {
         splitName.removeIf(n -> List.of("Lord", "Lady").contains(n));
-        ArrayList<String> reverted = Lists.newArrayList(splitName.stream()
-            .collect(Collectors.toCollection(LinkedList::new))
-            .descendingIterator());
-        return String.join(", ", reverted);
+        return String.join(", ", revertList(splitName));
+    }
+
+    private static ArrayList<String> revertList(ArrayList<String> splitName){
+        return Lists.newArrayList(splitName.stream()
+                .collect(Collectors.toCollection(LinkedList::new))
+                .descendingIterator());
     }
 
 
