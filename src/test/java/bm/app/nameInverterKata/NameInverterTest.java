@@ -1,5 +1,6 @@
 package bm.app.nameInverterKata;
 
+
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
@@ -27,7 +28,7 @@ class NameInverterTest {
     @Test
     void shouldReturnInvertedFirstAndLastName(){
         String inverted = inverter.invert("Dazikiri Anikar");
-        assertThat(inverted).isEqualTo("Anikar Dazikiri");
+        assertThat(inverted).isEqualTo("Anikar, Dazikiri");
     }
 
     @Test
@@ -37,9 +38,9 @@ class NameInverterTest {
     }
 
     @Test
-    void shouldReturnInvertedFirstAndLastNameWithoutHorifics(){
+    void shouldReturnInvertedFirstAndLastNameWithoutFemaleHorifics(){
         String inverted = inverter.invert("Lady Dazikiri Anikar");
-        assertThat(inverted).isEqualTo("Anikar Dazikiri");
+        assertThat(inverted).isEqualTo("Anikar, Dazikiri");
     }
 
     @Test
@@ -47,6 +48,13 @@ class NameInverterTest {
         String inverted = inverter.invert("Lord Aruvel Hilieandil");
         assertThat(inverted).isEqualTo("Hilieandil, Aruvel");
     }
+
+    @Test
+    void shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics(){
+        String inverted = inverter.invert("Lady Professor Dazikiri Anikar");
+        assertThat(inverted).isEqualTo("Anikar, Dazikiri, Professor");
+    }
+
 
     @BeforeEach
     void setUp(){

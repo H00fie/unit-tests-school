@@ -1,7 +1,11 @@
 package bm.app.nameInverterKata;
 
+import org.assertj.core.util.Lists;
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.stream.Collectors;
+
 
 public class NameInverter {
 
@@ -23,7 +27,10 @@ class StringSupporter {
 
     public static String createInversion(ArrayList<String> splitName) {
         splitName.removeIf(n -> List.of("Lord", "Lady").contains(n));
-        return String.format("%s %s", splitName.get(1), splitName.get(0));
+        ArrayList<String> reverted = Lists.newArrayList(splitName.stream()
+            .collect(Collectors.toCollection(LinkedList::new))
+            .descendingIterator());
+        return String.join(", ", reverted);
     }
 
 

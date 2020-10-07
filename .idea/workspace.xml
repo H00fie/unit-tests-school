@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/User.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/nameInverterKata/NameInverterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/nameInverterKata/NameInverterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/NameInverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/NameInverter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/StringSupporter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/StringSupporter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/nameInverterKata/NameInverterTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/nameInverterKata/NameInverterTest.class" afterDir="false" />
     </list>
@@ -12,6 +15,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -47,10 +53,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sports-tracker" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
@@ -67,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven">
+  <component name="RunManager" selected="JUnit.NameInverterTest">
     <configuration name="NameInverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -79,6 +86,22 @@
       <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NameInverterTest.shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
+      <option name="METHOD_NAME" value="shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutHoorifics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
@@ -109,23 +132,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastNameWithoutHoorifics" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutHorifics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastNameWithoutHorifics" />
+      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,11 +156,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutHorifics" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" />
         <item itemvalue="JUnit.NameInverterTest" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutHoorifics" />
+        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics" />
+        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" />
+        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" />
+        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven" />
       </list>
     </recent_temporary>
   </component>
@@ -194,6 +201,14 @@
       <workItem from="1600603401985" duration="598000" />
       <workItem from="1600805824875" duration="6173000" />
       <workItem from="1600925753815" duration="374000" />
+      <workItem from="1600926302398" duration="323000" />
+      <workItem from="1601576560181" duration="2599000" />
+      <workItem from="1601842323364" duration="1222000" />
+      <workItem from="1601875642659" duration="1518000" />
+      <workItem from="1601877649520" duration="870000" />
+      <workItem from="1601878758354" duration="1614000" />
+      <workItem from="1601889993486" duration="2479000" />
+      <workItem from="1602014961743" duration="2004000" />
     </task>
     <servers />
   </component>
@@ -217,38 +232,42 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1599756520172">
+    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601877700075">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1599756520172" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1600926142439">
+    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1601877700075" />
+    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1601999068794">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1600926142439">
+    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1601999068794" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1602112351852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1600926142439">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602112351852" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1602112351852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1600926142439">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602112351852" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1602112351851">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600926142439" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602112351851" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1602112351852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602112351852" />
     <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="584" y="352" key="ReplaceDuplicatesPrompt/0.0.1536.834@0.0.1536.834" timestamp="1596146258682" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1600889614803">
+    <state x="277" y="0" key="SettingsEditor" timestamp="1601876966827">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1600889614803" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1600806795143">
+    <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1601876966827" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1601889994958">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1600806795143" />
+    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1601889994958" />
     <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596569428349">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
