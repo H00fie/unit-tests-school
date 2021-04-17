@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/nameInverterKata/NameInverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/unit-tests-school.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,38 +22,32 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1fQFxsq0SuNuyTxdCIgvEEDJIlw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sports-tracker" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../battle-commander" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -54,20 +55,48 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="bm.app.bowlinggame" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.shooter" />
       <recent name="bm.app.nameInverterKata" />
       <recent name="bm.app.moduleTwo" />
       <recent name="bm.app.moduleOne" />
       <recent name="bm.app" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="bm.app.bowlinggame" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.NameInverterTest">
+  <component name="RunManager" selected="JUnit.ShooterKataTest.shouldDealHalfTheDamage">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Attitest.shouldCalculateGrossPriceForDefaultvat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.attalos.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.attalos" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.attalos.Attitest" />
+      <option name="METHOD_NAME" value="shouldCalculateGrossPriceForDefaultvat" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NameInverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -79,38 +108,6 @@
       <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameInverterTest.shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnAnEmptyStringWhenSpacesAreGiven" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -131,17 +128,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShooterKataTest.shouldDeal100Damage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
+          <option name="PATTERN" value="bm.app.shooter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" />
+      <option name="PACKAGE_NAME" value="bm.app.shooter" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
+      <option name="METHOD_NAME" value="shouldDeal100Damage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShooterKataTest.shouldDealHalfTheDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.shooter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.shooter" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
+      <option name="METHOD_NAME" value="shouldDealHalfTheDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -149,14 +162,15 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShooterKataTest.shouldDealHalfTheDamage" />
+        <item itemvalue="JUnit.ShooterKataTest.shouldDeal100Damage" />
+        <item itemvalue="JUnit.Attitest.shouldCalculateGrossPriceForDefaultvat" />
         <item itemvalue="JUnit.NameInverterTest" />
         <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenAnEmptyStringIsProvided" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithoutMaleHorifics" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnAnEmptyStringWhenSpacesAreGiven" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -202,76 +216,41 @@
       <workItem from="1601878758354" duration="1614000" />
       <workItem from="1601889993486" duration="2479000" />
       <workItem from="1602014961743" duration="2350000" />
+      <workItem from="1614442111611" duration="774000" />
+      <workItem from="1614543394605" duration="1822000" />
+      <workItem from="1614676968533" duration="521000" />
+      <workItem from="1615277318750" duration="1210000" />
+      <workItem from="1616405237094" duration="349000" />
+      <workItem from="1617380827389" duration="2074000" />
+      <workItem from="1617387734420" duration="596000" />
+      <workItem from="1617436362703" duration="976000" />
+      <workItem from="1617440011065" duration="1187000" />
+      <workItem from="1617448613536" duration="162000" />
+      <workItem from="1617704950533" duration="9808000" />
+      <workItem from="1617730579680" duration="1755000" />
+      <workItem from="1617780772091" duration="597000" />
+      <workItem from="1617801165673" duration="1134000" />
+      <workItem from="1618163914805" duration="339000" />
+      <workItem from="1618443483201" duration="753000" />
+      <workItem from="1618585298429" duration="4344000" />
+      <workItem from="1618652550784" duration="837000" />
+      <workItem from="1618665718822" duration="3167000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1598013406523">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1598013406523" />
-    <state x="477" y="171" key="#com.intellij.refactoring.memberPullUp.PullUpDialog" timestamp="1598013390878">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="477" y="171" key="#com.intellij.refactoring.memberPullUp.PullUpDialog/0.0.1536.834@0.0.1536.834" timestamp="1598013390878" />
-    <state x="566" y="278" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596273655041">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="566" y="278" width="403" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.834@0.0.1536.834" timestamp="1596273655041" />
-    <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596240270754">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="499" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596240270754" />
-    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601877700075">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="516" y="265" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1601877700075" />
-    <state x="549" y="173" key="FileChooserDialogImpl" timestamp="1601999068794">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="549" y="173" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1601999068794" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1602112824208">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1602112824208" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1602112824208">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1602112824208" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1602112824208">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1602112824208" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1602112824208">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1602112824208" />
-    <state x="584" y="352" key="ReplaceDuplicatesPrompt" timestamp="1596146258682">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="584" y="352" key="ReplaceDuplicatesPrompt/0.0.1536.834@0.0.1536.834" timestamp="1596146258682" />
-    <state x="277" y="0" key="SettingsEditor" timestamp="1601876966827">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="277" y="0" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1601876966827" />
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog" timestamp="1601889994958">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="465" y="243" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1601889994958" />
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1596569428349">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="540" y="121" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1596569428349" />
-    <state x="499" y="174" width="538" height="495" key="extract.method.dialog" timestamp="1596146253118">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="499" y="174" width="538" height="495" key="extract.method.dialog/0.0.1536.834@0.0.1536.834" timestamp="1596146253118" />
-    <state x="209" y="120" key="new project wizard" timestamp="1599577988402">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="209" y="120" key="new project wizard/0.0.1536.834@0.0.1536.834" timestamp="1599577988402" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

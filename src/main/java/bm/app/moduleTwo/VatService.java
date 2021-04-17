@@ -16,6 +16,10 @@ public class VatService {
         this.vatProvider = vatProvider;
     }
 
+    public VatService() {
+
+    }
+
     public BigDecimal getGrossPriceForDefaultVat(Product product) throws IncorrectVatException {
         logger.info("Called getGrossPriceForDefaultVat, product: " + product.getType() +
                 ", net price: " + product.getNetPrice() +
