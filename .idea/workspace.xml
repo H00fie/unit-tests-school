@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/unit-tests-school.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/shooter/Enemy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/ShooterKata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/shooter/ShooterKata.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/shooter/ShooterKataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/shooter/ShooterKataTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,7 @@
       <recent name="bm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShooterKataTest.shouldDealHalfTheDamage">
+  <component name="RunManager" selected="JUnit.ShooterKataTest.shouldStandGround">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -77,53 +79,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Attitest.shouldCalculateGrossPriceForDefaultvat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.attalos.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.attalos" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.attalos.Attitest" />
-      <option name="METHOD_NAME" value="shouldCalculateGrossPriceForDefaultvat" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameInverterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NameInverterTest.shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.nameInverterKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.nameInverterKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.nameInverterKata.NameInverterTest" />
-      <option name="METHOD_NAME" value="shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -139,6 +94,22 @@
       <option name="PACKAGE_NAME" value="bm.app.shooter" />
       <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
       <option name="METHOD_NAME" value="shouldDeal100Damage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShooterKataTest.shouldDealFullDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.shooter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.shooter" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
+      <option name="METHOD_NAME" value="shouldDealFullDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +131,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ShooterKataTest.shouldKillInstantly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.shooter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.shooter" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
+      <option name="METHOD_NAME" value="shouldKillInstantly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShooterKataTest.shouldStandGround" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.shooter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.shooter" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
+      <option name="METHOD_NAME" value="shouldStandGround" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShooterKataTest.shouldStandGround" />
+        <item itemvalue="JUnit.ShooterKataTest.shouldKillInstantly" />
+        <item itemvalue="JUnit.ShooterKataTest.shouldDealFullDamage" />
         <item itemvalue="JUnit.ShooterKataTest.shouldDealHalfTheDamage" />
         <item itemvalue="JUnit.ShooterKataTest.shouldDeal100Damage" />
-        <item itemvalue="JUnit.Attitest.shouldCalculateGrossPriceForDefaultvat" />
-        <item itemvalue="JUnit.NameInverterTest" />
-        <item itemvalue="JUnit.NameInverterTest.shouldReturnInvertedFirstAndLastNameWithTitleWithoutFemaleHorifics" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +237,7 @@
       <workItem from="1618443483201" duration="753000" />
       <workItem from="1618585298429" duration="4344000" />
       <workItem from="1618652550784" duration="837000" />
-      <workItem from="1618665718822" duration="3167000" />
+      <workItem from="1618665718822" duration="4352000" />
     </task>
     <servers />
   </component>
