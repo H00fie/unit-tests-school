@@ -1,13 +1,21 @@
 package bm.app.shooter;
 
+import java.math.BigDecimal;
+
 public class ShooterKata {
+
+    MagicalShieldProvider magicalShieldProvider;
+
+    public ShooterKata(MagicalShieldProvider magicalShieldProvider) {
+        this.magicalShieldProvider = magicalShieldProvider;
+    }
 
     public int dealRawRangedDamage(Weapon weapon) {
         return weapon.getPower();
     }
 
     public int dealDamage(Weapon weapon, Enemy enemy) {
-        return enemy.ifArmoured() ? weapon.getPower() / 2 : weapon.getPower();
+        return enemy.ifArmoured() ? (weapon.getPower() / 2) : weapon.getPower();
     }
 
     public boolean isAlive(Weapon weapon, Enemy enemy) {
@@ -31,5 +39,9 @@ public class ShooterKata {
         } else {
             return true;
         }
+    }
+
+    public int dealMassiveDamageWithShieldOn(Enemy invader, Enemy defender, int shield) {
+        return (defender.getHealth() + shield) - invader.getPower() * 3;
     }
 }

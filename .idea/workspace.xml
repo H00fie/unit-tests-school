@@ -9,9 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/Enemy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/shooter/Enemy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/ShooterKata.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/shooter/ShooterKata.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/shooter/ShooterKataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/shooter/ShooterKataTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,10 +21,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,7 +46,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../battle-commander" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -71,7 +68,7 @@
       <recent name="bm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShooterKataTest.shouldStandGround">
+  <component name="RunManager" selected="JUnit.ShooterKataTest.magicalShouldShouldPreventDeath">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -83,7 +80,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShooterKataTest.shouldDeal100Damage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShooterKataTest.magicalShouldShouldPreventDeath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
@@ -93,7 +90,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bm.app.shooter" />
       <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
-      <option name="METHOD_NAME" value="shouldDeal100Damage" />
+      <option name="METHOD_NAME" value="magicalShouldShouldPreventDeath" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShooterKataTest.shouldStandGround" />
+        <item itemvalue="JUnit.ShooterKataTest.magicalShouldShouldPreventDeath" />
         <item itemvalue="JUnit.ShooterKataTest.shouldKillInstantly" />
+        <item itemvalue="JUnit.ShooterKataTest.shouldStandGround" />
         <item itemvalue="JUnit.ShooterKataTest.shouldDealFullDamage" />
         <item itemvalue="JUnit.ShooterKataTest.shouldDealHalfTheDamage" />
-        <item itemvalue="JUnit.ShooterKataTest.shouldDeal100Damage" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +235,9 @@
       <workItem from="1618585298429" duration="4344000" />
       <workItem from="1618652550784" duration="837000" />
       <workItem from="1618665718822" duration="4352000" />
+      <workItem from="1618767084662" duration="561000" />
+      <workItem from="1618850262391" duration="495000" />
+      <workItem from="1618851050281" duration="4688000" />
     </task>
     <servers />
   </component>

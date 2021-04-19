@@ -2,12 +2,14 @@ package bm.app.shooter;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class ShooterKataTest {
 
     ShooterKata shooterKata;
+    MagicalShieldProvider magicalShieldProvider;
 
     @Test
     void shouldDeal100Damage() {
@@ -63,9 +65,23 @@ class ShooterKataTest {
         assertThat(ifHeldGround).isEqualTo(true);
     }
 
+    @Test
+    void magicalShouldShouldPreventDeath() {
+        //given
+        Enemy invader = Enemy.KNIGHT;
+        Enemy defender = Enemy.PEASANT;
+        //when
+        Mockito.when(magicalShieldProvider.getDefaultShield()).thenReturn(100);
+        int healthRemaining = shooterKata.dealMassiveDamageWithShieldOn(invader, defender, magicalShieldProvider.getDefaultShield());
+        //then
+        assertThat(healthRemaining).isEqualTo(90);
+        Mockito.verify(magicalShieldProvider, Mockito.times(1)).getDefaultShield();
+    }
+
     @BeforeEach
     void setUp() {
-        shooterKata = new ShooterKata();
+        shooterKata = new ShooterKata(magicalShieldProvider);
+        magicalShieldProvider = Mockito.mock(MagicalShieldProvider.class);
     }
 
 }
