@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" afterDir="false" />
@@ -68,7 +67,7 @@
       <recent name="bm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShooterKataTest.magicalShouldShouldPreventDeath">
+  <component name="RunManager" selected="JUnit.ShooterKataTest.magicalShieldShoudTrigger">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -76,6 +75,38 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShooterKataTest.magicalShieldShoudTrigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.shooter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.shooter" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
+      <option name="METHOD_NAME" value="magicalShieldShoudTrigger" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShooterKataTest.magicalShieldShouldNotTriggerWhenAttackedByAMage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.shooter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.shooter" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
+      <option name="METHOD_NAME" value="magicalShieldShouldNotTriggerWhenAttackedByAMage" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,38 +122,6 @@
       <option name="PACKAGE_NAME" value="bm.app.shooter" />
       <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
       <option name="METHOD_NAME" value="magicalShouldShouldPreventDeath" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShooterKataTest.shouldDealFullDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.shooter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.shooter" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
-      <option name="METHOD_NAME" value="shouldDealFullDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShooterKataTest.shouldDealHalfTheDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.shooter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.shooter" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
-      <option name="METHOD_NAME" value="shouldDealHalfTheDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ShooterKataTest.magicalShieldShoudTrigger" />
+        <item itemvalue="JUnit.ShooterKataTest.magicalShieldShouldNotTriggerWhenAttackedByAMage" />
         <item itemvalue="JUnit.ShooterKataTest.magicalShouldShouldPreventDeath" />
         <item itemvalue="JUnit.ShooterKataTest.shouldKillInstantly" />
         <item itemvalue="JUnit.ShooterKataTest.shouldStandGround" />
-        <item itemvalue="JUnit.ShooterKataTest.shouldDealFullDamage" />
-        <item itemvalue="JUnit.ShooterKataTest.shouldDealHalfTheDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -237,7 +236,7 @@
       <workItem from="1618665718822" duration="4352000" />
       <workItem from="1618767084662" duration="561000" />
       <workItem from="1618850262391" duration="495000" />
-      <workItem from="1618851050281" duration="4688000" />
+      <workItem from="1618851050281" duration="6000000" />
     </task>
     <servers />
   </component>
@@ -255,5 +254,19 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java</url>
+          <line>68</line>
+          <properties class="bm.app.shooter.ShooterKataTest" method="magicalShouldShouldPreventDeath">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

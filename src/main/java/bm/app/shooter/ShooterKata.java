@@ -44,4 +44,8 @@ public class ShooterKata {
     public int dealMassiveDamageWithShieldOn(Enemy invader, Enemy defender, int shield) {
         return (defender.getHealth() + shield) - invader.getPower() * 3;
     }
+
+    public int dealDamageWithShieldOn(Enemy invader, Enemy defender, int shield) {
+        return (defender.getHealth() + shield) - invader.getPower();
+    }
 }

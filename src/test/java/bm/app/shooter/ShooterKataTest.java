@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.in;
 
 class ShooterKataTest {
 
@@ -72,10 +73,37 @@ class ShooterKataTest {
         Enemy defender = Enemy.PEASANT;
         //when
         Mockito.when(magicalShieldProvider.getDefaultShield()).thenReturn(100);
-        int healthRemaining = shooterKata.dealMassiveDamageWithShieldOn(invader, defender, magicalShieldProvider.getDefaultShield());
+        int healthRemaining = shooterKata.dealMassiveDamageWithShieldOn(invader, defender,
+                magicalShieldProvider.getDefaultShield());
         //then
         assertThat(healthRemaining).isEqualTo(90);
         Mockito.verify(magicalShieldProvider, Mockito.times(1)).getDefaultShield();
+    }
+
+    @Test
+    void magicalShieldShouldNotTriggerWhenAttackedByAMage() {
+        //given
+        Enemy invader = Enemy.BATTLE_MAGE;
+        Enemy defender = Enemy.PIKEMAN;
+        //when
+        Mockito.when(magicalShieldProvider.getDefaultShield()).thenReturn(0);
+        int healthRemainingWithShieldOn = shooterKata.dealDamageWithShieldOn(invader, defender,
+                magicalShieldProvider.getDefaultShield());
+        //then
+        assertThat(healthRemainingWithShieldOn).isEqualTo(100);
+    }
+
+    @Test
+    void magicalShieldShoudTrigger() {
+        //given
+        Enemy invader = Enemy.MAN_AT_ARMS;
+        Enemy defender = Enemy.PIKEMAN;
+        //when
+        Mockito.when(magicalShieldProvider.getDefaultShield()).thenReturn(10);
+        int healthRemainingWithShieldOn = shooterKata.dealDamageWithShieldOn(invader, defender,
+                magicalShieldProvider.getDefaultShield());
+        //then
+        assertThat(healthRemainingWithShieldOn).isEqualTo(145);
     }
 
     @BeforeEach
