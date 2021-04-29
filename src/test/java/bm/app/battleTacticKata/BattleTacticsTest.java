@@ -3,6 +3,8 @@ package bm.app.battleTacticKata;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import java.util.Map;
+
 import static org.junit.jupiter.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -46,10 +48,13 @@ class BattleTacticsTest {
     @Test
     void spearmenNumbersShouldDropBy3000AfterHetairoiCharge() {
         //given
+        String unitAttackedByHetairoi = "Spearmen";
         int spearmenNumbersAfterCharge = 22000;
+        Map<String, Integer> enemyArmy = persianArmy.getArmyComposition();
         //when
-        battleTactics.chargeOfTheHetairoi();
+        battleTactics.chargeOfTheHetairoi(unitAttackedByHetairoi, enemyArmy);
         //then
+        assertThat(persianArmy.getArmyComposition().get(unitAttackedByHetairoi)).isEqualTo(spearmenNumbersAfterCharge);
     }
 
     @BeforeEach

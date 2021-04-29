@@ -14,7 +14,10 @@ public class BattleTactics {
 
     public int countTheNumbersOfAUnitType(Map<String, Integer> armyComposition, String unitName) {
         return armyComposition.get(unitName);
+    }
 
+    public void chargeOfTheHetairoi(String enemyUnitToAttack, Map<String, Integer> enemyArmy) {
+        enemyArmy.put(enemyUnitToAttack, enemyArmy.get(enemyUnitToAttack) - 3000);
     }
 
 
