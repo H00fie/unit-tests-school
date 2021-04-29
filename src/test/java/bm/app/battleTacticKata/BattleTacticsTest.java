@@ -57,6 +57,15 @@ class BattleTacticsTest {
         assertThat(persianArmy.getArmyComposition().get(unitAttackedByHetairoi)).isEqualTo(spearmenNumbersAfterCharge);
     }
 
+    @Test
+    void immortalsShouldBlockIncomingDamage() {
+        //given
+        String name = "Immortals";
+        //when
+        battleTactics.shieldsUpAndBraceForImpact();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         battleTactics = new BattleTactics();
