@@ -60,10 +60,13 @@ class BattleTacticsTest {
     @Test
     void immortalsShouldBlockIncomingDamage() {
         //given
-        String name = "Immortals";
+        String unitName = "Immortals";
+        int incomingDamageOutput = 500;
+        Map<String, Integer> enemyArmy = persianArmy.getArmyComposition();
         //when
-        battleTactics.shieldsUpAndBraceForImpact();
+        battleTactics.shieldsUpAndBraceForImpact(incomingDamageOutput, unitName, enemyArmy);
         //then
+        assertThat(enemyArmy.get(unitName)).isEqualTo(10000);
     }
 
     @BeforeEach
