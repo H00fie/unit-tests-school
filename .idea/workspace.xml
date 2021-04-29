@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleTacticKata/BattleTactics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleTacticKata/BattleTactics.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleTacticKata/BattleTacticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleTacticKata/BattleTacticsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/battleTacticKata/BattleTacticsTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,10 +20,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -58,14 +60,41 @@
       <recent name="bm.app.bowlinggame" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.battleTacticKata" />
       <recent name="bm.app.shooter" />
       <recent name="bm.app.nameInverterKata" />
       <recent name="bm.app.moduleTwo" />
       <recent name="bm.app.moduleOne" />
-      <recent name="bm.app" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ShooterKataTest.magicalShieldShoudTrigger">
+  <component name="RunManager" selected="JUnit.BattleTacticsTest.pikemenShouldHaveTheirFormationClosed">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BattleTacticsTest.pikemenShouldHaveTheirFormationClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.battleTacticKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.battleTacticKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.battleTacticKata.BattleTacticsTest" />
+      <option name="METHOD_NAME" value="pikemenShouldHaveTheirFormationClosed" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShooterKataTest.magicalShieldShoudTrigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -130,29 +159,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShooterKataTest.shouldStandGround" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.shooter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.shooter" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
-      <option name="METHOD_NAME" value="shouldStandGround" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BattleTacticsTest.pikemenShouldHaveTheirFormationClosed" />
         <item itemvalue="JUnit.ShooterKataTest.magicalShieldShoudTrigger" />
         <item itemvalue="JUnit.ShooterKataTest.magicalShieldShouldNotTriggerWhenAttackedByAMage" />
         <item itemvalue="JUnit.ShooterKataTest.magicalShouldShouldPreventDeath" />
         <item itemvalue="JUnit.ShooterKataTest.shouldKillInstantly" />
-        <item itemvalue="JUnit.ShooterKataTest.shouldStandGround" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +238,7 @@
       <workItem from="1618850262391" duration="495000" />
       <workItem from="1618851050281" duration="6826000" />
       <workItem from="1618925239774" duration="265000" />
-      <workItem from="1619682197353" duration="1289000" />
+      <workItem from="1619682197353" duration="2309000" />
     </task>
     <servers />
   </component>

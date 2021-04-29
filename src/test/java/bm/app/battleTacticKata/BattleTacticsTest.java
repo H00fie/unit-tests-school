@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+import static org.assertj.core.api.Assertions.assertThat;
 
 class BattleTacticsTest {
 
@@ -12,9 +13,10 @@ class BattleTacticsTest {
     @Test
     void pikemenShouldHaveTheirFormationClosed() {
         //given
-        boolean formationClosed = battleTactics.isFormationClosed();
-        //when
+        boolean ifArchersFormedUp = true;
+        boolean formationClosed = battleTactics.isFormationClosed(ifArchersFormedUp);
         //then
+        assertThat(formationClosed).isEqualTo(true);
     }
 
     @BeforeEach
