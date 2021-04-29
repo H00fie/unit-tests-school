@@ -14,9 +14,18 @@ class BattleTacticsTest {
     void pikemenShouldHaveTheirFormationClosed() {
         //given
         boolean ifArchersFormedUp = true;
+        //when
         boolean formationClosed = battleTactics.isFormationClosed(ifArchersFormedUp);
         //then
         assertThat(formationClosed).isEqualTo(true);
+    }
+
+    @Test
+    void hetairoiShouldBeReady() {
+        //given
+        //when
+        boolean areHetairoiReady = battleTactics.areHetairoiOnTheFlank();
+        //then
     }
 
     @BeforeEach
