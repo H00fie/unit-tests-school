@@ -9,4 +9,6 @@ public class BattleTactics {
     public boolean areHetairoiOnTheFlank(boolean ifHornsBlown) {
         return ifHornsBlown ? true : false;
     }
+
+
 }

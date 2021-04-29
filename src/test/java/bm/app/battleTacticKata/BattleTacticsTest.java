@@ -9,6 +9,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 class BattleTacticsTest {
 
     BattleTactics battleTactics;
+    MacedonianArmy macedonianArmy;
+    PersianArmy persianArmy;
 
     @Test
     void pikemenShouldHaveTheirFormationClosed() {
@@ -30,9 +32,20 @@ class BattleTacticsTest {
         assertThat(areHetairoiReady).isFalse();
     }
 
+    @Test
+    void bactriansShouldBe4000InNumbers() {
+        //given
+        int bactrianNumbers = persianArmy.getArmyComposition().get("Bactrian Cavalry");
+        //when
+        battleTactics.countTheNumbersOfAUnitType();
+        //then
+    }
+
     @BeforeEach
-    void setUp(){
+    void setUp() {
         battleTactics = new BattleTactics();
+        macedonianArmy = new MacedonianArmy();
+        persianArmy = new PersianArmy();
     }
 
 }

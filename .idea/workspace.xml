@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleTacticKata/BattleTactics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleTacticKata/BattleTactics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleTacticKata/BattleTacticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleTacticKata/BattleTacticsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,9 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -66,17 +68,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BattleTacticsTest.hetairoiShouldNotBeReady">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BattleTacticsTest.hetairoiShouldNotBeReady" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -237,6 +228,8 @@
       <workItem from="1618851050281" duration="6826000" />
       <workItem from="1618925239774" duration="265000" />
       <workItem from="1619682197353" duration="3188000" />
+      <workItem from="1619714019648" duration="600000" />
+      <workItem from="1619715336345" duration="1535000" />
     </task>
     <servers />
   </component>
