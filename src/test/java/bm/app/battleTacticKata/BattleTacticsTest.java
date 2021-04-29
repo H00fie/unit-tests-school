@@ -21,11 +21,13 @@ class BattleTacticsTest {
     }
 
     @Test
-    void hetairoiShouldBeReady() {
+    void hetairoiShouldNotBeReady() {
         //given
+        boolean ifHornsBlown = false;
         //when
-        boolean areHetairoiReady = battleTactics.areHetairoiOnTheFlank();
+        boolean areHetairoiReady = battleTactics.areHetairoiOnTheFlank(ifHornsBlown);
         //then
+        assertThat(areHetairoiReady).isFalse();
     }
 
     @BeforeEach

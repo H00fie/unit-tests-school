@@ -65,7 +65,7 @@
       <recent name="bm.app.moduleOne" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BattleTacticsTest.pikemenShouldHaveTheirFormationClosed">
+  <component name="RunManager" selected="JUnit.BattleTacticsTest.hetairoiShouldNotBeReady">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -73,6 +73,22 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BattleTacticsTest.hetairoiShouldNotBeReady" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.battleTacticKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.battleTacticKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.battleTacticKata.BattleTacticsTest" />
+      <option name="METHOD_NAME" value="hetairoiShouldNotBeReady" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -141,29 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShooterKataTest.shouldKillInstantly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.shooter.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.shooter" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.shooter.ShooterKataTest" />
-      <option name="METHOD_NAME" value="shouldKillInstantly" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BattleTacticsTest.hetairoiShouldNotBeReady" />
         <item itemvalue="JUnit.BattleTacticsTest.pikemenShouldHaveTheirFormationClosed" />
         <item itemvalue="JUnit.ShooterKataTest.magicalShieldShoudTrigger" />
         <item itemvalue="JUnit.ShooterKataTest.magicalShieldShouldNotTriggerWhenAttackedByAMage" />
         <item itemvalue="JUnit.ShooterKataTest.magicalShouldShouldPreventDeath" />
-        <item itemvalue="JUnit.ShooterKataTest.shouldKillInstantly" />
       </list>
     </recent_temporary>
   </component>
