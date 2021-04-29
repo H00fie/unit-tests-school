@@ -43,6 +43,15 @@ class BattleTacticsTest {
         assertThat(actualNumbers).isEqualTo(expectedNumbers);
     }
 
+    @Test
+    void spearmenNumbersShouldDropBy3000AfterHetairoiCharge() {
+        //given
+        int spearmenNumbersAfterCharge = 22000;
+        //when
+        battleTactics.chargeOfTheHetairoi();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         battleTactics = new BattleTactics();
