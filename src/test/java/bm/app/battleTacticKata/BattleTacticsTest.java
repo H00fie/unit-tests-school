@@ -62,11 +62,35 @@ class BattleTacticsTest {
         //given
         String unitName = "Immortals";
         int incomingDamageOutput = 500;
-        Map<String, Integer> enemyArmy = persianArmy.getArmyComposition();
+        Map<String, Integer> army = persianArmy.getArmyComposition();
         //when
-        battleTactics.shieldsUpAndBraceForImpact(incomingDamageOutput, unitName, enemyArmy);
+        battleTactics.shieldsUpAndBraceForImpact(incomingDamageOutput, unitName, army);
         //then
-        assertThat(enemyArmy.get(unitName)).isEqualTo(10000);
+        assertThat(army.get(unitName)).isEqualTo(10000);
+    }
+
+    @Test
+    void cretansShouldReceiveFullDamage() {
+        //given
+        String unitName = "Cretan Archers";
+        int incomingDamageOutput = 175;
+        Map<String, Integer> army = macedonianArmy.getArmyComposition();
+        //when
+        battleTactics.shieldsUpAndBraceForImpact(incomingDamageOutput, unitName, army);
+        //then
+        assertThat(army.get(unitName)).isEqualTo(1825);
+    }
+
+    @Test
+    void phalangitesShouldReceiveReducedDamage() {
+        //given
+        String unitName = "Phalangites";
+        int incomingDamageOutput = 1000;
+        Map<String, Integer> army = macedonianArmy.getArmyComposition();
+        //when
+        battleTactics.shieldsUpAndBraceForImpact(incomingDamageOutput, unitName, army);
+        //then
+        assertThat(army.get(unitName)).isEqualTo(15500);
     }
 
     @BeforeEach

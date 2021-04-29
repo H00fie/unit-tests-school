@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleTacticKata/BattleTactics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleTacticKata/BattleTactics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleTacticKata/BattleTacticsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleTacticKata/BattleTacticsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleTacticKata/BattleTactics.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +66,7 @@
       <recent name="bm.app.moduleOne" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BattleTacticsTest.immortalsShouldBlockIncomingDamage">
+  <component name="RunManager" selected="JUnit.BattleTacticsTest.phalangitesShouldReceiveReducedDamage">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -96,7 +94,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BattleTacticsTest.hetairoiShouldNotBeReady" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BattleTacticsTest.cretansShouldReceiveFullDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +104,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bm.app.battleTacticKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.battleTacticKata.BattleTacticsTest" />
-      <option name="METHOD_NAME" value="hetairoiShouldNotBeReady" />
+      <option name="METHOD_NAME" value="cretansShouldReceiveFullDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BattleTacticsTest.pikemenShouldHaveTheirFormationClosed" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BattleTacticsTest.phalangitesShouldReceiveReducedDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bm.app.battleTacticKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.battleTacticKata.BattleTacticsTest" />
-      <option name="METHOD_NAME" value="pikemenShouldHaveTheirFormationClosed" />
+      <option name="METHOD_NAME" value="phalangitesShouldReceiveReducedDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BattleTacticsTest.phalangitesShouldReceiveReducedDamage" />
+        <item itemvalue="JUnit.BattleTacticsTest.cretansShouldReceiveFullDamage" />
         <item itemvalue="JUnit.BattleTacticsTest.immortalsShouldBlockIncomingDamage" />
         <item itemvalue="JUnit.BattleTacticsTest.spearmenNumbersShouldDropBy3000AfterHetairoiCharge" />
         <item itemvalue="JUnit.BattleTacticsTest.bactriansShouldBe4000InNumbers" />
-        <item itemvalue="JUnit.BattleTacticsTest.hetairoiShouldNotBeReady" />
-        <item itemvalue="JUnit.BattleTacticsTest.pikemenShouldHaveTheirFormationClosed" />
       </list>
     </recent_temporary>
   </component>
@@ -241,7 +239,7 @@
       <workItem from="1618925239774" duration="265000" />
       <workItem from="1619682197353" duration="3188000" />
       <workItem from="1619714019648" duration="600000" />
-      <workItem from="1619715336345" duration="5627000" />
+      <workItem from="1619715336345" duration="5941000" />
     </task>
     <servers />
   </component>
