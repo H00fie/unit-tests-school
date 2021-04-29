@@ -1,12 +1,13 @@
 package bm.app.battleTacticKata;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 public abstract class Army {
 
     private int numbers;
-    private Map<String, Integer> armyComposition;
+    private Map<String, Integer> armyComposition = new HashMap<>();
 
     public int getNumbers() {
         return numbers;

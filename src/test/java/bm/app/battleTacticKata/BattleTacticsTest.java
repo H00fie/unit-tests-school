@@ -35,10 +35,12 @@ class BattleTacticsTest {
     @Test
     void bactriansShouldBe4000InNumbers() {
         //given
-        int bactrianNumbers = persianArmy.getArmyComposition().get("Bactrian Cavalry");
+        int expectedNumbers = 4000;
+        String name = "Bactrian Cavalry";
         //when
-        battleTactics.countTheNumbersOfAUnitType();
+        int actualNumbers = battleTactics.countTheNumbersOfAUnitType(persianArmy.getArmyComposition(), name);
         //then
+        assertThat(actualNumbers).isEqualTo(expectedNumbers);
     }
 
     @BeforeEach
