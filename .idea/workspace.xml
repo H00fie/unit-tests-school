@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/Enemy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/shooter/ShooterKata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,17 +66,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ShooterKataTest.magicalShieldShoudTrigger">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ShooterKataTest.magicalShieldShoudTrigger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -236,7 +223,9 @@
       <workItem from="1618665718822" duration="4352000" />
       <workItem from="1618767084662" duration="561000" />
       <workItem from="1618850262391" duration="495000" />
-      <workItem from="1618851050281" duration="6000000" />
+      <workItem from="1618851050281" duration="6826000" />
+      <workItem from="1618925239774" duration="265000" />
+      <workItem from="1619682197353" duration="1289000" />
     </task>
     <servers />
   </component>
@@ -260,7 +249,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/test/java/bm/app/shooter/ShooterKataTest.java</url>
-          <line>68</line>
+          <line>69</line>
           <properties class="bm.app.shooter.ShooterKataTest" method="magicalShouldShouldPreventDeath">
             <option name="EMULATED" value="true" />
           </properties>
