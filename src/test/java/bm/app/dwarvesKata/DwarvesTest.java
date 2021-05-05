@@ -33,6 +33,19 @@ class DwarvesTest {
         assertThat(dwarves.getNumberOfBoarRiders()).isEqualTo(expectedNumberOfNewRecruits);
     }
 
+    @Test
+    void shouldSumUpAllWarriors() {
+        //given
+        int recruitmentOrder = 7;
+        int amountOfProvisions = 6;
+        int expectedTotalNumberOfWarriors = 10;
+        //when
+        dwarves.recruitAxemen(recruitmentOrder);
+        dwarves.recruitBoarRiders(amountOfProvisions);
+        //then
+        assertThat(dwarves.getArmyNumbers()).isEqualTo(expectedTotalNumberOfWarriors);
+    }
+
     @BeforeEach
     void setUp() {
         dwarves = new Dwarves();

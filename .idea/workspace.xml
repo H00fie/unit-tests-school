@@ -66,7 +66,7 @@
       <recent name="bm.app.moduleTwo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DwarvesTest.shouldSpawnTwoUnitsOfDwarvenBoarCavalry">
+  <component name="RunManager" selected="JUnit.DwarvesTest.shouldSumUpAllWarriors">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,22 +89,6 @@
       <option name="PACKAGE_NAME" value="bm.app.battleTacticKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.battleTacticKata.BattleTacticsTest" />
       <option name="METHOD_NAME" value="cretansShouldReceiveFullDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BattleTacticsTest.immortalsShouldBlockIncomingDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.battleTacticKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.battleTacticKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.battleTacticKata.BattleTacticsTest" />
-      <option name="METHOD_NAME" value="immortalsShouldBlockIncomingDamage" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,13 +142,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DwarvesTest.shouldSumUpAllWarriors" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dwarvesKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dwarvesKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dwarvesKata.DwarvesTest" />
+      <option name="METHOD_NAME" value="shouldSumUpAllWarriors" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DwarvesTest.shouldSumUpAllWarriors" />
         <item itemvalue="JUnit.DwarvesTest.shouldSpawnTwoUnitsOfDwarvenBoarCavalry" />
         <item itemvalue="JUnit.DwarvesTest.shouldSpawnADwarvenAxemanUnit" />
         <item itemvalue="JUnit.BattleTacticsTest.phalangitesShouldReceiveReducedDamage" />
         <item itemvalue="JUnit.BattleTacticsTest.cretansShouldReceiveFullDamage" />
-        <item itemvalue="JUnit.BattleTacticsTest.immortalsShouldBlockIncomingDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,7 @@
       <workItem from="1619805894551" duration="538000" />
       <workItem from="1619855363943" duration="572000" />
       <workItem from="1620151708656" duration="580000" />
-      <workItem from="1620249772538" duration="1337000" />
+      <workItem from="1620249772538" duration="1820000" />
     </task>
     <servers />
   </component>

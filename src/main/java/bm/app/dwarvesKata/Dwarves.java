@@ -9,12 +9,14 @@ public class Dwarves {
     public void recruitAxemen(int recruitmentOrder) {
         for (int i = 0; i < recruitmentOrder; i++) {
             numberOfAxemen++;
+            armyNumbers++;
         }
     }
 
     public void recruitBoarRiders(int amountOfProvisions) {
         for (int i = 0; i < amountOfProvisions; i+=2) {
             numberOfBoarRiders++;
+            armyNumbers++;
         }
     }
 
@@ -28,5 +30,9 @@ public class Dwarves {
 
     public int getNumberOfBoarRiders() {
         return numberOfBoarRiders;
+    }
+
+    public int getArmyNumbers() {
+        return armyNumbers;
     }
 }
