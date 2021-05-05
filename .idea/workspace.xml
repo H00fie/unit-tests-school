@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" afterDir="false" />
     </list>
@@ -246,7 +245,7 @@
       <workItem from="1619805894551" duration="538000" />
       <workItem from="1619855363943" duration="572000" />
       <workItem from="1620151708656" duration="580000" />
-      <workItem from="1620249772538" duration="997000" />
+      <workItem from="1620249772538" duration="1337000" />
     </task>
     <servers />
   </component>

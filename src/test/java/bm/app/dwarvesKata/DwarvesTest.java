@@ -22,6 +22,15 @@ class DwarvesTest {
         assertThat(dwarves.getNumberOfAxemen()).isEqualTo(expectedNumberOfNewRecruits);
     }
 
+    @Test
+    void shouldSpawnTwoUnitsOfDwarvenBoarCavalry() {
+        //given
+        int amountOfProvisions = 4;
+        //when
+        dwarves.recruitBoarRiders();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         dwarves = new Dwarves();
