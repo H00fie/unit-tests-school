@@ -44,7 +44,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algorithms-playground" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -67,17 +67,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BattleTacticsTest.phalangitesShouldReceiveReducedDamage">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BattleTacticsTest.bactriansShouldBe4000InNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -239,7 +228,13 @@
       <workItem from="1618925239774" duration="265000" />
       <workItem from="1619682197353" duration="3188000" />
       <workItem from="1619714019648" duration="600000" />
-      <workItem from="1619715336345" duration="5941000" />
+      <workItem from="1619715336345" duration="6684000" />
+      <workItem from="1619726350159" duration="845000" />
+      <workItem from="1619764650392" duration="1169000" />
+      <workItem from="1619805894551" duration="538000" />
+      <workItem from="1619855363943" duration="572000" />
+      <workItem from="1620151708656" duration="580000" />
+      <workItem from="1620249772538" duration="362000" />
     </task>
     <servers />
   </component>
