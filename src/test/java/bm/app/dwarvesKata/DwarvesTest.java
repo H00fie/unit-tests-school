@@ -74,11 +74,13 @@ class DwarvesTest {
     @Test
     void shouldProvideADefaultRuneShield() {
         //given
-        String unit = "Iron breaker";
+        Unit unit = Unit.IRON_BREAKER;
+        int expectedWarriorsHealth = 150;
         Mockito.when(runeMagic.getDefaultRuneShield()).thenReturn(50);
         //when
-        dwarves.getUnitHitPointsWithDefaultRuneShield();
+        int actualWarriorsHealth = dwarves.getUnitHitPointsWithDefaultRuneShield(unit, runeMagic.getDefaultRuneShield());
         //then
+        assertThat(actualWarriorsHealth).isEqualTo(expectedWarriorsHealth);
     }
 
     @BeforeEach

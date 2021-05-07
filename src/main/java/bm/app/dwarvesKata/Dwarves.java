@@ -36,6 +36,10 @@ public class Dwarves {
         return report;
     }
 
+    public int getUnitHitPointsWithDefaultRuneShield(Unit unit, int runeShield) {
+        return unit.getHealth() + runeShield;
+    }
+
 
 
 
