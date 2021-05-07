@@ -58,9 +58,15 @@ class DwarvesTest {
         assertThat(armyReport).isEqualTo(expectedReport);
     }
 
-    
-    void shouldBeDissapointedInTheNumbersOfTheArmy() {
-
+    @Test
+    void shouldBeDisappointedInTheNumbersOfTheArmy() {
+        //given
+        String expectedReport = "We might as well surrender already.";
+        //when
+        dwarves.recruitAxemen(3);
+        String armyReport = dwarves.checkTheSizeOfTheArmy();
+        //then
+        assertThat(armyReport).isEqualTo(expectedReport);
     }
 
     @BeforeEach

@@ -67,7 +67,7 @@
       <recent name="bm.app.moduleTwo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DwarvesTest.shouldSayTheArmyIsMediumInNumber">
+  <component name="RunManager" selected="JUnit.DwarvesTest.shouldBeDissapointedInTheNumbersOfTheArmy">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -79,17 +79,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BattleTacticsTest.phalangitesShouldReceiveReducedDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DwarvesTest.shouldBeDissapointedInTheNumbersOfTheArmy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.battleTacticKata.*" />
+          <option name="PATTERN" value="bm.app.dwarvesKata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app.battleTacticKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.battleTacticKata.BattleTacticsTest" />
-      <option name="METHOD_NAME" value="phalangitesShouldReceiveReducedDamage" />
+      <option name="PACKAGE_NAME" value="bm.app.dwarvesKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dwarvesKata.DwarvesTest" />
+      <option name="METHOD_NAME" value="shouldBeDissapointedInTheNumbersOfTheArmy" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DwarvesTest.shouldBeDissapointedInTheNumbersOfTheArmy" />
         <item itemvalue="JUnit.DwarvesTest.shouldSayTheArmyIsMediumInNumber" />
         <item itemvalue="JUnit.DwarvesTest.shouldSumUpAllWarriors" />
         <item itemvalue="JUnit.DwarvesTest.shouldSpawnTwoUnitsOfDwarvenBoarCavalry" />
         <item itemvalue="JUnit.DwarvesTest.shouldSpawnADwarvenAxemanUnit" />
-        <item itemvalue="JUnit.BattleTacticsTest.phalangitesShouldReceiveReducedDamage" />
       </list>
     </recent_temporary>
   </component>
