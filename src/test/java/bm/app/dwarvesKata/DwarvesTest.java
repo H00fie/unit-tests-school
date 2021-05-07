@@ -2,6 +2,7 @@ package bm.app.dwarvesKata;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
@@ -10,6 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class DwarvesTest {
 
     Dwarves dwarves;
+    RuneMagic runeMagic;
 
     @Test
     void shouldSpawnADwarvenAxemanUnit() {
@@ -69,9 +71,20 @@ class DwarvesTest {
         assertThat(armyReport).isEqualTo(expectedReport);
     }
 
+    @Test
+    void shouldProvideADefaultRuneShield() {
+        //given
+        String unit = "Iron breaker";
+        Mockito.when(runeMagic.getDefaultRuneShield()).thenReturn(50);
+        //when
+        dwarves.getUnitHitPointsWithDefaultRuneShield();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         dwarves = new Dwarves();
+        runeMagic = Mockito.mock(RuneMagic.class);
     }
 
 }
