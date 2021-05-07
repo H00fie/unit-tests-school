@@ -49,9 +49,18 @@ class DwarvesTest {
     @Test
     void shouldSayTheArmyIsMediumInNumber() {
         //given
+        String expectedReport = "The army is pretty medium in size!";
         //when
-        dwarves.checkTheSizeOfTheArmy();
+        dwarves.recruitBoarRiders(10);
+        dwarves.recruitAxemen(20);
+        String armyReport = dwarves.checkTheSizeOfTheArmy();
         //then
+        assertThat(armyReport).isEqualTo(expectedReport);
+    }
+
+    
+    void shouldBeDissapointedInTheNumbersOfTheArmy() {
+
     }
 
     @BeforeEach

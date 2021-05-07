@@ -20,6 +20,22 @@ public class Dwarves {
         }
     }
 
+    public String checkTheSizeOfTheArmy() {
+        String report;
+        if (armyNumbers > 50) {
+            report = "The army is huge!";
+        } else if (armyNumbers > 30) {
+            report = "The army is quite large!";
+        } else  if (armyNumbers > 20) {
+            report = "The army is pretty medium in size!";
+        } else if (armyNumbers > 10) {
+            report = "That's more of a unit than an army.";
+        } else {
+            report = "We might as well surrender already.";
+        }
+        return report;
+    }
+
 
 
 
