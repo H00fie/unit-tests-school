@@ -46,6 +46,14 @@ class DwarvesTest {
         assertThat(dwarves.getArmyNumbers()).isEqualTo(expectedTotalNumberOfWarriors);
     }
 
+    @Test
+    void shouldSayTheArmyIsMediumInNumber() {
+        //given
+        //when
+        dwarves.checkTheSizeOfTheArmy();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         dwarves = new Dwarves();
