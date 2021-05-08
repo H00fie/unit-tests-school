@@ -2,9 +2,15 @@ package bm.app.dwarvesKata;
 
 public class Dwarves {
 
+    RuneMagic runeMagic;
+
     private int numberOfAxemen = 0;
     private int numberOfBoarRiders = 0;
     private int armyNumbers = 0;
+
+    public Dwarves(RuneMagic runeMagic) {
+        this.runeMagic = runeMagic;
+    }
 
     public void recruitAxemen(int recruitmentOrder) {
         for (int i = 0; i < recruitmentOrder; i++) {
@@ -36,8 +42,12 @@ public class Dwarves {
         return report;
     }
 
-    public int getUnitHitPointsWithDefaultRuneShield(Unit unit, int runeShield) {
-        return unit.getHealth() + runeShield;
+    public int getUnitHitPointsWithDefaultRuneShield(Unit unit) {
+        return getUnitHitPointsWithRuneShield(unit.getHealth(), runeMagic.getDefaultRuneShield());
+    }
+
+    public int getUnitHitPointsWithRuneShield(int health, int runeShield) {
+        return health + runeShield;
     }
 
 

@@ -78,14 +78,16 @@ class DwarvesTest {
         int expectedWarriorsHealth = 150;
         Mockito.when(runeMagic.getDefaultRuneShield()).thenReturn(50);
         //when
-        int actualWarriorsHealth = dwarves.getUnitHitPointsWithDefaultRuneShield(unit, runeMagic.getDefaultRuneShield());
+        int actualWarriorsHealth = dwarves.getUnitHitPointsWithDefaultRuneShield(unit);
         //then
         assertThat(actualWarriorsHealth).isEqualTo(expectedWarriorsHealth);
     }
 
+
+
     @BeforeEach
     void setUp() {
-        dwarves = new Dwarves();
+        dwarves = new Dwarves(runeMagic);
         runeMagic = Mockito.mock(RuneMagic.class);
     }
 

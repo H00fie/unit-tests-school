@@ -7,8 +7,10 @@
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/RuneMagic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/RuneMagic.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/Dwarves.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/RuneMagic.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/RuneMagic.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +255,7 @@
       <workItem from="1620385973394" duration="597000" />
       <workItem from="1620394004618" duration="1211000" />
       <workItem from="1620410805228" duration="2542000" />
-      <workItem from="1620424111903" duration="831000" />
+      <workItem from="1620424111903" duration="4427000" />
     </task>
     <servers />
   </component>
@@ -282,6 +284,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java</url>
+          <line>74</line>
+          <properties class="bm.app.dwarvesKata.DwarvesTest" method="shouldProvideADefaultRuneShield">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
