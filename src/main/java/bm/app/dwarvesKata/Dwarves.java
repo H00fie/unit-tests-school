@@ -43,6 +43,18 @@ public class Dwarves {
     }
 
     public int getUnitHitPointsWithRuneShieldForASpecificUnitType(Unit unit, int manaSpent) {
+        return getUnitHitPointsWithRuneShield(unit.getHealth(), decideThePowerOfTheRuneShield(manaSpent));
+    }
+
+    public int getUnitHitPointsWithDefaultRuneShield(Unit unit) {
+        return getUnitHitPointsWithRuneShield(unit.getHealth(), runeMagic.getDefaultRuneShield());
+    }
+
+    public int getUnitHitPointsWithRuneShield(int health, int runeShield) {
+        return health + runeShield;
+    }
+
+    private int decideThePowerOfTheRuneShield(int manaSpent) {
         int powerOfTheRuneShield = 0;
         switch (manaSpent) {
             case 50:
@@ -55,21 +67,8 @@ public class Dwarves {
                 powerOfTheRuneShield = 20;
                 break;
         }
-        return getUnitHitPointsWithRuneShield(unit.getHealth(), powerOfTheRuneShield);
+        return powerOfTheRuneShield;
     }
-
-    public int getUnitHitPointsWithDefaultRuneShield(Unit unit) {
-        return getUnitHitPointsWithRuneShield(unit.getHealth(), runeMagic.getDefaultRuneShield());
-    }
-
-    public int getUnitHitPointsWithRuneShield(int health, int runeShield) {
-        return health + runeShield;
-    }
-
-
-
-
-
 
     public int getNumberOfAxemen() {
         return numberOfAxemen;
