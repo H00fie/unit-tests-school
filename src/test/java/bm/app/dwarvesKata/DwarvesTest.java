@@ -101,8 +101,9 @@ class DwarvesTest {
         String requestedUnitName = "Boar rider";
         int numberOfRequestedUnits = 2;
         //when
-        dwarves.royalRecruitmentDegree();
+        dwarves.royalRecruitmentDegree(requestedUnitName, numberOfRequestedUnits);
         //then
+        assertThat(dwarves.getArmyOfTardhaghar().get(Unit.BOAR_RIDER)).isEqualTo(numberOfRequestedUnits);
     }
 
     @BeforeEach

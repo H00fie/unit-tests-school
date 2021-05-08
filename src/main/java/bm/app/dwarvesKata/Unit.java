@@ -2,7 +2,7 @@ package bm.app.dwarvesKata;
 
 public enum Unit {
 
-    IRON_BREAKER("Iron braker", 100, 60),
+    IRON_BREAKER("Iron breaker", 100, 60),
     HAMMERER("Hammerer", 70, 90),
     THUNDERER("Thunderer", 40, 120),
     BOAR_RIDER("Boar rider", 80, 100),

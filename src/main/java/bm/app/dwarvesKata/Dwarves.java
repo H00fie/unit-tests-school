@@ -1,5 +1,8 @@
 package bm.app.dwarvesKata;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class Dwarves {
 
     RuneMagic runeMagic;
@@ -7,6 +10,8 @@ public class Dwarves {
     private int numberOfAxemen = 0;
     private int numberOfBoarRiders = 0;
     private int armyNumbers = 0;
+
+    private final Map<Unit, Integer> armyOfTardhaghar = new HashMap<>();
 
     public Dwarves(RuneMagic runeMagic) {
         this.runeMagic = runeMagic;
@@ -70,6 +75,26 @@ public class Dwarves {
         return powerOfTheRuneShield;
     }
 
+    public void royalRecruitmentDegree(String unitName, int numberOfRequestedUnits) {
+        switch (unitName) {
+            case "Iron breaker" :
+                armyOfTardhaghar.put(Unit.IRON_BREAKER, numberOfRequestedUnits);
+                break;
+            case "Hammerer" :
+                armyOfTardhaghar.put(Unit.HAMMERER, numberOfRequestedUnits);
+                break;
+            case "Thunderer" :
+                armyOfTardhaghar.put(Unit.THUNDERER, numberOfRequestedUnits);
+                break;
+            case "Boar rider" :
+                armyOfTardhaghar.put(Unit.BOAR_RIDER, numberOfRequestedUnits);
+                break;
+            case "Cannon" :
+                armyOfTardhaghar.put(Unit.CANNON, numberOfRequestedUnits);
+                break;
+        }
+    }
+
     public int getNumberOfAxemen() {
         return numberOfAxemen;
     }
@@ -80,5 +105,9 @@ public class Dwarves {
 
     public int getArmyNumbers() {
         return armyNumbers;
+    }
+
+    public Map<Unit, Integer> getArmyOfTardhaghar() {
+        return armyOfTardhaghar;
     }
 }
