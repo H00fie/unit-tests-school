@@ -42,6 +42,22 @@ public class Dwarves {
         return report;
     }
 
+    public int getUnitHitPointsWithRuneShieldForASpecificUnitType(Unit unit, int manaSpent) {
+        int powerOfTheRuneShield = 0;
+        switch (manaSpent) {
+            case 50:
+                powerOfTheRuneShield = 200;
+                break;
+            case 35:
+                powerOfTheRuneShield = 100;
+                break;
+            case 10:
+                powerOfTheRuneShield = 20;
+                break;
+        }
+        return getUnitHitPointsWithRuneShield(unit.getHealth(), powerOfTheRuneShield);
+    }
+
     public int getUnitHitPointsWithDefaultRuneShield(Unit unit) {
         return getUnitHitPointsWithRuneShield(unit.getHealth(), runeMagic.getDefaultRuneShield());
     }
@@ -49,6 +65,7 @@ public class Dwarves {
     public int getUnitHitPointsWithRuneShield(int health, int runeShield) {
         return health + runeShield;
     }
+
 
 
 
