@@ -83,6 +83,16 @@ class DwarvesTest {
         assertThat(actualWarriorsHealth).isEqualTo(expectedWarriorsHealth);
     }
 
+    @Test
+    void shouldProvideAShieldOfFourTimesTheUsualPower() {
+        //given
+        Unit unit = Unit.THUNDERER;
+        int expectedWarriorHealth = 240;
+        //when
+        int actualWarriorHealth = dwarves.getUnitHitPointsWithRuneShieldForASpecificUnitType();
+        //then
+    }
+
 
 
     @BeforeEach
