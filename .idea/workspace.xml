@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -250,7 +251,7 @@
       <workItem from="1620385973394" duration="597000" />
       <workItem from="1620394004618" duration="1211000" />
       <workItem from="1620410805228" duration="2542000" />
-      <workItem from="1620424111903" duration="6103000" />
+      <workItem from="1620424111903" duration="7146000" />
     </task>
     <servers />
   </component>

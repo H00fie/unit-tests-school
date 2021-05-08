@@ -95,7 +95,15 @@ class DwarvesTest {
         assertThat(unit.getHealth()).isEqualTo(expectedWarriorHealth);
     }
 
-
+    @Test
+    void shouldRecruitTwoUnitsOfBoarRiders() {
+        //given
+        String requestedUnitName = "Boar rider";
+        int numberOfRequestedUnits = 2;
+        //when
+        dwarves.royalRecruitmentDegree();
+        //then
+    }
 
     @BeforeEach
     void setUp() {
