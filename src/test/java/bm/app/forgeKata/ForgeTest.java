@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 class ForgeTest {
 
     Forge forge;
@@ -12,11 +14,12 @@ class ForgeTest {
     @Test
     void shouldForgeTwoAxes() {
         //given
-        String weapon = "Axe";
+        String weapon = "axe";
         int quantity = 2;
         //when
-        forge.forgeWeapons();
+        forge.forgeWeapons(weapon, quantity);
         //then
+        assertThat(forge.getArmoury().get(Weapon.AXE)).isEqualTo(quantity);
     }
 
     @BeforeEach
