@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Dwarves.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dwarvesKata/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dwarvesKata/DwarvesTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/Dwarves.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/Dwarves.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/Unit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/Unit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/moduleTwo/VatService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
         <option value="Enum" />
       </list>
     </option>
@@ -48,7 +44,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algorithms-playground" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -63,27 +59,14 @@
       <recent name="bm.app.bowlinggame" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.forgeKata" />
       <recent name="bm.app.dwarvesKata" />
       <recent name="bm.app.battleTacticKata" />
       <recent name="bm.app.shooter" />
       <recent name="bm.app.nameInverterKata" />
-      <recent name="bm.app.moduleTwo" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DwarvesTest.shouldRecruitTwoUnitsOfBoarRiders">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DwarvesTest.shouldBeDissapointedInTheNumbersOfTheArmy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -256,6 +239,13 @@
       <workItem from="1620394004618" duration="1211000" />
       <workItem from="1620410805228" duration="2542000" />
       <workItem from="1620424111903" duration="9054000" />
+      <workItem from="1620553060626" duration="13362000" />
+      <workItem from="1620582310513" duration="2694000" />
+      <workItem from="1620587195312" duration="585000" />
+      <workItem from="1620627145702" duration="1241000" />
+      <workItem from="1620632439362" duration="561000" />
+      <workItem from="1620634382106" duration="4094000" />
+      <workItem from="1623878935260" duration="627000" />
     </task>
     <servers />
   </component>

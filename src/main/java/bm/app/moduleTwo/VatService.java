@@ -25,7 +25,7 @@ public class VatService {
                 ", net price: " + product.getNetPrice() +
                 ", VAT: " + vatProvider.getDefaultVat());
         return calculateGrossPrice(product.getNetPrice(), vatProvider.getDefaultVat());
-    }
+        }
 
     public BigDecimal getGrossPrice(BigDecimal netPrice, String productType) throws IncorrectVatException {
         logger.info("Called getGrossPrice, product: " + productType +
