@@ -22,6 +22,19 @@ class ForgeTest {
         assertThat(forge.getArmoury().get(Weapon.AXE)).isEqualTo(quantity);
     }
 
+    @Test
+    void shouldForgeThreeHammers() {
+        //given
+        String weapon = "hammer";
+        int quantity = 3;
+        //when
+        forge.forgeWeapons(weapon, quantity);
+        //then
+        assertThat(forge.getArmoury().get(Weapon.HAMMER)).isEqualTo(quantity);
+    }
+    
+    
+
     @BeforeEach
     public void setUp() {
         forge = new Forge();

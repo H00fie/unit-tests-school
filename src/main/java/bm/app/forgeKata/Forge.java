@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class Forge {
 
-    Map<Weapon, Integer> armoury = new HashMap<>();
+    private Map<Weapon, Integer> armoury = new HashMap<>();
 
     public void forgeWeapons(String weapon, int quantity) {
         switch (weapon) {
