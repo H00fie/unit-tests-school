@@ -69,7 +69,12 @@ public class Forge {
             case "sword":
                 int currentSwordsNumber = armoury.get(Weapon.SWORD);
                 if (armoury.containsKey(Weapon.SWORD)) {
-                    armoury.put(Weapon.SWORD, currentSwordsNumber - 1);
+                    if (armoury.get(Weapon.SWORD) >= 1) {
+                        armoury.put(Weapon.SWORD, currentSwordsNumber - 1);
+                        if (armoury.get(Weapon.SWORD) == 0) {
+                            armoury.remove(Weapon.SWORD);
+                        }
+                    }
                 } else {
                     logger.error("No swords left!");
                 }
@@ -77,7 +82,12 @@ public class Forge {
             case "axe":
                 int currentAxesNumber = armoury.get(Weapon.AXE);
                 if (armoury.containsKey(Weapon.AXE)) {
-                    armoury.put(Weapon.AXE, currentAxesNumber - 1);
+                    if (armoury.get(Weapon.AXE) >= 1) {
+                        armoury.put(Weapon.AXE, currentAxesNumber - 1);
+                        if (armoury.get(Weapon.AXE) == 0) {
+                            armoury.remove(Weapon.AXE);
+                        }
+                    }
                 } else {
                     logger.error("No axes left!");
                 }
@@ -85,7 +95,12 @@ public class Forge {
             case "hammer":
                 int currentHammersNumber = armoury.get(Weapon.HAMMER);
                 if (armoury.containsKey(Weapon.HAMMER)) {
-                    armoury.put(Weapon.HAMMER, currentHammersNumber - 1);
+                    if (armoury.get(Weapon.HAMMER) >= 1) {
+                        armoury.put(Weapon.HAMMER, currentHammersNumber - 1);
+                        if (armoury.get(Weapon.HAMMER) == 0) {
+                            armoury.remove(Weapon.HAMMER);
+                        }
+                    }
                 } else {
                     logger.error("No hammers left!");
                 }
@@ -93,7 +108,12 @@ public class Forge {
             case "spear":
                 int currentSpearsNumber = armoury.get(Weapon.SPEAR);
                 if (armoury.containsKey(Weapon.SPEAR)) {
-                    armoury.put(Weapon.SPEAR, currentSpearsNumber - 1);
+                    if (armoury.get(Weapon.SPEAR) >= 1) {
+                        armoury.put(Weapon.SPEAR, currentSpearsNumber - 1);
+                        if (armoury.get(Weapon.SPEAR) == 0) {
+                            armoury.remove(Weapon.SPEAR);
+                        }
+                    }
                 } else {
                     logger.error("No spears left!");
                 }
@@ -101,15 +121,25 @@ public class Forge {
             case "crossbow":
                 int currentCrossbowNumber = armoury.get(Weapon.CROSSBOW);
                 if (armoury.containsKey(Weapon.CROSSBOW)) {
-                    armoury.put(Weapon.CROSSBOW, currentCrossbowNumber - 1);
+                    if (armoury.get(Weapon.CROSSBOW) >= 1) {
+                        armoury.put(Weapon.CROSSBOW, currentCrossbowNumber - 1);
+                        if (armoury.get(Weapon.CROSSBOW) == 0) {
+                            armoury.remove(Weapon.CROSSBOW);
+                        }
+                    }
                 } else {
                     logger.error("No crossbow left!");
                 }
                 break;
             case "bow":
-                int currentBowNumber = armoury.get(Weapon.BOW);
+                int currentBowsNumber = armoury.get(Weapon.BOW);
                 if (armoury.containsKey(Weapon.BOW)) {
-                    armoury.put(Weapon.BOW, currentBowNumber - 1);
+                    if (armoury.get(Weapon.BOW) >= 1) {
+                        armoury.put(Weapon.BOW, currentBowsNumber - 1);
+                        if (armoury.get(Weapon.BOW) == 0) {
+                            armoury.remove(Weapon.BOW);
+                        }
+                    }
                 } else {
                     logger.error("No bows left!");
                 }

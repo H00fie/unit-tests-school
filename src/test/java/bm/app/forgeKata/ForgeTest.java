@@ -46,6 +46,19 @@ class ForgeTest {
         assertThat(numberOfAxesAfterIssuing).isEqualTo(numberOfAxesBeforeIssuing - 1);
     }
 
+    @Test
+    void shouldReturnFalseDueToTheLackOfDesiredWeaponInArmoury() {
+        //given
+        String weapon = "spear";
+        //when
+        forge.forgeWeapons(weapon, 3);
+        for (int i = 0; i < 3; i++) {
+            forge.issueAWeapon(weapon);
+        }
+        //then
+        assertThat(forge.getArmoury().containsKey(Weapon.SPEAR)).isFalse();
+    }
+
     @BeforeEach
     public void setUp() {
         forge = new Forge();
