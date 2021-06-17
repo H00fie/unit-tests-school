@@ -32,8 +32,15 @@ class ForgeTest {
         //then
         assertThat(forge.getArmoury().get(Weapon.HAMMER)).isEqualTo(quantity);
     }
-    
-    
+
+    @Test
+    void shouldRemoveOneWeaponFromArmoury() {
+        //given
+        String weapon = "axe";
+        //when
+        forge.issueAWeapon();
+        //then
+    }
 
     @BeforeEach
     public void setUp() {
