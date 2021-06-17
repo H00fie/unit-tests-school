@@ -37,9 +37,13 @@ class ForgeTest {
     void shouldRemoveOneWeaponFromArmoury() {
         //given
         String weapon = "axe";
+        forge.forgeWeapons(weapon, 2);
+        int numberOfAxesBeforeIssuing = forge.getArmoury().get(Weapon.AXE);
+        int numberOfAxesAfterIssuing = numberOfAxesBeforeIssuing - 1;
         //when
-        forge.issueAWeapon();
+        forge.issueAWeapon(weapon);
         //then
+        assertThat(numberOfAxesAfterIssuing).isEqualTo(numberOfAxesBeforeIssuing - 1);
     }
 
     @BeforeEach

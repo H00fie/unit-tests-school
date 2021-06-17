@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/forgeKata/ForgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/forgeKata/ForgeTest.java" afterDir="false" />
     </list>
@@ -66,7 +67,7 @@
       <recent name="bm.app.nameInverterKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ForgeTest.shouldForgeThreeHammers">
+  <component name="RunManager" selected="JUnit.ForgeTest.shouldRemoveOneWeaponFromArmoury">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -74,22 +75,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DwarvesTest.shouldProvideADefaultRuneShield" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.dwarvesKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.dwarvesKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.dwarvesKata.DwarvesTest" />
-      <option name="METHOD_NAME" value="shouldProvideADefaultRuneShield" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -158,13 +143,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForgeTest.shouldRemoveOneWeaponFromArmoury" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.forgeKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.forgeKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.forgeKata.ForgeTest" />
+      <option name="METHOD_NAME" value="shouldRemoveOneWeaponFromArmoury" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForgeTest.shouldForgeThreeHammers" />
+        <item itemvalue="JUnit.ForgeTest.shouldRemoveOneWeaponFromArmoury" />
         <item itemvalue="JUnit.ForgeTest.shouldForgeTwoAxes" />
+        <item itemvalue="JUnit.ForgeTest.shouldForgeThreeHammers" />
         <item itemvalue="JUnit.DwarvesTest.shouldRecruitTwoUnitsOfBoarRiders" />
         <item itemvalue="JUnit.DwarvesTest.shouldProvideAShieldOfFourTimesTheUsualPower" />
-        <item itemvalue="JUnit.DwarvesTest.shouldProvideADefaultRuneShield" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +257,7 @@
       <workItem from="1620627145702" duration="1241000" />
       <workItem from="1620632439362" duration="561000" />
       <workItem from="1620634382106" duration="4094000" />
-      <workItem from="1623878935260" duration="2162000" />
+      <workItem from="1623878935260" duration="4106000" />
     </task>
     <servers />
   </component>
@@ -296,12 +297,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java</url>
-          <line>9</line>
+          <line>14</line>
           <properties class="bm.app.forgeKata.Forge" method="forgeWeapons">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java</url>
+          <line>66</line>
+          <properties class="bm.app.forgeKata.Forge" method="issueAWeapon">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.NullPointerException" package="java.lang" />
+          <option name="timeStamp" value="7" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
