@@ -7,7 +7,8 @@
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/forgeKata/ForgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/forgeKata/ForgeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/forgeKata/Forge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/forgeKata/Forge.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/forgeKata/ForgeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/forgeKata/ForgeTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,17 +69,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.ForgeTest.shouldBeLol">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DwarvesTest.shouldRecruitTwoUnitsOfBoarRiders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -258,6 +248,8 @@
       <workItem from="1620632439362" duration="561000" />
       <workItem from="1620634382106" duration="4094000" />
       <workItem from="1623878935260" duration="6044000" />
+      <workItem from="1623996346930" duration="1656000" />
+      <workItem from="1625181070262" duration="340000" />
     </task>
     <servers />
   </component>
@@ -305,7 +297,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java</url>
-          <line>66</line>
+          <line>67</line>
           <properties class="bm.app.forgeKata.Forge" method="issueAWeapon">
             <option name="EMULATED" value="true" />
           </properties>

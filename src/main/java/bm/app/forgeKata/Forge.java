@@ -62,6 +62,7 @@ public class Forge {
     /**
      * TODO -> learn why I can increment Integer in a Map, as above, but
      * TODO -> I cannot decrement it ("because it's immutable"), as below.
+     * TODO -> The support variable had to be declared to make this possible.
      */
 
     public void issueAWeapon(String weapon) {
@@ -150,4 +151,5 @@ public class Forge {
     public Map<Weapon, Integer> getArmoury() {
         return armoury;
     }
+
 }
