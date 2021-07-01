@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/forgeKata/Forge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/forgeKata/Forge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/forgeKata/ForgeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/forgeKata/ForgeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +22,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -61,26 +61,21 @@
       <recent name="bm.app.bowlinggame" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.pokemonBattleKata" />
       <recent name="bm.app.forgeKata" />
       <recent name="bm.app.dwarvesKata" />
       <recent name="bm.app.battleTacticKata" />
       <recent name="bm.app.shooter" />
-      <recent name="bm.app.nameInverterKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ForgeTest.shouldBeLol">
-    <configuration name="DwarvesTest.shouldRecruitTwoUnitsOfBoarRiders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.dwarvesKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.dwarvesKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.dwarvesKata.DwarvesTest" />
-      <option name="METHOD_NAME" value="shouldRecruitTwoUnitsOfBoarRiders" />
-      <option name="TEST_OBJECT" value="method" />
+  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldDealRegularDamage">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -149,13 +144,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokemonBattleTest.shouldDealRegularDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
+      <option name="METHOD_NAME" value="shouldDealRegularDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokemonBattleTest.shouldDealRegularDamage" />
         <item itemvalue="JUnit.ForgeTest.shouldBeLol" />
         <item itemvalue="JUnit.ForgeTest.shouldRemoveOneWeaponFromArmoury" />
         <item itemvalue="JUnit.ForgeTest.shouldForgeTwoAxes" />
         <item itemvalue="JUnit.ForgeTest.shouldForgeThreeHammers" />
-        <item itemvalue="JUnit.DwarvesTest.shouldRecruitTwoUnitsOfBoarRiders" />
       </list>
     </recent_temporary>
   </component>
@@ -249,7 +260,7 @@
       <workItem from="1620634382106" duration="4094000" />
       <workItem from="1623878935260" duration="6044000" />
       <workItem from="1623996346930" duration="1656000" />
-      <workItem from="1625181070262" duration="340000" />
+      <workItem from="1625181070262" duration="1212000" />
     </task>
     <servers />
   </component>
