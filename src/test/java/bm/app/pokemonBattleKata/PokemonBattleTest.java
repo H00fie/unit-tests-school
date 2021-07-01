@@ -23,6 +23,16 @@ class PokemonBattleTest {
         assertThat(expectedDefendersHp).isEqualTo(actualDefendersHp);
     }
 
+    @Test
+    void shouldReduceDamageByHalf() {
+        //given
+        Pokemon attacker = new Pokemon("Sylveon", Type.FAIRY, 100, 250);
+        Pokemon defender = new Pokemon("Dragonite", Type.DRAGON, 250, 700);
+        //when
+        double expectedDefendersHp = pokemonBattle.dealDamage();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         pokemonBattle = new PokemonBattle();
