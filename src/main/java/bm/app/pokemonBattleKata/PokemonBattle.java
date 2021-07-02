@@ -1,6 +1,10 @@
 package bm.app.pokemonBattleKata;
 
+import java.util.Map;
+
 public class PokemonBattle {
+
+    private Map<>
 
     public double dealDamageIgnoringTypes(Pokemon attacker, Pokemon defender) {
         return defender.getHitPoints() - attacker.getPower();
@@ -19,9 +23,5 @@ public class PokemonBattle {
     public void usePotion(Pokemon targetToHeal) {
         targetToHeal.setHitPoints(targetToHeal.getHitPoints() + 50);
     }
-
-
-
-
 
 }

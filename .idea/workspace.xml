@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
     </list>
@@ -71,17 +72,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldIncreaseDamageTwice">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ForgeTest.shouldBeLol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -305,7 +295,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java</url>
           <line>14</line>
-          <properties class="bm.app.forgeKata.Forge" method="forgeWeapons">
+          <properties class="bm.app.forgeKata.Forge">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
@@ -313,7 +303,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java</url>
           <line>67</line>
-          <properties class="bm.app.forgeKata.Forge" method="issueAWeapon">
+          <properties class="bm.app.forgeKata.Forge">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />

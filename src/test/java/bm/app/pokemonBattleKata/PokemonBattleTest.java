@@ -62,6 +62,16 @@ class PokemonBattleTest {
         assertThat(defender.getHitPoints()).isEqualTo(expectedDefendersHp);
     }
 
+    @Test
+    void shouldAddThreeWeakPotionsToTheStock() {
+        //given
+        String potionKind = "Weak";
+        int quantity = 3;
+        //when
+        pokemonBattle.addPotionsToTheStock();
+        //then
+    }
+
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {
         return new Pokemon(name, type, power, hitPoints);
     }
