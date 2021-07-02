@@ -49,16 +49,16 @@ class PokemonBattleTest {
         assertThat(expectedDefendersHp).isEqualTo(actualDefendersHp);
     }
 
-//    @Test
-//    void shouldRestorePokemonsHpByUsingPotion() {
-//        //given
-//        Pokemon attacker = pokeballThrow("Tepig", Type.FIRE, 30, 100);
-//        Pokemon defedner = pokeballThrow("Bulbasaur", Type.GRASS, 25, 110);
-//        //when
-//        double defendersHpAfterHavingBeenDealtDamage = pokemonBattle.dealDamage(attacker, defedner);
-//        double
-//        //then
-//    }
+    @Test
+    void shouldRestorePokemonsHpByUsingPotion() {
+        //given
+        Pokemon attacker = pokeballThrow("Tepig", Type.FIRE, 30, 100);
+        Pokemon defedner = pokeballThrow("Bulbasaur", Type.GRASS, 25, 110);
+        //when
+        pokemonBattle.dealDamage(attacker, defedner);
+        pokemonBattle.usePotion();
+        //then
+    }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {
         return new Pokemon(name, type, power, hitPoints);
