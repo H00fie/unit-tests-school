@@ -53,11 +53,13 @@ class PokemonBattleTest {
     void shouldRestorePokemonsHpByUsingPotion() {
         //given
         Pokemon attacker = pokeballThrow("Tepig", Type.FIRE, 30, 100);
-        Pokemon defedner = pokeballThrow("Bulbasaur", Type.GRASS, 25, 110);
+        Pokemon defender = pokeballThrow("Bulbasaur", Type.GRASS, 25, 110);
         //when
-        pokemonBattle.dealDamage(attacker, defedner);
-        pokemonBattle.usePotion();
+        pokemonBattle.dealDamage(attacker, defender);
+        pokemonBattle.usePotion(defender);
+        double expectedDefendersHp = 100.0;
         //then
+        assertThat(defender.getHitPoints()).isEqualTo(expectedDefendersHp);
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {

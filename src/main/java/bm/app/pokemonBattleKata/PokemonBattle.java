@@ -16,6 +16,10 @@ public class PokemonBattle {
         }
     }
 
+    public void usePotion(Pokemon targetToHeal) {
+        targetToHeal.setHitPoints(targetToHeal.getHitPoints() + 50);
+    }
+
 
 
 
