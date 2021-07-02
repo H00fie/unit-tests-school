@@ -14,8 +14,8 @@ class PokemonBattleTest {
     @Test
     void shouldDealRegularDamage() {
         //given
-        Pokemon attacker = new Pokemon("Bidoof", Type.NORMAL, 10, 50);
-        Pokemon defender = new Pokemon("Haunter", Type.GHOST, 70, 300);
+        Pokemon attacker = pokeballThrow("Bidoof", Type.NORMAL, 10, 50);
+        Pokemon defender = pokeballThrow("Haunter", Type.GHOST, 70, 300);
         //when
         double expectedDefendersHp = pokemonBattle.dealDamageIgnoringTypes(attacker, defender);
         double actualDefendersHp = 290.0;
@@ -26,13 +26,29 @@ class PokemonBattleTest {
     @Test
     void shouldReduceDamageByHalf() {
         //given
-        Pokemon attacker = new Pokemon("Sylveon", Type.FAIRY, 100, 250);
-        Pokemon defender = new Pokemon("Dragonite", Type.DRAGON, 250, 700);
+        Pokemon attacker = pokeballThrow("Sylveon", Type.FAIRY, 100, 250);
+        Pokemon defender = pokeballThrow("Dragonite", Type.DRAGON, 250, 700);
         //when
         double expectedDefendersHp = 500.0;
         double actualDefendersHp = pokemonBattle.dealDamage(attacker, defender);
         //then
         assertThat(expectedDefendersHp).isEqualTo(actualDefendersHp);
+    }
+
+    @Test
+    void shouldIncreaseDamageTwice() {
+        //given
+        Pokemon attacker = pokeballThrow("Cubone", Type.EARTH, 40, 150);
+        Pokemon defender = pokeballThrow("Onix", Type.ROCK, 80, 550);
+        //when
+        double expectedDefendersHp = 470.0;
+        double actualDefendersHp = pokemonBattle.dealDamage(attacker, defender);
+        //then
+        assertThat(expectedDefendersHp).isEqualTo(actualDefendersHp);
+    }
+
+    private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {
+        return new Pokemon(name, type, power, hitPoints);
     }
 
     @BeforeEach

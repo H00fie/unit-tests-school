@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/unit-tests-school.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +46,15 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -69,7 +71,7 @@
       <recent name="bm.app.shooter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldReduceDamageByHalf">
+  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldIncreaseDamageTwice">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -92,22 +94,6 @@
       <option name="PACKAGE_NAME" value="bm.app.forgeKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.forgeKata.ForgeTest" />
       <option name="METHOD_NAME" value="shouldBeLol" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForgeTest.shouldForgeTwoAxes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.forgeKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.forgeKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.forgeKata.ForgeTest" />
-      <option name="METHOD_NAME" value="shouldForgeTwoAxes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -145,6 +131,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokemonBattleTest.shouldIncreaseDamageTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
+      <option name="METHOD_NAME" value="shouldIncreaseDamageTwice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PokemonBattleTest.shouldReduceDamageByHalf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -163,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokemonBattleTest.shouldIncreaseDamageTwice" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldReduceDamageByHalf" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldDealRegularDamage" />
         <item itemvalue="JUnit.ForgeTest.shouldBeLol" />
         <item itemvalue="JUnit.ForgeTest.shouldRemoveOneWeaponFromArmoury" />
-        <item itemvalue="JUnit.ForgeTest.shouldForgeTwoAxes" />
       </list>
     </recent_temporary>
   </component>
@@ -262,6 +264,8 @@
       <workItem from="1623878935260" duration="6044000" />
       <workItem from="1623996346930" duration="1656000" />
       <workItem from="1625181070262" duration="4436000" />
+      <workItem from="1625227682561" duration="1615000" />
+      <workItem from="1625231414890" duration="764000" />
     </task>
     <servers />
   </component>
