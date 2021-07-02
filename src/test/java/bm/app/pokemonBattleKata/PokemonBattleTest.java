@@ -68,8 +68,9 @@ class PokemonBattleTest {
         String potionKind = "Weak";
         int quantity = 3;
         //when
-        pokemonBattle.addPotionsToTheStock();
+        pokemonBattle.addPotionsToTheStock(potionKind, quantity);
         //then
+        assertThat(pokemonBattle.getPotionStock().get(Potion.WEAK)).isEqualTo(quantity);
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {

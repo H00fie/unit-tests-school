@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
     </list>
