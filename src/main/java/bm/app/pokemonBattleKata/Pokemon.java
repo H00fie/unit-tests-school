@@ -2,12 +2,12 @@ package bm.app.pokemonBattleKata;
 
 public class Pokemon {
 
-    String name;
-    Type type;
-    int power;
-    double hitPoints;
+    private String name;
+    private Type type;
+    private double power;
+    private double hitPoints;
 
-    public Pokemon(String name, Type type, int power, double hitPoints) {
+    public Pokemon(String name, Type type, double power, double hitPoints) {
         this.name = name;
         this.type = type;
         this.power = power;
@@ -30,11 +30,11 @@ public class Pokemon {
         this.type = type;
     }
 
-    public int getPower() {
+    public double getPower() {
         return power;
     }
 
-    public void setPower(int power) {
+    public void setPower(double power) {
         this.power = power;
     }
 
