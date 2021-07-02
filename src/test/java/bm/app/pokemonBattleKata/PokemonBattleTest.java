@@ -29,8 +29,9 @@ class PokemonBattleTest {
         Pokemon attacker = pokeballThrow("Sylveon", Type.FAIRY, 100, 250);
         Pokemon defender = pokeballThrow("Dragonite", Type.DRAGON, 250, 700);
         //when
+        pokemonBattle.dealDamage(attacker, defender);
         double expectedDefendersHp = 500.0;
-        double actualDefendersHp = pokemonBattle.dealDamage(attacker, defender);
+        double actualDefendersHp = defender.getHitPoints();
         //then
         assertThat(expectedDefendersHp).isEqualTo(actualDefendersHp);
     }
@@ -41,11 +42,23 @@ class PokemonBattleTest {
         Pokemon attacker = pokeballThrow("Cubone", Type.EARTH, 40, 150);
         Pokemon defender = pokeballThrow("Onix", Type.ROCK, 80, 550);
         //when
+        pokemonBattle.dealDamage(attacker, defender);
         double expectedDefendersHp = 470.0;
-        double actualDefendersHp = pokemonBattle.dealDamage(attacker, defender);
+        double actualDefendersHp = defender.getHitPoints();
         //then
         assertThat(expectedDefendersHp).isEqualTo(actualDefendersHp);
     }
+
+//    @Test
+//    void shouldRestorePokemonsHpByUsingPotion() {
+//        //given
+//        Pokemon attacker = pokeballThrow("Tepig", Type.FIRE, 30, 100);
+//        Pokemon defedner = pokeballThrow("Bulbasaur", Type.GRASS, 25, 110);
+//        //when
+//        double defendersHpAfterHavingBeenDealtDamage = pokemonBattle.dealDamage(attacker, defedner);
+//        double
+//        //then
+//    }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {
         return new Pokemon(name, type, power, hitPoints);
