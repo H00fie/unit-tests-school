@@ -18,7 +18,8 @@ public enum Type {
     FAIRY("Fairy", List.of("Dragon"), List.of("Fairy")),
     DRAGON("Dragon", List.of("Dragon"), List.of("Fairy")),
     DARK("Dark", List.of("Psychic"), List.of("Ghost")),
-    POISON("Poison", List.of("Grass"), List.of("Bug"));
+    POISON("Poison", List.of("Grass"), List.of("Bug")),
+    ICE("Ice", List.of("Earth", "Grass", "Dragon"), List.of("Fire", "Steel"));
 
     private String name;
     private List<String> strengths;

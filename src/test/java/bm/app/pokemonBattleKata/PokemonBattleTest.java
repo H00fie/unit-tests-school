@@ -56,7 +56,7 @@ class PokemonBattleTest {
         Pokemon defender = pokeballThrow("Bulbasaur", Type.GRASS, 25, 110);
         //when
         pokemonBattle.dealDamage(attacker, defender);
-        pokemonBattle.usePotion(defender);
+        pokemonBattle.usePotionSimply(defender);
         double expectedDefendersHp = 100.0;
         //then
         assertThat(defender.getHitPoints()).isEqualTo(expectedDefendersHp);
@@ -71,6 +71,17 @@ class PokemonBattleTest {
         pokemonBattle.addPotionsToTheStock(potionKind, quantity);
         //then
         assertThat(pokemonBattle.getPotionStock().get(Potion.WEAK)).isEqualTo(quantity);
+    }
+
+    @Test
+    void shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable() {
+        //given
+        Pokemon attacker = pokeballThrow("Charmander", Type.FIRE, 30, 90);
+        Pokemon defender = pokeballThrow("Glaceon", Type.ICE, 80, 260);
+        //when
+        pokemonBattle.dealDamage(attacker, defender);
+        pokemonBattle.usePotion();
+        //then
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {

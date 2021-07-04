@@ -58,7 +58,7 @@ public class PokemonBattle {
         return potionStock;
     }
 
-    public void usePotion(Pokemon targetToHeal) {
+    public void usePotionSimply(Pokemon targetToHeal) {
         targetToHeal.setHitPoints(targetToHeal.getHitPoints() + 50);
     }
 
