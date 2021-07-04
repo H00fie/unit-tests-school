@@ -62,4 +62,17 @@ public class PokemonBattle {
         targetToHeal.setHitPoints(targetToHeal.getHitPoints() + 50);
     }
 
+    public void usePotion(Potion potionKind, int quantity, Pokemon pokemon) throws PotionsOutOfStockException {
+        if (potionStock.containsKey(potionKind)) {
+            if (quantity <= potionStock.get(potionKind)) {
+                pokemon.setHitPoints(pokemon.getHitPoints() + (potionKind.getHealingPower() * quantity));
+                int currentNumberOfPotions = potionStock.get(potionKind);
+                potionStock.put(potionKind, currentNumberOfPotions - quantity);
+            } else {
+                throw new PotionsOutOfStockException("Potions not available!");
+            }
+        } else {
+            throw new PotionsOutOfStockException("Potions not available!");
+        }
+    }
 }

@@ -6,10 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Type.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Potion.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +73,20 @@
       <recent name="bm.app.shooter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldIncreaseDamageTwice">
+  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForgeTest.shouldBeLol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -85,22 +98,6 @@
       <option name="PACKAGE_NAME" value="bm.app.forgeKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.forgeKata.ForgeTest" />
       <option name="METHOD_NAME" value="shouldBeLol" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForgeTest.shouldRemoveOneWeaponFromArmoury" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.forgeKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.forgeKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.forgeKata.ForgeTest" />
-      <option name="METHOD_NAME" value="shouldRemoveOneWeaponFromArmoury" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -154,13 +151,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokemonBattleTest.shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
+      <option name="METHOD_NAME" value="shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokemonBattleTest.shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldIncreaseDamageTwice" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldReduceDamageByHalf" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldDealRegularDamage" />
         <item itemvalue="JUnit.ForgeTest.shouldBeLol" />
-        <item itemvalue="JUnit.ForgeTest.shouldRemoveOneWeaponFromArmoury" />
       </list>
     </recent_temporary>
   </component>

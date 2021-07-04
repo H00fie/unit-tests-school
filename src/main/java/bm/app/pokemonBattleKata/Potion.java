@@ -13,4 +13,12 @@ public enum Potion {
         this.name = name;
         this.healingPower = healingPower;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHealingPower() {
+        return healingPower;
+    }
 }

@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
 class PokemonBattleTest {
 
@@ -74,14 +75,19 @@ class PokemonBattleTest {
     }
 
     @Test
-    void shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable() {
+    void shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable() throws PotionsOutOfStockException {
         //given
         Pokemon attacker = pokeballThrow("Charmander", Type.FIRE, 30, 90);
         Pokemon defender = pokeballThrow("Glaceon", Type.ICE, 80, 260);
+        Potion potionKind = Potion.REGULAR;
+        int quantity = 4;
         //when
+        pokemonBattle.addPotionsToTheStock("Regular", 2);
         pokemonBattle.dealDamage(attacker, defender);
-        pokemonBattle.usePotion();
         //then
+        assertThatExceptionOfType(PotionsOutOfStockException.class).isThrownBy(() -> {
+            pokemonBattle.usePotion(potionKind, quantity, defender);
+        }).withMessage("Potions not available!");
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints) {
