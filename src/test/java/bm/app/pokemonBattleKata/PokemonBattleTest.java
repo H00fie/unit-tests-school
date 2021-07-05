@@ -99,8 +99,9 @@ class PokemonBattleTest {
         for(int i = 0; i < 9; i++) {
             pokemonBattle.dealDamage(cubone, espeon);
         }
-        pokemonBattle.levelUpIfStrongerEnemyDefeated();
+        pokemonBattle.levelUpIfStrongerEnemyDefeated(cubone, espeon);
         //then
+        assertThat(cubone.getLevel()).isEqualTo(15);
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level) {

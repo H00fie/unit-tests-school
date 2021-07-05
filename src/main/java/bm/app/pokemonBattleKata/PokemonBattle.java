@@ -1,9 +1,14 @@
 package bm.app.pokemonBattleKata;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class PokemonBattle {
+
+    private static final Logger logger = LoggerFactory.getLogger(PokemonBattle.class);
 
     private Map<Potion, Integer> potionStock = new HashMap<>();
 
@@ -51,6 +56,19 @@ public class PokemonBattle {
                     potionStock.put(Potion.HYPER, quantity);
                 }
                 break;
+        }
+    }
+
+    public void levelUpIfStrongerEnemyDefeated(Pokemon attacker, Pokemon defender) {
+        if (attacker.getLevel() < defender.getLevel()) {
+            if (defender.getHitPoints() <= 0) {
+                attacker.setLevel(attacker.getLevel() + 1);
+                logger.info(attacker.getName() + " has defeated " + defender.getName() + ", a stronger foe and leveled up!");
+            } else {
+                logger.info(defender.getName() + " did not faint and can continue battling!");
+            }
+        } else {
+            logger.info(attacker.getName() + "'s level is not higher than the " + defender.getName() + ". The conditions for a level up do not apply.");
         }
     }
 

@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +28,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1fQFxsq0SuNuyTxdCIgvEEDJIlw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -71,7 +78,7 @@
       <recent name="bm.app.shooter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable">
+  <component name="RunManager" selected="JUnit.PokemonBattleTest.pokemonShouldLevelUpAfterDefeatingTheOpponent">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -83,17 +90,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForgeTest.shouldBeLol" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokemonBattleTest.pokemonShouldLevelUpAfterDefeatingTheOpponent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.forgeKata.*" />
+          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app.forgeKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.forgeKata.ForgeTest" />
-      <option name="METHOD_NAME" value="shouldBeLol" />
+      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
+      <option name="METHOD_NAME" value="pokemonShouldLevelUpAfterDefeatingTheOpponent" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +172,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokemonBattleTest.pokemonShouldLevelUpAfterDefeatingTheOpponent" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldIncreaseDamageTwice" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldReduceDamageByHalf" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldDealRegularDamage" />
-        <item itemvalue="JUnit.ForgeTest.shouldBeLol" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +274,7 @@
       <workItem from="1625227682561" duration="1615000" />
       <workItem from="1625231414890" duration="2894000" />
       <workItem from="1625470738028" duration="3047000" />
-      <workItem from="1625515240826" duration="1120000" />
+      <workItem from="1625515240826" duration="1721000" />
     </task>
     <servers />
   </component>
