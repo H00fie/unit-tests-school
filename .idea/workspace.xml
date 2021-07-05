@@ -6,10 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Potion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Potion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +45,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../khazad-dum-armoury" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -74,15 +72,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,6 +266,8 @@
       <workItem from="1625181070262" duration="4436000" />
       <workItem from="1625227682561" duration="1615000" />
       <workItem from="1625231414890" duration="2894000" />
+      <workItem from="1625470738028" duration="3047000" />
+      <workItem from="1625515240826" duration="1120000" />
     </task>
     <servers />
   </component>

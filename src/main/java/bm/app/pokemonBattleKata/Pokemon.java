@@ -6,12 +6,22 @@ public class Pokemon {
     private Type type;
     private double power;
     private double hitPoints;
+    private int level;
 
-    public Pokemon(String name, Type type, double power, double hitPoints) {
+    public Pokemon(String name, Type type, double power, double hitPoints, int level) {
         this.name = name;
         this.type = type;
         this.power = power;
         this.hitPoints = hitPoints;
+        this.level = level;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public void setLevel(int level) {
+        this.level = level;
     }
 
     public String getName() {
