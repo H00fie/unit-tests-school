@@ -3,10 +3,7 @@ package bm.app.pokemonBattleKata;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.mockito.Mock;
 import org.mockito.Mockito;
-
-import static org.junit.jupiter.api.Assertions.*;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
@@ -47,7 +44,7 @@ class PokemonBattleTest {
     @DisplayName("The damage dealt by the attacker shold be doubled due to the type advantage.")
     void shouldIncreaseDamageTwice() {
         //given
-        Pokemon attacker = pokeballThrow("Cubone", Type.EARTH, 40, 150, 30, false);
+        Pokemon attacker = pokeballThrow("Cubone", Type.GROUND, 40, 150, 30, false);
         Pokemon defender = pokeballThrow("Onix", Type.ROCK, 80, 550, 30, false);
         //when
         pokemonBattle.dealDamage(attacker, defender);
@@ -104,7 +101,7 @@ class PokemonBattleTest {
     @DisplayName("Pokemon should level up because they defeat a stronger opponent.")
     void pokemonShouldLevelUpAfterDefeatingTheOpponent() {
         //given
-        Pokemon cubone = pokeballThrow("Cubone", Type.EARTH, 40, 150, 14, false);
+        Pokemon cubone = pokeballThrow("Cubone", Type.GROUND, 40, 150, 14, false);
         Pokemon espeon = pokeballThrow("Espeon", Type.PSYCHIC, 90, 340, 26, false);
         //when
         for(int i = 0; i < 9; i++) {
@@ -153,6 +150,18 @@ class PokemonBattleTest {
         pokemonBattle.dealDamageWithDefaultShieldIncluded(larvitar, poochyena);
         //then
         assertThat(poochyena.getHitPoints()).isEqualTo(300.0);
+    }
+
+    @Test
+    void protectiveShieldShouldBlockIncomingDamageBoostedBy30() {
+        //given
+        Pokemon scyther = pokeballThrow("Scyther", Type.BUG, 80, 310, 25, false);
+        Pokemon rhyhorn = pokeballThrow("Rhyhorn", Type.GROUND, 75, 400, 30, false);
+        //when
+        pokemonBattle.activateShield(rhyhorn);
+        Mockito.when(protectiveShieldProvider.getShieldWithABoost(BoostStone.RARE)).thenReturn(80.0);
+        pokemonBattle.dealDamageWithShieldIncluded();
+        //then
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {

@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/BoostStone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/BoostStone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Type.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Type.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,17 +82,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PokemonBattleTest.protectiveShieldShouldBlockIncomingDamage">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PokemonBattleTest.pokemonShouldLevelUpAfterDefeatingTheOpponent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -278,7 +268,8 @@
       <workItem from="1625470738028" duration="3047000" />
       <workItem from="1625515240826" duration="5558000" />
       <workItem from="1625554877588" duration="1210000" />
-      <workItem from="1625754631047" duration="3713000" />
+      <workItem from="1625754631047" duration="3921000" />
+      <workItem from="1625819827648" duration="966000" />
     </task>
     <servers />
   </component>
@@ -342,7 +333,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java</url>
-          <line>120</line>
+          <line>117</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
