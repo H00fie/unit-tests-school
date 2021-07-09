@@ -18,6 +18,13 @@ public class PokemonBattle {
 
     private Map<Potion, Integer> potionStock = new HashMap<>();
 
+    public void dealDamageWithShieldIncluded(Pokemon attacker, Pokemon defender, BoostStone stone) {
+        if (defender.isShield()) {
+            defender.setHitPoints(defender.getHitPoints() + this.shield.getShieldWithABoost(stone));
+        }
+        dealDamage(attacker, defender);
+    }
+
     public void dealDamageWithDefaultShieldIncluded (Pokemon attacker, Pokemon defender) {
         if (defender.isShield()) {
             defender.setHitPoints(defender.getHitPoints() + this.shield.getDefaultShield());

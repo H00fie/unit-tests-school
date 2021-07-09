@@ -153,15 +153,16 @@ class PokemonBattleTest {
     }
 
     @Test
-    void protectiveShieldShouldBlockIncomingDamageBoostedBy30() {
+    void protectiveShieldShouldBlockIncomingDamageBoostedBy80() {
         //given
         Pokemon scyther = pokeballThrow("Scyther", Type.BUG, 80, 310, 25, false);
         Pokemon rhyhorn = pokeballThrow("Rhyhorn", Type.GROUND, 75, 400, 30, false);
         //when
         pokemonBattle.activateShield(rhyhorn);
         Mockito.when(protectiveShieldProvider.getShieldWithABoost(BoostStone.RARE)).thenReturn(80.0);
-        pokemonBattle.dealDamageWithShieldIncluded();
+        pokemonBattle.dealDamageWithShieldIncluded(scyther, rhyhorn, BoostStone.RARE);
         //then
+        assertThat(rhyhorn.getHitPoints()).isEqualTo(400.0);
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {
