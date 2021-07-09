@@ -18,15 +18,15 @@ public class PokemonBattle {
 
     private Map<Potion, Integer> potionStock = new HashMap<>();
 
-    public void dealDamageShieldIncluded (Pokemon attacker, Pokemon defender, double shield) {
-        if (attacker.getType().getStrengths().contains(defender.getType().getName())) {
-            defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() * 2));
-        } else if (attacker.getType().getWeaknesses().contains(defender.getType().getName())) {
-            defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() / 2));
-        } else {
-            defender.setHitPoints(defender.getHitPoints() - attacker.getPower());
-        }
-    }
+//    public void dealDamageShieldIncluded (Pokemon attacker, Pokemon defender, double shield) {
+//        if (attacker.getType().getStrengths().contains(defender.getType().getName())) {
+//            defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() * 2));
+//        } else if (attacker.getType().getWeaknesses().contains(defender.getType().getName())) {
+//            defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() / 2));
+//        } else {
+//            defender.setHitPoints(defender.getHitPoints() - attacker.getPower());
+//        }
+//    }
 
     public double dealDamageIgnoringTypes(Pokemon attacker, Pokemon defender) {
         return defender.getHitPoints() - attacker.getPower();

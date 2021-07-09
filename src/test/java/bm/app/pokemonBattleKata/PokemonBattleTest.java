@@ -141,18 +141,17 @@ class PokemonBattleTest {
         assertThat(gastly.isShield()).isEqualTo(true);
     }
 
-//    @Test
-//    @DisplayName("A shield should block incoming damage and the defender should not lose any hit points.")
-//    void protectiveShieldShouldBlockIncomingDamage() {
-//        //given
-//        Pokemon larvitar = pokeballThrow("Larvitar", Type.DRAGON, 30, 90, 9, false);
-//        Pokemon poochyena = pokeballThrow("Poochyena", Type.DARK, 35, 80, 7, false);
-//        //when
-//        pokemonBattle.
-//        pokemonBattle.activateShield();
-//        //then
-//
-//    }
+    @Test
+    @DisplayName("A shield should block incoming damage and the defender should not lose any hit points.")
+    void protectiveShieldShouldBlockIncomingDamage() {
+        //given
+        Pokemon larvitar = pokeballThrow("Larvitar", Type.DRAGON, 30, 90, 9, false);
+        Pokemon poochyena = pokeballThrow("Poochyena", Type.DARK, 35, 80, 7, false);
+        //when
+        pokemonBattle.dealDamageShieldIncluded();
+        //then
+
+    }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {
         return new Pokemon(name, type, power, hitPoints, level, shield);
