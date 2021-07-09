@@ -7,13 +7,23 @@ public class Pokemon {
     private double power;
     private double hitPoints;
     private int level;
+    boolean shield;
 
-    public Pokemon(String name, Type type, double power, double hitPoints, int level) {
+    public Pokemon(String name, Type type, double power, double hitPoints, int level, boolean shield) {
         this.name = name;
         this.type = type;
         this.power = power;
         this.hitPoints = hitPoints;
         this.level = level;
+        this.shield = shield;
+    }
+
+    public boolean isShield() {
+        return shield;
+    }
+
+    public void setShield(boolean shield) {
+        this.shield = shield;
     }
 
     public int getLevel() {

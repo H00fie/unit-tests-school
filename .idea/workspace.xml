@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/Pokemon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleTwo/VatServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleTwo/VatServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,18 @@
       <recent name="bm.app.shooter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokemonBattleTest.pokemoneShouldNotLeveUpAfterDefeatingTheOpponentDueToTheFoeNotBeingStronger">
+  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldActivateShield">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PokemonBattleTest.pokemonShouldLevelUpAfterDefeatingTheOpponent" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -115,7 +123,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokemonBattleTest.shouldIncreaseDamageTwice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PokemonBattleTest.shouldActivateShield" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
@@ -125,7 +133,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
-      <option name="METHOD_NAME" value="shouldIncreaseDamageTwice" />
+      <option name="METHOD_NAME" value="shouldActivateShield" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokemonBattleTest.shouldActivateShield" />
         <item itemvalue="JUnit.PokemonBattleTest.pokemoneShouldNotLeveUpAfterDefeatingTheOpponentDueToTheFoeNotBeingStronger" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldReduceDamageByHalf" />
         <item itemvalue="JUnit.PokemonBattleTest.pokemonShouldLevelUpAfterDefeatingTheOpponent" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldThrowPotionsOutOfStockExceptionWhenTheRequestedAmountIsNotAvailable" />
-        <item itemvalue="JUnit.PokemonBattleTest.shouldIncreaseDamageTwice" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +277,7 @@
       <workItem from="1625470738028" duration="3047000" />
       <workItem from="1625515240826" duration="5558000" />
       <workItem from="1625554877588" duration="1210000" />
-      <workItem from="1625754631047" duration="999000" />
+      <workItem from="1625754631047" duration="2443000" />
     </task>
     <servers />
   </component>
@@ -333,7 +341,7 @@
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java</url>
-          <line>119</line>
+          <line>120</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
