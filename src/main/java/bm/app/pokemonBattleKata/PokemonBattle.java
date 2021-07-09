@@ -10,23 +10,20 @@ public class PokemonBattle {
 
     private static final Logger logger = LoggerFactory.getLogger(PokemonBattle.class);
 
-    private ProtectiveShieldProvider protectiveShieldProvider;
+    private ProtectiveShieldProvider shield;
 
-    public PokemonBattle(ProtectiveShieldProvider protectiveShieldProvider) {
-        this.protectiveShieldProvider = protectiveShieldProvider;
+    public PokemonBattle(ProtectiveShieldProvider shield) {
+        this.shield = shield;
     }
 
     private Map<Potion, Integer> potionStock = new HashMap<>();
 
-//    public void dealDamageShieldIncluded (Pokemon attacker, Pokemon defender, double shield) {
-//        if (attacker.getType().getStrengths().contains(defender.getType().getName())) {
-//            defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() * 2));
-//        } else if (attacker.getType().getWeaknesses().contains(defender.getType().getName())) {
-//            defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() / 2));
-//        } else {
-//            defender.setHitPoints(defender.getHitPoints() - attacker.getPower());
-//        }
-//    }
+    public void dealDamageWithDefaultShieldIncluded (Pokemon attacker, Pokemon defender) {
+        if (defender.isShield()) {
+            defender.setHitPoints(defender.getHitPoints() + this.shield.getDefaultShield());
+        }
+       dealDamage(attacker, defender);
+    }
 
     public double dealDamageIgnoringTypes(Pokemon attacker, Pokemon defender) {
         return defender.getHitPoints() - attacker.getPower();
