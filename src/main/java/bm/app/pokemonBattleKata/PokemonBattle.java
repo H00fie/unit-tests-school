@@ -10,6 +10,12 @@ public class PokemonBattle {
 
     private static final Logger logger = LoggerFactory.getLogger(PokemonBattle.class);
 
+    private ProtectiveShieldProvider protectiveShieldProvider;
+
+    public PokemonBattle(ProtectiveShieldProvider protectiveShieldProvider) {
+        this.protectiveShieldProvider = protectiveShieldProvider;
+    }
+
     private Map<Potion, Integer> potionStock = new HashMap<>();
 
     public double dealDamageIgnoringTypes(Pokemon attacker, Pokemon defender) {

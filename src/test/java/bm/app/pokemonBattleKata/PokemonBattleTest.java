@@ -3,6 +3,7 @@ package bm.app.pokemonBattleKata;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,6 +13,7 @@ import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 class PokemonBattleTest {
 
     PokemonBattle pokemonBattle;
+    ProtectiveShieldProvider protectiveShieldProvider;
 
     @Test
     @DisplayName("Should deal regular damage without taking into consideration type advantages or disadvantages.")
@@ -127,13 +129,26 @@ class PokemonBattleTest {
         assertThat(pikachu.getLevel()).isEqualTo(10);
     }
 
+    @Test
+    @DisplayName("A shield should block incoming damage and the defender should not lose any hit points.")
+    void protectiveShieldShouldBlockIncomingDamage() {
+        //given
+        Pokemon larvitar = pokeballThrow("Larvitar", Type.DRAGON, 30, 90, 9);
+        Pokemon poochyena = pokeballThrow("Poochyena", Type.DARK, 35, 80, 7);
+        //when
+        pokemonBattle.activateShield();
+        //then
+
+    }
+
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level) {
         return new Pokemon(name, type, power, hitPoints, level);
     }
 
     @BeforeEach
     void setUp() {
-        pokemonBattle = new PokemonBattle();
+        protectiveShieldProvider = Mockito.mock(ProtectiveShieldProvider.class);
+        pokemonBattle = new PokemonBattle(protectiveShieldProvider);
     }
 
 }

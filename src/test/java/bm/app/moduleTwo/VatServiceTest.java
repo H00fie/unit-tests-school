@@ -62,6 +62,4 @@ class VatServiceTest {
         vatProvider = Mockito.mock(VatProvider.class);
         vatService = new VatService(vatProvider);
     }
-
-
 }
