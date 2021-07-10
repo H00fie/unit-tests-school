@@ -12,6 +12,7 @@ public enum Type {
     GROUND("Ground", List.of("Rock", "Fire"), List.of("Water", "Grass")),
     GHOST("Ghost", List.of("Dark", "Psychic"), List.of("Psychic", "Normal")),
     PSYCHIC("Psychic", List.of("Ghost", "Fighting"), List.of("Ghost")),
+    FLYING("Flying", List.of("Bug", "Grass"), List.of("Electric", "Rock")),
     ROCK("Rock", List.of("Fire"), List.of("Water", "Grass")),
     METAL("Metal", List.of("Electric"), List.of("Fire")),
     FIGHTING("Fighting", List.of("Normal"), List.of("Psychic")),

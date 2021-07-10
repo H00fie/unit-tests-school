@@ -177,6 +177,18 @@ class PokemonBattleTest {
         assertThat(graveler.getHitPoints()).isEqualTo(450);
     }
 
+    @Test
+    @DisplayName("Pokemon should faint and his hit points be equal to zero.")
+    void pokemonShouldFaint() {
+        //given
+        Pokemon pichu = pokeballThrow("Pichu", Type.ELECTRIC, 20, 80, 10, false);
+        Pokemon fearow = pokeballThrow("Fearow", Type.FLYING, 30, 40, 7, false);
+        //when
+        pokemonBattle.dealDamage(pichu, fearow);
+        pokemonBattle.checkIfFainted();
+        //then
+    }
+
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {
         return new Pokemon(name, type, power, hitPoints, level, shield);
     }
