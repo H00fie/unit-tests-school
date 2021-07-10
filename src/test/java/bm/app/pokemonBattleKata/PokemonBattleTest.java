@@ -185,8 +185,9 @@ class PokemonBattleTest {
         Pokemon fearow = pokeballThrow("Fearow", Type.FLYING, 30, 40, 7, false);
         //when
         pokemonBattle.dealDamage(pichu, fearow);
-        pokemonBattle.checkIfFainted();
+        boolean ifFainted = pokemonBattle.checkIfFainted(fearow);
         //then
+        assertThat(ifFainted).isTrue();
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {

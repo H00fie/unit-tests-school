@@ -128,6 +128,15 @@ public class PokemonBattle {
         }
     }
 
+    public boolean checkIfFainted(Pokemon pokemon) {
+        if (pokemon.getHitPoints() <= 0) {
+            pokemon.setHitPoints(0);
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public void activateShield(Pokemon pokemon) {
         pokemon.setShield(true);
     }

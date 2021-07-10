@@ -7,7 +7,7 @@ public enum Type {
     WATER("Water", List.of("Fire", "Ground", "Rock"), List.of("Grass", "Electric")),
     FIRE("Fire", List.of("Grass", "Bug", "Metal"), List.of("Water", "Rock")),
     GRASS("Grass", List.of("Water", "Ground", "Rock"), List.of("Fire", "Bug", "Poison")),
-    ELECTRIC("Electric", List.of("Water"), List.of("Rock")),
+    ELECTRIC("Electric", List.of("Water", "Flying"), List.of("Rock")),
     BUG("Bug", List.of("Grass"), List.of("Fire", "Rock")),
     GROUND("Ground", List.of("Rock", "Fire"), List.of("Water", "Grass")),
     GHOST("Ghost", List.of("Dark", "Psychic"), List.of("Psychic", "Normal")),
