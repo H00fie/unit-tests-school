@@ -165,6 +165,17 @@ class PokemonBattleTest {
         assertThat(rhyhorn.getHitPoints()).isEqualTo(400.0);
     }
 
+    @Test
+    @DisplayName("The defender should not be able to use a charged attack yet due to hit points not being low enough.")
+    void shouldNotBeAbleToUseAChargedAttack() {
+        //given
+        Pokemon ariados = pokeballThrow("Ariados", Type.BUG, 70, 240, 20, false);
+        Pokemon graveler = pokeballThrow("Graveler", Type.ROCK, 45, 450, 20, false);
+        //when
+        pokemonBattle.useChargedAttack();
+        //then
+    }
+
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {
         return new Pokemon(name, type, power, hitPoints, level, shield);
     }

@@ -114,6 +114,8 @@ public class PokemonBattle {
         }
     }
 
+
+
     public void activateShield(Pokemon pokemon) {
         pokemon.setShield(true);
     }
