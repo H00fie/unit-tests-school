@@ -8,8 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <recent name="bm.app.shooter" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokemonBattleTest.protectiveShieldShouldBlockIncomingDamageBoostedBy80">
+  <component name="RunManager" selected="JUnit.PokemonBattleTest.shouldNotBeAbleToUseAChargedAttack">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,22 +90,6 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokemonBattleTest.pokemoneShouldNotLeveUpAfterDefeatingTheOpponentDueToTheFoeNotBeingStronger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
-      <option name="METHOD_NAME" value="pokemoneShouldNotLeveUpAfterDefeatingTheOpponentDueToTheFoeNotBeingStronger" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,13 +158,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PokemonBattleTest.shouldNotBeAbleToUseAChargedAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
+      <option name="METHOD_NAME" value="shouldNotBeAbleToUseAChargedAttack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PokemonBattleTest.shouldNotBeAbleToUseAChargedAttack" />
         <item itemvalue="JUnit.PokemonBattleTest.protectiveShieldShouldBlockIncomingDamageBoostedBy80" />
         <item itemvalue="JUnit.PokemonBattleTest.protectiveShieldShouldBlockIncomingDamageBoostedBy30" />
         <item itemvalue="JUnit.PokemonBattleTest.protectiveShieldShouldBlockIncomingDamage" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldActivateShield" />
-        <item itemvalue="JUnit.PokemonBattleTest.pokemoneShouldNotLeveUpAfterDefeatingTheOpponentDueToTheFoeNotBeingStronger" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +281,7 @@
       <workItem from="1625515240826" duration="5558000" />
       <workItem from="1625554877588" duration="1210000" />
       <workItem from="1625754631047" duration="3921000" />
-      <workItem from="1625819827648" duration="2633000" />
+      <workItem from="1625819827648" duration="4294000" />
     </task>
     <servers />
   </component>

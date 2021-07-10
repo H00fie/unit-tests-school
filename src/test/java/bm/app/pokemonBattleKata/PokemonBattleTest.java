@@ -172,8 +172,9 @@ class PokemonBattleTest {
         Pokemon ariados = pokeballThrow("Ariados", Type.BUG, 70, 240, 20, false);
         Pokemon graveler = pokeballThrow("Graveler", Type.ROCK, 45, 450, 20, false);
         //when
-        pokemonBattle.useChargedAttack();
+        pokemonBattle.useChargedAttack(ariados, graveler);
         //then
+        assertThat(graveler.getHitPoints()).isEqualTo(450);
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {

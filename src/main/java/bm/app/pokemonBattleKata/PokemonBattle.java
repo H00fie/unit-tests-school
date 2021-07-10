@@ -114,7 +114,19 @@ public class PokemonBattle {
         }
     }
 
-
+    public void useChargedAttack(Pokemon attacker, Pokemon defender) {
+        if (attacker.getHitPoints() < 100) {
+            if (attacker.getType().getStrengths().contains(defender.getType().getName())) {
+                defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() * 4));
+            } else if (attacker.getType().getWeaknesses().contains(defender.getType().getName())) {
+                defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() * 2));
+            } else {
+                defender.setHitPoints(defender.getHitPoints() - (attacker.getPower() * 2));
+            }
+        } else {
+            logger.info(attacker.getName() + " cannot perform a charged attack because they have too much health left!");
+        }
+    }
 
     public void activateShield(Pokemon pokemon) {
         pokemon.setShield(true);
