@@ -128,6 +128,17 @@ public class PokemonBattle {
         }
     }
 
+    public Pokemon evolve(Pokemon pokemon) {
+        String evolvedName = nameMatcher(pokemon);
+        Pokemon evolvedForm = new Pokemon(evolvedName,
+                pokemon.getType(),
+                (pokemon.getPower() * 2),
+                (pokemon.getHitPoints() * 2),
+                pokemon.getLevel(), false);
+
+        return evolvedForm;
+    }
+
     public boolean checkIfFainted(Pokemon pokemon) {
         if (pokemon.getHitPoints() <= 0) {
             pokemon.setHitPoints(0);
@@ -139,5 +150,22 @@ public class PokemonBattle {
 
     public void activateShield(Pokemon pokemon) {
         pokemon.setShield(true);
+    }
+
+    private String nameMatcher(Pokemon pokemon) {
+        switch (pokemon.getName()) {
+            case "Tepig":
+                return "Pignite";
+            case "Pignite":
+                return "Emboar";
+            case "Totodile":
+                return "Croconaw";
+            case "Croconaw":
+                return "Feraligatr";
+            case "Pikachu":
+                return "Raichu";
+            default:
+                return "Poochyena";
+        }
     }
 }

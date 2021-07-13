@@ -192,12 +192,13 @@ class PokemonBattleTest {
 
     @Test
     @DisplayName("Pokemon's statistics should double due to the evolution and the name should change.")
-    void pokemonShouldEvolveAndTheirStatisticsShouldDouble() {
+    void pokemonShouldEvolveAndTheirHitPointsShouldDouble() {
         //given
         Pokemon tepig = pokeballThrow("Tepig", Type.FIRE, 30, 120, 16, false);
         //when
-        pokemonBattle.evolve();
+        Pokemon evolvedOne = pokemonBattle.evolve(tepig);
         //then
+        assertThat(evolvedOne.getHitPoints()).isEqualTo((tepig.getHitPoints() * 2));
     }
 
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {
