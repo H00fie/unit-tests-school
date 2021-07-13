@@ -190,6 +190,16 @@ class PokemonBattleTest {
         assertThat(ifFainted).isTrue();
     }
 
+    @Test
+    @DisplayName("Pokemon's statistics should double due to the evolution and the name should change.")
+    void pokemonShouldEvolveAndTheirStatisticsShouldDouble() {
+        //given
+        Pokemon tepig = pokeballThrow("Tepig", Type.FIRE, 30, 120, 16, false);
+        //when
+        pokemonBattle.evolve();
+        //then
+    }
+
     private Pokemon pokeballThrow(String name, Type type, double power, double hitPoints, int level, boolean shield) {
         return new Pokemon(name, type, power, hitPoints, level, shield);
     }
