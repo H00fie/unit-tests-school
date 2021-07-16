@@ -15,10 +15,11 @@ class BattleTest {
     @Test
     void phalangitesShouldFormAPhalanx() {
         //given
-        Unit phalangites;
+        Unit phalangites = Unit.PHALANGITES;
         //when
-        battle.formAPhalanx();
+        battle.performBattleTactic(phalangites);
         //then
+        assertThat(phalangites.isTactic()).isTrue();
     }
 
     @BeforeEach

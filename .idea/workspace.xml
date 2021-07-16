@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,9 +21,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
-        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -77,7 +79,7 @@
       <recent name="bm.app.dwarvesKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PokemonBattleTest.pokemonShouldEvolveAndTheirHitPointsShouldDouble">
+  <component name="RunManager" selected="JUnit.BattleTest.phalangitesShouldFormAPhalanx">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -87,6 +89,22 @@
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BattleTest.phalangitesShouldFormAPhalanx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.battleOfMagnesiaKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.battleOfMagnesiaKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfMagnesiaKata.BattleTest" />
+      <option name="METHOD_NAME" value="phalangitesShouldFormAPhalanx" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -118,22 +136,6 @@
       <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
       <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
       <option name="METHOD_NAME" value="pokemonShouldFaint" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PokemonBattleTest.protectiveShieldShouldBlockIncomingDamageBoostedBy30" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
-      <option name="METHOD_NAME" value="protectiveShieldShouldBlockIncomingDamageBoostedBy30" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BattleTest.phalangitesShouldFormAPhalanx" />
         <item itemvalue="JUnit.PokemonBattleTest.pokemonShouldEvolveAndTheirHitPointsShouldDouble" />
         <item itemvalue="JUnit.PokemonBattleTest.pokemonShouldFaint" />
         <item itemvalue="JUnit.PokemonBattleTest.shouldNotBeAbleToUseAChargedAttack" />
         <item itemvalue="JUnit.PokemonBattleTest.protectiveShieldShouldBlockIncomingDamageBoostedBy80" />
-        <item itemvalue="JUnit.PokemonBattleTest.protectiveShieldShouldBlockIncomingDamageBoostedBy30" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +282,7 @@
       <workItem from="1625754631047" duration="3921000" />
       <workItem from="1625819827648" duration="5711000" />
       <workItem from="1626185410664" duration="1958000" />
-      <workItem from="1626414389506" duration="1082000" />
+      <workItem from="1626414389506" duration="2697000" />
     </task>
     <servers />
   </component>
