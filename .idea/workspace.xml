@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/pokemonBattleKata/PokemonBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,10 +18,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -72,21 +70,23 @@
       <recent name="bm.app.bowlinggame" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.battleOfMagnesiaKata" />
+      <recent name="bm.app.gameKata" />
       <recent name="bm.app.pokemonBattleKata" />
       <recent name="bm.app.forgeKata" />
       <recent name="bm.app.dwarvesKata" />
-      <recent name="bm.app.battleTacticKata" />
-      <recent name="bm.app.shooter" />
     </key>
   </component>
   <component name="RunManager" selected="JUnit.PokemonBattleTest.pokemonShouldEvolveAndTheirHitPointsShouldDouble">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,7 +279,8 @@
       <workItem from="1625554877588" duration="1210000" />
       <workItem from="1625754631047" duration="3921000" />
       <workItem from="1625819827648" duration="5711000" />
-      <workItem from="1626185410664" duration="1395000" />
+      <workItem from="1626185410664" duration="1958000" />
+      <workItem from="1626414389506" duration="1082000" />
     </task>
     <servers />
   </component>
