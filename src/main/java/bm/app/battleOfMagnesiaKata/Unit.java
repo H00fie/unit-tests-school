@@ -2,12 +2,12 @@ package bm.app.battleOfMagnesiaKata;
 
 public enum Unit {
 
-    PHALANGITES(256, Weapon.SARISSA, Armour.HEAVY, false, false);
+    PHALANGITES(256, Weapon.SARISSA, Armour.HEAVY, false, false),
 //    HYPASPISTS(),
 //    IMMORTALS(),
 //    EASTERN_ARCHERS(),
 //    PELTASTS(),
-//    THORAKITAI(),
+    THORAKITAI(160, Weapon.SWORD, Armour.HEAVY, false, false);
 //    PRODROMOI(),
 //    MEDES(),
 //    HETAIROI(),

@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +53,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../khazad-dum-armoury" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -80,19 +80,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.BattleTest.phalangitesShouldFormAPhalanx">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BattleTest.phalangitesShouldFormAPhalanx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -282,7 +269,9 @@
       <workItem from="1625754631047" duration="3921000" />
       <workItem from="1625819827648" duration="5711000" />
       <workItem from="1626185410664" duration="1958000" />
-      <workItem from="1626414389506" duration="2697000" />
+      <workItem from="1626414389506" duration="3012000" />
+      <workItem from="1626602570242" duration="1250000" />
+      <workItem from="1626675953603" duration="913000" />
     </task>
     <servers />
   </component>

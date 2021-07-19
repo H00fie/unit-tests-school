@@ -22,6 +22,15 @@ class BattleTest {
         assertThat(phalangites.isTactic()).isTrue();
     }
 
+    @Test
+    void unitNumberShouldDrop() {
+        //given
+        Unit thorakitait = Unit.THORAKITAI;
+        //when
+        battle.enemyGastraphetesVolley();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         battle = new Battle();
