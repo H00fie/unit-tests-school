@@ -15,4 +15,8 @@ public class Battle {
         }
     }
 
+    public void enemyGastraphetesVolley(Unit unit) {
+
+    }
+
 }

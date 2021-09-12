@@ -6,8 +6,56 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Unit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Battle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfMagnesiaKata/Battle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleOfMagnesiaKata/Armour.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleOfMagnesiaKata/Battle$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleOfMagnesiaKata/Battle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleOfMagnesiaKata/Unit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleOfMagnesiaKata/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleTacticKata/Army.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleTacticKata/BattleTactics.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleTacticKata/MacedonianArmy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/battleTacticKata/PersianArmy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/bowlingGameKata/BowlingGame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/Dwarves.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/RuneMagic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dwarvesKata/Unit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/forgeKata/Forge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/forgeKata/Range.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/forgeKata/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleOne/StringCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/IncorrectVatException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/Product.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/moduleTwo/VatService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/NameInverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/nameInverterKata/StringSupporter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/BoostStone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/Pokemon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PokemonBattle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/Potion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/PotionsOutOfStockException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/ProtectiveShieldProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/pokemonBattleKata/Type.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/Cost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/Courage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/Enemy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/MagicalShieldProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/ReloadPace.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/ShooterKata$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/ShooterKata.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/shooter/Weapon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/attalos/Attitest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/battleTacticKata/BattleTacticsTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/bowlingGameKata/BowlingGameTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/dwarvesKata/DwarvesTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/forgeKata/ForgeTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/moduleOne/StringCalculatorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/moduleTwo/VatServiceTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/nameInverterKata/NameInverterTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/pokemonBattleKata/PokemonBattleTest.class~094221495261b48a5d83336a065136d155eea152" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/shooter/ShooterKataTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +69,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -53,7 +101,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../khazad-dum-armoury" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -271,7 +319,8 @@
       <workItem from="1626185410664" duration="1958000" />
       <workItem from="1626414389506" duration="3012000" />
       <workItem from="1626602570242" duration="1250000" />
-      <workItem from="1626675953603" duration="913000" />
+      <workItem from="1626675953603" duration="1630000" />
+      <workItem from="1631472747181" duration="853000" />
     </task>
     <servers />
   </component>
