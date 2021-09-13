@@ -22,13 +22,15 @@ class DuelTest {
         assertThat(result).isEqualTo(900);
     }
 
-    void dragonFireShouldBeDodged() {
+    @Test
+    void dragonClawShouldBeDodged() {
         //given
         Dragon gaurkemil = callADragon(800, 1000, 1500, "Elder");
         Dragoon haurchefaunt = summonADragoon(160, 200, 300, "Chainmail");
         //when
-        duel.dragonClaw();
+        duel.dragonClaw(gaurkemil, haurchefaunt);
         ///then
+        assertThat(haurchefaunt.getHealth()).isEqualTo(160);
     }
 
     private Dragoon summonADragoon(int health, int power, int speed, String armourType) {
