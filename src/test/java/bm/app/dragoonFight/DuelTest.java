@@ -33,6 +33,16 @@ class DuelTest {
         assertThat(haurchefaunt.getHealth()).isEqualTo(160);
     }
 
+    @Test
+    void dragoonShouldBeKilledByTheSpell() {
+        //given
+        Dragon rasthakor = callADragon(900, 600, 2000, "Fey");
+        Dragoon eskiel = summonADragoon(200, 180, 240, "Plate");
+        //when
+        duel.dragonSpellAttack();
+        //then
+    }
+
     private Dragoon summonADragoon(int health, int power, int speed, String armourType) {
         return new Dragoon(health, power, speed, armourType);
     }
