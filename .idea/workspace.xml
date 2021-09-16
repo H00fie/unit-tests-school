@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -77,14 +79,16 @@
       <recent name="bm.app.forgeKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuelTest.dragonClawShouldBeDodged">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DuelTest.dragoonShouldBeKilledByTheSpell">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -116,6 +120,22 @@
       <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
       <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
       <option name="METHOD_NAME" value="dragonClawShouldBeDodged" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuelTest.dragoonShouldBeKilledByTheSpell" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
+      <option name="METHOD_NAME" value="dragoonShouldBeKilledByTheSpell" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -153,29 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PokemonBattleTest.pokemonShouldFaint" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.pokemonBattleKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.pokemonBattleKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.pokemonBattleKata.PokemonBattleTest" />
-      <option name="METHOD_NAME" value="pokemonShouldFaint" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuelTest.dragoonShouldBeKilledByTheSpell" />
         <item itemvalue="JUnit.DuelTest.dragonClawShouldBeDodged" />
         <item itemvalue="JUnit.DuelTest.shouldDealDamage" />
         <item itemvalue="JUnit.BattleTest.phalangitesShouldFormAPhalanx" />
         <item itemvalue="JUnit.PokemonBattleTest.pokemonShouldEvolveAndTheirHitPointsShouldDouble" />
-        <item itemvalue="JUnit.PokemonBattleTest.pokemonShouldFaint" />
       </list>
     </recent_temporary>
   </component>

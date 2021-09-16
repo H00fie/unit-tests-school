@@ -39,8 +39,9 @@ class DuelTest {
         Dragon rasthakor = callADragon(900, 600, 2000, "Fey");
         Dragoon eskiel = summonADragoon(200, 180, 240, "Plate");
         //when
-        duel.dragonSpellAttack();
+        duel.dragonSpellAttack(rasthakor, eskiel);
         //then
+        assertThat(eskiel.getHealth()).isEqualTo(0);
     }
 
     private Dragoon summonADragoon(int health, int power, int speed, String armourType) {

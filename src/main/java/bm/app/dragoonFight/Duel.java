@@ -16,4 +16,13 @@ public class Duel {
             System.out.println("The damage was dodged!");
         }
     }
+
+    public void dragonSpellAttack(Dragon dragon, Dragoon dragoon) {
+        if (!dragoon.getArmourType().equals("Enchanted mail")) {
+            dragoon.setHealth(dragoon.getHealth() - dragon.getMagicalPower());
+            if (dragoon.getHealth() < 0) {
+                dragoon.setHealth(0);
+            }
+        }
+    }
 }
