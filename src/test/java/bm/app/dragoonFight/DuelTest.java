@@ -55,6 +55,15 @@ class DuelTest {
         assertThat(hrasvelgyr.getHealth()).isEqualTo(400);
     }
 
+    @Test
+    void fieldedDragoonsNumberShouldDropByFour() {
+        //given
+        duel.getDragoonBattalion();
+        //when
+        //then
+    }
+
+
     private Dragoon summonADragoon(int health, int power, int speed, String armourType) {
         return new Dragoon(health, power, speed, armourType);
     }
