@@ -44,6 +44,15 @@ class DuelTest {
         assertThat(eskiel.getHealth()).isEqualTo(0);
     }
 
+    void damageShouldBeDeflectedByAWivern() {
+        //given
+        Dragon hrasvelgyr = callADragon(400, 350, 200, "Wivern");
+        Dragoon javier = summonADragoon(180, 200, 360, "Mail");
+        //when
+        duel.waveJumpAttack();
+        //then
+    }
+
     private Dragoon summonADragoon(int health, int power, int speed, String armourType) {
         return new Dragoon(health, power, speed, armourType);
     }
