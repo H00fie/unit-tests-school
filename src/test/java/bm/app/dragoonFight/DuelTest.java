@@ -25,8 +25,8 @@ class DuelTest {
     @Test
     void dragonClawShouldBeDodged() {
         //given
-        Dragon gaurkemil = callADragon(800, 1000, 1500, "Elder");
-        Dragoon haurchefaunt = summonADragoon(160, 200, 300, "Chainmail");
+        Dragon gaurkemil = callADragon("Gaurkemil", 800, 1000, 1500, "Elder");
+        Dragoon haurchefaunt = summonADragoon("Haurchefaunt", 160, 200, 300, "Chainmail");
         //when
         duel.dragonClaw(gaurkemil, haurchefaunt);
         ///then
@@ -36,8 +36,8 @@ class DuelTest {
     @Test
     void dragoonShouldBeKilledByTheSpell() {
         //given
-        Dragon rasthakor = callADragon(900, 600, 2000, "Fey");
-        Dragoon eskiel = summonADragoon(200, 180, 240, "Plate");
+        Dragon rasthakor = callADragon("Rasthakor", 900, 600, 2000, "Fey");
+        Dragoon eskiel = summonADragoon("Eskiel", 200, 180, 240, "Plate");
         //when
         duel.dragonSpellAttack(rasthakor, eskiel);
         //then
@@ -47,8 +47,8 @@ class DuelTest {
     @Test
     void damageShouldBeDeflectedByAWivern() {
         //given
-        Dragon hrasvelgyr = callADragon(400, 350, 200, "Wivern");
-        Dragoon javier = summonADragoon(180, 200, 360, "Mail");
+        Dragon hrasvelgyr = callADragon("Hrasvelgyr", 400, 350, 200, "Wivern");
+        Dragoon javier = summonADragoon("Javier", 180, 200, 360, "Mail");
         //when
         duel.waveJumpAttack(javier, hrasvelgyr);
         //then
@@ -58,18 +58,35 @@ class DuelTest {
     @Test
     void fieldedDragoonsNumberShouldDropByFour() {
         //given
-        duel.getDragoonBattalion();
+        Dragon ancalong = callADragon("Ancalong", 1000, 2000, 2500, "Elder");
+        Dragoon fortaun = summonADragoon("Haurchefaunt", 300, 200, 300, "Chainmail");
+        Dragoon ardeu = summonADragoon("Ardeu", 200, 210, 260, "Chainmail");
+        Dragoon iorweth = summonADragoon("Iorweth", 150, 150, 290, "Chainmail");
+        Dragoon estainin = summonADragoon("Estainin", 320, 500, 340, "Chainmail");
+        Dragoon horteins = summonADragoon("Horteins", 150, 200, 600, "Chainmail");
+        int numberOfDragoons = duel.getDragoonBattalion().size();
         //when
+        duel.dragonSpellAttack(ancalong, fortaun);
+        duel.dragonSpellAttack(ancalong, ardeu);
+        duel.dragonSpellAttack(ancalong, iorweth);
+        duel.dragonSpellAttack(ancalong, estainin);
         //then
+        assertThat(duel.getDragoonBattalion().size()).isEqualTo(1);
     }
 
 
-    private Dragoon summonADragoon(int health, int power, int speed, String armourType) {
-        return new Dragoon(health, power, speed, armourType);
+    private Dragoon summonADragoon(String name, int health, int power, int speed, String armourType) {
+        Dragoon dragoon = new Dragoon(name, health, power, speed, armourType);
+        swellBattalionsRanks(dragoon);
+        return dragoon;
     }
 
-    private Dragon callADragon(int health, int physicalPower, int magicalPower, String dragonType) {
-        return new Dragon(health, physicalPower, magicalPower, dragonType);
+    private void swellBattalionsRanks(Dragoon dragoon) {
+        duel.getDragoonBattalion().add(dragoon.getName());
+    }
+
+    private Dragon callADragon(String name, int health, int physicalPower, int magicalPower, String dragonType) {
+        return new Dragon(name, health, physicalPower, magicalPower, dragonType);
     }
 
     @BeforeEach

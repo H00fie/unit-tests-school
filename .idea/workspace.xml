@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragoon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,30 +84,16 @@
       <recent name="bm.app.forgeKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuelTest.damageShouldBeDeflectedByAWivern">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DuelTest.fieldedDragoonsNumberShouldDropByFour">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BattleTest.phalangitesShouldFormAPhalanx" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.battleOfMagnesiaKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.battleOfMagnesiaKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfMagnesiaKata.BattleTest" />
-      <option name="METHOD_NAME" value="phalangitesShouldFormAPhalanx" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -153,6 +146,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DuelTest.fieldedDragoonsNumberShouldDropByFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
+      <option name="METHOD_NAME" value="fieldedDragoonsNumberShouldDropByFour" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuelTest.shouldDealDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -171,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuelTest.fieldedDragoonsNumberShouldDropByFour" />
         <item itemvalue="JUnit.DuelTest.damageShouldBeDeflectedByAWivern" />
         <item itemvalue="JUnit.DuelTest.dragoonShouldBeKilledByTheSpell" />
         <item itemvalue="JUnit.DuelTest.dragonClawShouldBeDodged" />
         <item itemvalue="JUnit.DuelTest.shouldDealDamage" />
-        <item itemvalue="JUnit.BattleTest.phalangitesShouldFormAPhalanx" />
       </list>
     </recent_temporary>
   </component>
@@ -284,7 +293,8 @@
       <workItem from="1631472747181" duration="1301000" />
       <workItem from="1631742817278" duration="319000" />
       <workItem from="1631875364522" duration="1096000" />
-      <workItem from="1631889222576" duration="946000" />
+      <workItem from="1631889222576" duration="3043000" />
+      <workItem from="1631899395322" duration="4498000" />
     </task>
     <servers />
   </component>

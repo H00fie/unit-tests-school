@@ -2,16 +2,26 @@ package bm.app.dragoonFight;
 
 public class Dragon {
 
+    private String name;
     private int health;
     private int physicalPower;
     private int magicalPower;
     private String dragonType;
 
-    public Dragon(int health, int physicalPower, int magicalPower, String dragonType) {
+    public Dragon(String name, int health, int physicalPower, int magicalPower, String dragonType) {
+        this.name = name;
         this.health = health;
         this.physicalPower = physicalPower;
         this.magicalPower = magicalPower;
         this.dragonType = dragonType;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 
     public int getHealth() {

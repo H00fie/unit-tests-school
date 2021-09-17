@@ -1,6 +1,13 @@
 package bm.app.dragoonFight;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class Duel {
+
+    private List<String> dragoonBattalion = new ArrayList<>();
 
     public int performSpineshatteringJump(int damage, int targetHealth) {
         return targetHealth - damage;
@@ -22,6 +29,7 @@ public class Duel {
             dragoon.setHealth(dragoon.getHealth() - dragon.getMagicalPower());
             if (dragoon.getHealth() < 0) {
                 dragoon.setHealth(0);
+                    dragoonBattalion.remove(dragoon.getName());
             }
         }
     }
@@ -36,5 +44,9 @@ public class Duel {
                 System.out.println("The wyrm perished.");
             }
         }
+    }
+
+    public List<String> getDragoonBattalion() {
+        return dragoonBattalion;
     }
 }
