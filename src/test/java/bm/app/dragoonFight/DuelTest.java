@@ -74,6 +74,16 @@ class DuelTest {
         assertThat(duel.getDragoonBattalion().size()).isEqualTo(1);
     }
 
+    @Test
+    void drawnPowerShouldDoubleTheDamage() {
+        //given
+        Dragon glaurung = callADragon("Glaurung", 2000, 450, 200, "Ground");
+        Dragoon aymeric = summonADragoon("Aymeric", 350, 500, 370, "Bloodplate");
+        //when
+        duel.crystalPoweredAttack();
+        //then
+    }
+
 
     private Dragoon summonADragoon(String name, int health, int power, int speed, String armourType) {
         Dragoon dragoon = new Dragoon(name, health, power, speed, armourType);

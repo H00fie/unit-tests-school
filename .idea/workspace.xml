@@ -6,13 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Dragoon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragoon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Dragoon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +19,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -294,7 +288,7 @@
       <workItem from="1631742817278" duration="319000" />
       <workItem from="1631875364522" duration="1096000" />
       <workItem from="1631889222576" duration="3043000" />
-      <workItem from="1631899395322" duration="4498000" />
+      <workItem from="1631899395322" duration="6666000" />
     </task>
     <servers />
   </component>
