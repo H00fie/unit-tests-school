@@ -25,4 +25,16 @@ public class Duel {
             }
         }
     }
+
+    public void waveJumpAttack(Dragoon dragoon, Dragon dragon) {
+        if (dragon.getDragonType().equals("Wivern")) {
+            System.out.println("Wivern dodged the attack!");
+        } else {
+            dragon.setHealth(dragon.getHealth() - (dragoon.getPower() * 3));
+            if (dragon.getHealth() < 0) {
+                dragon.setHealth(0);
+                System.out.println("The wyrm perished.");
+            }
+        }
+    }
 }
