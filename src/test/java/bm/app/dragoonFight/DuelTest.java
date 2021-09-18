@@ -96,6 +96,18 @@ class DuelTest {
         return dragoon;
     }
 
+    @Test
+    void checkIfCombatantIsDead() {
+        //given
+        Dragoon cid = summonADragoon("Cid", 300, 450, 500, "Chainmail");
+        Dragon skata = callADragon("Skata", 450, 800, 1200, "Fae");
+        //when
+        duel.performSpineshatteringJump(cid.getPower(), skata.getHealth());
+        boolean ifDead = duel.checkIfDead(skata.getHealth());
+        //then
+
+    }
+
     private void swellBattalionsRanks(Dragoon dragoon) {
         duel.getDragoonBattalion().add(dragoon.getName());
     }
