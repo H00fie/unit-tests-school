@@ -8,6 +8,11 @@ import java.util.Map;
 public class Duel {
 
     private List<String> dragoonBattalion = new ArrayList<>();
+    PowerCrystal powerCrystal;
+
+    public Duel(PowerCrystal powerCrystal) {
+        this.powerCrystal = powerCrystal;
+    }
 
     public int performSpineshatteringJump(int damage, int targetHealth) {
         return targetHealth - damage;
@@ -44,6 +49,10 @@ public class Duel {
                 System.out.println("The wyrm perished.");
             }
         }
+    }
+
+    public void crystalPoweredAttack(Dragon dragon, Dragoon dragoon) {
+        dragon.setHealth(dragon.getHealth() - (dragoon.getPower() + powerCrystal.regularPowerBoost()));
     }
 
     public List<String> getDragoonBattalion() {

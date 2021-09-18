@@ -1,15 +1,19 @@
 package bm.app.dragoonFight;
 
+import org.junit.ClassRule;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
+
+import org.mockito.Mockito;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
 class DuelTest {
 
     Duel duel;
+    PowerCrystal powerCrystal;
 
     @Test
     void shouldDealDamage() {
@@ -80,10 +84,11 @@ class DuelTest {
         Dragon glaurung = callADragon("Glaurung", 2000, 450, 200, "Ground");
         Dragoon aymeric = summonADragoon("Aymeric", 350, 500, 370, "Bloodplate");
         //when
-        duel.crystalPoweredAttack();
+        Mockito.when(powerCrystal.regularPowerBoost()).thenReturn(200);
+        duel.crystalPoweredAttack(glaurung, aymeric);
         //then
+        assertThat(glaurung.getHealth()).isEqualTo(1300);
     }
-
 
     private Dragoon summonADragoon(String name, int health, int power, int speed, String armourType) {
         Dragoon dragoon = new Dragoon(name, health, power, speed, armourType);
@@ -101,7 +106,8 @@ class DuelTest {
 
     @BeforeEach
     void setUp() {
-        duel = new Duel();
+        powerCrystal = Mockito.mock(PowerCrystal.class);
+        duel = new Duel(powerCrystal);
     }
 
 }

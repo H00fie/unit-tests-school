@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/dragoonFight/DuelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/dragoonFight/DuelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,16 +81,30 @@
       <recent name="bm.app.forgeKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuelTest.fieldedDragoonsNumberShouldDropByFour">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DuelTest.drawnPowerShouldDoubleTheDamage">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuelTest.checkIfCombatantIsDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
+      <option name="METHOD_NAME" value="checkIfCombatantIsDead" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -103,22 +120,6 @@
       <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
       <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
       <option name="METHOD_NAME" value="damageShouldBeDeflectedByAWivern" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuelTest.dragonClawShouldBeDodged" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.dragoonFight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
-      <option name="METHOD_NAME" value="dragonClawShouldBeDodged" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,6 +141,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DuelTest.drawnPowerShouldDoubleTheDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
+      <option name="METHOD_NAME" value="drawnPowerShouldDoubleTheDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuelTest.fieldedDragoonsNumberShouldDropByFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -156,29 +173,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DuelTest.shouldDealDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.dragoonFight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
-      <option name="METHOD_NAME" value="shouldDealDamage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuelTest.drawnPowerShouldDoubleTheDamage" />
+        <item itemvalue="JUnit.DuelTest.checkIfCombatantIsDead" />
         <item itemvalue="JUnit.DuelTest.fieldedDragoonsNumberShouldDropByFour" />
         <item itemvalue="JUnit.DuelTest.damageShouldBeDeflectedByAWivern" />
         <item itemvalue="JUnit.DuelTest.dragoonShouldBeKilledByTheSpell" />
-        <item itemvalue="JUnit.DuelTest.dragonClawShouldBeDodged" />
-        <item itemvalue="JUnit.DuelTest.shouldDealDamage" />
       </list>
     </recent_temporary>
   </component>
@@ -288,7 +289,8 @@
       <workItem from="1631742817278" duration="319000" />
       <workItem from="1631875364522" duration="1096000" />
       <workItem from="1631889222576" duration="3043000" />
-      <workItem from="1631899395322" duration="6666000" />
+      <workItem from="1631899395322" duration="7294000" />
+      <workItem from="1631969445005" duration="4466000" />
     </task>
     <servers />
   </component>
@@ -342,6 +344,14 @@
           </properties>
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java</url>
+          <line>53</line>
+          <properties class="bm.app.dragoonFight.Duel" method="crystalPoweredAttack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
           <option name="timeStamp" value="7" />
@@ -354,6 +364,11 @@
           <url>file://$PROJECT_DIR$/src/test/java/bm/app/pokemonBattleKata/PokemonBattleTest.java</url>
           <line>117</line>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java</url>
+          <line>87</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
