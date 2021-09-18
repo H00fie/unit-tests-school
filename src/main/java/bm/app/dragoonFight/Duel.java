@@ -51,6 +51,14 @@ public class Duel {
         }
     }
 
+    public boolean checkIfDead(int healthState) {
+        if (healthState == 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
     public void crystalPoweredAttack(Dragon dragon, Dragoon dragoon) {
         dragon.setHealth(dragon.getHealth() - (dragoon.getPower() + powerCrystal.regularPowerBoost()));
     }

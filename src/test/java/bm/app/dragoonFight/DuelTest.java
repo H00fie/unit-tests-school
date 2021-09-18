@@ -105,7 +105,7 @@ class DuelTest {
         duel.performSpineshatteringJump(cid.getPower(), skata.getHealth());
         boolean ifDead = duel.checkIfDead(skata.getHealth());
         //then
-
+        assertThat(ifDead).isFalse();
     }
 
     private void swellBattalionsRanks(Dragoon dragoon) {
