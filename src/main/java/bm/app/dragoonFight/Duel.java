@@ -51,6 +51,19 @@ public class Duel {
         }
     }
 
+    public void flamingJump(Dragoon dragoon, Dragon dragon) {
+        dragon.setHealth(dragon.getHealth() - (dragoon.getPower() * decideThePowerOfTheCrystalBoost(dragoon)));
+    }
+
+    public int decideThePowerOfTheCrystalBoost(Dragoon dragoon) {
+        switch (dragoon.getArmourType()) {
+            case "Bloodplate":
+                return 3;
+            default:
+                return 2;
+        }
+    }
+
     public boolean checkIfDead(int healthState) {
         if (healthState == 0) {
             return true;
