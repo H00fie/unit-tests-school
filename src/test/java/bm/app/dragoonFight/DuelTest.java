@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import org.mockito.Mock;
 import org.mockito.Mockito;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -126,8 +127,10 @@ class DuelTest {
         Dragoon haldrath = summonADragoon("Haldrath", 400, 500, 350, "Cursed mail");
         Dragon sapphira = callADragon("Sapphira", 4000, 5000, 6000, "Primal");
         //when
-        duel.maliciousThrust();
+        Mockito.when(powerCrystal.powerBoostForType("Cursed mail")).thenReturn(0);
+        duel.maliciousThrust(sapphira, haldrath);
         //then
+        assertThat(sapphira.getHealth()).isEqualTo(4000);
     }
 
     private void swellBattalionsRanks(Dragoon dragoon) {

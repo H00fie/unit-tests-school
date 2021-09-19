@@ -67,6 +67,10 @@ public class Duel {
         dragon.setHealth(dragon.getHealth() - (dragoon.getPower() + powerCrystal.regularPowerBoost()));
     }
 
+    public void maliciousThrust(Dragon dragon, Dragoon dragoon) {
+        dragon.setHealth(dragon.getHealth() - dragoon.getPower() * powerCrystal.powerBoostForType(dragoon.getArmourType()));
+    }
+
     public List<String> getDragoonBattalion() {
         return dragoonBattalion;
     }

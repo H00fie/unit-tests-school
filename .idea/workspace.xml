@@ -9,7 +9,6 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/dragoonFight/DuelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/dragoonFight/DuelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +80,7 @@
       <recent name="bm.app.forgeKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.DuelTest.drawnPowerShouldBeTripledForBloodplateDragoon">
+  <component name="RunManager" selected="JUnit.DuelTest.drawnPowerShouldHarmTheCaller">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -104,22 +103,6 @@
       <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
       <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
       <option name="METHOD_NAME" value="checkIfCombatantIsDead" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuelTest.damageShouldBeDeflectedByAWivern" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.dragoonFight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
-      <option name="METHOD_NAME" value="damageShouldBeDeflectedByAWivern" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,6 +140,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="DuelTest.drawnPowerShouldHarmTheCaller" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
+      <option name="METHOD_NAME" value="drawnPowerShouldHarmTheCaller" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DuelTest.fieldedDragoonsNumberShouldDropByFour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -175,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuelTest.drawnPowerShouldHarmTheCaller" />
         <item itemvalue="JUnit.DuelTest.drawnPowerShouldBeTripledForBloodplateDragoon" />
         <item itemvalue="JUnit.DuelTest.checkIfCombatantIsDead" />
         <item itemvalue="JUnit.DuelTest.drawnPowerShouldDoubleTheDamage" />
         <item itemvalue="JUnit.DuelTest.fieldedDragoonsNumberShouldDropByFour" />
-        <item itemvalue="JUnit.DuelTest.damageShouldBeDeflectedByAWivern" />
       </list>
     </recent_temporary>
   </component>
@@ -290,7 +289,7 @@
       <workItem from="1631875364522" duration="1096000" />
       <workItem from="1631889222576" duration="3043000" />
       <workItem from="1631899395322" duration="7294000" />
-      <workItem from="1631969445005" duration="10395000" />
+      <workItem from="1631969445005" duration="11489000" />
     </task>
     <servers />
   </component>
