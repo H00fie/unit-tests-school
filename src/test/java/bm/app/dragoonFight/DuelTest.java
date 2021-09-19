@@ -114,9 +114,20 @@ class DuelTest {
         Dragoon dazikiri = summonADragoon("Dazikiri", 500, 300, 600, "Bloodplate");
         Dragon smaug = callADragon("Smaug", 5000, 3500, 4000, "Elder");
         //when
+        Mockito.when(powerCrystal.powerBoostForType("Bloodplate")).thenReturn(3);
         duel.flamingJump(dazikiri, smaug);
         //then
         assertThat(smaug.getHealth()).isEqualTo(4100);
+    }
+
+    @Test
+    void drawnPowerShouldHarmTheCaller() {
+        //given
+        Dragoon haldrath = summonADragoon("Haldrath", 400, 500, 350, "Cursed mail");
+        Dragon sapphira = callADragon("Sapphira", 4000, 5000, 6000, "Primal");
+        //when
+        duel.maliciousThrust();
+        //then
     }
 
     private void swellBattalionsRanks(Dragoon dragoon) {

@@ -7,7 +7,6 @@
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/PowerCrystal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/PowerCrystal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/dragoonFight/DuelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/dragoonFight/DuelTest.class" afterDir="false" />
@@ -291,7 +290,7 @@
       <workItem from="1631875364522" duration="1096000" />
       <workItem from="1631889222576" duration="3043000" />
       <workItem from="1631899395322" duration="7294000" />
-      <workItem from="1631969445005" duration="9181000" />
+      <workItem from="1631969445005" duration="10395000" />
     </task>
     <servers />
   </component>
