@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/dragoonFight/Duel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/dragoonFight/DuelTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bm/app/dragoonFight/Duel.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,17 +79,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.DuelTest.drawnPowerShouldHarmTheCaller">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DuelTest.checkIfCombatantIsDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -290,6 +277,7 @@
       <workItem from="1631889222576" duration="3043000" />
       <workItem from="1631899395322" duration="7294000" />
       <workItem from="1631969445005" duration="11489000" />
+      <workItem from="1632119603637" duration="760000" />
     </task>
     <servers />
   </component>

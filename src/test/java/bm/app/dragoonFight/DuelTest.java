@@ -133,6 +133,16 @@ class DuelTest {
         assertThat(sapphira.getHealth()).isEqualTo(4000);
     }
 
+    @Test
+    void shieldShouldBlockIncomingDamage() {
+        //given
+        Dragoon esgar = summonADragoon("Esgar", 350, 500, 450, "Bloodplate");
+        Dragon neltharion = callADragon("Neltharion", 6000, 4500, 5000, "Primal");
+        //when
+        duel.divineFinish();
+        //then
+    }
+
     private void swellBattalionsRanks(Dragoon dragoon) {
         duel.getDragoonBattalion().add(dragoon.getName());
     }
