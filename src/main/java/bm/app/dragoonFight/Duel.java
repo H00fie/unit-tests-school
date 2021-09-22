@@ -9,9 +9,11 @@ public class Duel {
 
     private List<String> dragoonBattalion = new ArrayList<>();
     PowerCrystal powerCrystal;
+    ElementalShield elementalShield;
 
-    public Duel(PowerCrystal powerCrystal) {
+    public Duel(PowerCrystal powerCrystal, ElementalShield elementalShield) {
         this.powerCrystal = powerCrystal;
+        this.elementalShield = elementalShield;
     }
 
     public int performSpineshatteringJump(int damage, int targetHealth) {
@@ -69,6 +71,10 @@ public class Duel {
 
     public void maliciousThrust(Dragon dragon, Dragoon dragoon) {
         dragon.setHealth(dragon.getHealth() - dragoon.getPower() * powerCrystal.powerBoostForType(dragoon.getArmourType()));
+    }
+
+    public void divineFinish(Dragoon dragoon, Dragon dragon) {
+        dragon.setHealth((dragon.getHealth() + elementalShield.fireShield()) - (dragoon.getPower() * 3));
     }
 
     public List<String> getDragoonBattalion() {

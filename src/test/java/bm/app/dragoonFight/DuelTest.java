@@ -15,6 +15,7 @@ class DuelTest {
 
     Duel duel;
     PowerCrystal powerCrystal;
+    ElementalShield elementalShield;
 
     @Test
     void shouldDealDamage() {
@@ -139,8 +140,10 @@ class DuelTest {
         Dragoon esgar = summonADragoon("Esgar", 350, 500, 450, "Bloodplate");
         Dragon neltharion = callADragon("Neltharion", 6000, 4500, 5000, "Primal");
         //when
-        duel.divineFinish();
+        Mockito.when(elementalShield.fireShield()).thenReturn(1000);
+        duel.divineFinish(esgar, neltharion);
         //then
+        assertThat(neltharion.getHealth()).isEqualTo(5500);
     }
 
     private void swellBattalionsRanks(Dragoon dragoon) {
@@ -154,7 +157,8 @@ class DuelTest {
     @BeforeEach
     void setUp() {
         powerCrystal = Mockito.mock(PowerCrystal.class);
-        duel = new Duel(powerCrystal);
+        elementalShield = Mockito.mock(ElementalShield.class);
+        duel = new Duel(powerCrystal, elementalShield);
     }
 
 }
