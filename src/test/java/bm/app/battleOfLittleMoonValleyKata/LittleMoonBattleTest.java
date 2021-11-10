@@ -14,10 +14,12 @@ class LittleMoonBattleTest {
     @Test
     void shouldSpawnTwoUnitsOfCrossbowmen() {
         //given
+        String unitName = "Crossbowmen";
         int hornBlasts = 2;
         //when
-        littleMoonBattle.callForces();
+        littleMoonBattle.callForces(unitName, hornBlasts);
         //then
+        assertThat(littleMoonBattle.getArmyOfRodghalikan().get(Unit.CROSSBOWMEN)).isEqualTo(2);
     }
 
     @BeforeEach
