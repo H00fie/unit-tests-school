@@ -20,6 +20,22 @@ public class LittleMoonBattle {
         }
     }
 
+    public int dealRangedDamage(Unit unit, Foe foe) {
+        int result = 0;
+        switch (unit) {
+            case CROSSBOWMEN:
+                switch (foe.getArmour()) {
+                    case NONE:
+                        result = unit.getPower() * 2;
+                        break;
+                    case LINEN:
+                        result = unit.getPower() + (unit.getPower() / 2);
+                        break;
+                }
+        }
+        return result;
+    }
+
     public Map<Unit, Integer> getArmyOfRodghalikan() {
         return armyOfRodghalikan;
     }

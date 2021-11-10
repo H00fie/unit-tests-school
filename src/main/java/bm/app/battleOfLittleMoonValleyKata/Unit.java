@@ -20,4 +20,28 @@ public enum Unit {
         this.armour = armour;
         this.weapon = weapon;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHealthPool() {
+        return healthPool;
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public int getNumbers() {
+        return numbers;
+    }
+
+    public Armour getArmour() {
+        return armour;
+    }
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
 }

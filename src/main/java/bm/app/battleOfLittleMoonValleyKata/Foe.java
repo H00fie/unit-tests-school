@@ -21,4 +21,28 @@ public enum Foe {
         this.armour = armour;
         this.weapon = weapon;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHealthPool() {
+        return healthPool;
+    }
+
+    public int getPower() {
+        return power;
+    }
+
+    public int getNumber() {
+        return number;
+    }
+
+    public Armour getArmour() {
+        return armour;
+    }
+
+    public Weapon getWeapon() {
+        return weapon;
+    }
 }

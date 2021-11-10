@@ -39,8 +39,10 @@ class LittleMoonBattleTest {
         Unit crossbowmen = Unit.CROSSBOWMEN;
         Foe goblins = Foe.GOBLIN;
         //when
-        littleMoonBattle.dealRangedDamage();
+        int expectedResult = 600;
+        int actualResult = littleMoonBattle.dealRangedDamage(crossbowmen, goblins);
         //then
+        assertThat(actualResult).isEqualTo(expectedResult);
     }
 
     @BeforeEach
