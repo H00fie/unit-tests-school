@@ -2,7 +2,8 @@ package bm.app.battleOfLittleMoonValleyKata;
 
 public enum Unit {
 
-    CROSSBOWMEN("Crossbowmen", 180, 300, 120);
+    CROSSBOWMEN("Crossbowmen", 180, 300, 120),
+    PIKEMEN("Pikemen", 400, 100, 256);
 
     private String name;
     private int healthPool;

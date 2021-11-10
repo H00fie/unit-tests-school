@@ -12,6 +12,9 @@ public class LittleMoonBattle {
             case "Crossbowmen":
                 armyOfRodghalikan.put(Unit.CROSSBOWMEN, quantity);
                 return Unit.CROSSBOWMEN;
+            case "Pikemen":
+                armyOfRodghalikan.put(Unit.PIKEMEN, quantity);
+                return Unit.PIKEMEN;
             default:
                 return null;
         }

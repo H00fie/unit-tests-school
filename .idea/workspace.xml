@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="" />
+    <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,30 +78,16 @@
       <recent name="bm.app.pokemonBattleKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LittleMoonBattleTest.shouldSpawnTwoUnitsOfCrossbowmen">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LittleMoonBattleTest.shouldSpawnThreeUnitsOfPikemen">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DuelTest.checkIfCombatantIsDead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.dragoonFight.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
-      <option name="METHOD_NAME" value="checkIfCombatantIsDead" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,6 +140,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LittleMoonBattleTest.shouldSpawnThreeUnitsOfPikemen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.battleOfLittleMoonValleyKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.battleOfLittleMoonValleyKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfLittleMoonValleyKata.LittleMoonBattleTest" />
+      <option name="METHOD_NAME" value="shouldSpawnThreeUnitsOfPikemen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LittleMoonBattleTest.shouldSpawnTwoUnitsOfCrossbowmen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -169,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LittleMoonBattleTest.shouldSpawnThreeUnitsOfPikemen" />
         <item itemvalue="JUnit.LittleMoonBattleTest.shouldSpawnTwoUnitsOfCrossbowmen" />
         <item itemvalue="JUnit.DuelTest.shieldShouldBlockIncomingDamage" />
         <item itemvalue="JUnit.DuelTest.drawnPowerShouldHarmTheCaller" />
         <item itemvalue="JUnit.DuelTest.drawnPowerShouldBeTripledForBloodplateDragoon" />
-        <item itemvalue="JUnit.DuelTest.checkIfCombatantIsDead" />
       </list>
     </recent_temporary>
   </component>
@@ -289,7 +294,8 @@
       <workItem from="1632328121672" duration="2717000" />
       <workItem from="1632417882359" duration="1214000" />
       <workItem from="1632763820567" duration="636000" />
-      <workItem from="1636501671509" duration="3010000" />
+      <workItem from="1636501671509" duration="3695000" />
+      <workItem from="1636582343349" duration="489000" />
     </task>
     <servers />
   </component>
