@@ -33,6 +33,16 @@ class LittleMoonBattleTest {
         assertThat(littleMoonBattle.getArmyOfRodghalikan().get(Unit.PIKEMEN)).isEqualTo(3);
     }
 
+    @Test
+    void shouldDoubleTheDamageOfCrossbowmen() {
+        //given
+        Unit crossbowmen = Unit.CROSSBOWMEN;
+        Foe goblins = Foe.GOBLIN;
+        //when
+        littleMoonBattle.dealRangedDamage();
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         littleMoonBattle = new LittleMoonBattle();
