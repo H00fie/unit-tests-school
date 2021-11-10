@@ -22,6 +22,14 @@ class LittleMoonBattleTest {
         assertThat(littleMoonBattle.getArmyOfRodghalikan().get(Unit.CROSSBOWMEN)).isEqualTo(2);
     }
 
+    void shouldSpawnThreeUnitsOfPikemen() {
+        //given
+        String unitName = "Pikemen";
+        int hornBlasts = 3;
+        //when
+        //then
+    }
+
     @BeforeEach
     void setUp() {
         littleMoonBattle = new LittleMoonBattle();

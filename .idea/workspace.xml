@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" afterDir="false" />
-    </list>
+    <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -292,7 +289,7 @@
       <workItem from="1632328121672" duration="2717000" />
       <workItem from="1632417882359" duration="1214000" />
       <workItem from="1632763820567" duration="636000" />
-      <workItem from="1636501671509" duration="2595000" />
+      <workItem from="1636501671509" duration="3010000" />
     </task>
     <servers />
   </component>
