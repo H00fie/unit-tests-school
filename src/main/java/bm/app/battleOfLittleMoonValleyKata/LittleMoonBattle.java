@@ -36,6 +36,17 @@ public class LittleMoonBattle {
         return result;
     }
 
+    // Switch expressions!!!
+    public Weapon dispenseWeapons(Unit unit) {
+        return switch(unit) {
+            case CROSSBOWMEN -> Weapon.CROSSBOW;
+            case PIKEMEN -> Weapon.PIKE;
+            case THUNDERERS -> Weapon.HANDGUN;
+            case SHIELD_BEARERS -> Weapon.SWORD;
+            default -> Weapon.AXE;
+        };
+    }
+
     public Map<Unit, Integer> getArmyOfRodghalikan() {
         return armyOfRodghalikan;
     }
