@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Foe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Foe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Unit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Weapon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Weapon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,19 +82,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.LittleMoonBattleTest.shouldDoubleTheDamageOfCrossbowmen">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="DuelTest.drawnPowerShouldHarmTheCaller" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -297,7 +285,8 @@
       <workItem from="1632417882359" duration="1214000" />
       <workItem from="1632763820567" duration="636000" />
       <workItem from="1636501671509" duration="3695000" />
-      <workItem from="1636582343349" duration="3365000" />
+      <workItem from="1636582343349" duration="4007000" />
+      <workItem from="1637177353334" duration="2613000" />
     </task>
     <servers />
   </component>

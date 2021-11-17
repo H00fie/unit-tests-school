@@ -3,7 +3,10 @@ package bm.app.battleOfLittleMoonValleyKata;
 public enum Unit {
 
     CROSSBOWMEN("Crossbowmen", 180, 300, 120, Armour.MAIL, Weapon.CROSSBOW),
-    PIKEMEN("Pikemen", 400, 100, 256, Armour.PLATE, Weapon.PIKE);
+    PIKEMEN("Pikemen", 400, 100, 256, Armour.PLATE, Weapon.PIKE),
+    SLAYERS("Slayers", 150, 300, 80, Armour.NONE, Weapon.AXE),
+    THUNDERERS("Thunderers", 180, 400, 80, Armour.MAIL, Weapon.HANDGUN),
+    SHIELD_BEARERS("Shield bearers", 600, 60, 250, Armour.PLATE, Weapon.SWORD);
 
     private String name;
     private int healthPool;
