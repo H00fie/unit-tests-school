@@ -6,7 +6,9 @@ public enum Unit {
     PIKEMEN("Pikemen", 400, 100, 256, Armour.PLATE, Weapon.PIKE),
     SLAYERS("Slayers", 150, 300, 80, Armour.NONE, Weapon.AXE),
     THUNDERERS("Thunderers", 180, 400, 80, Armour.MAIL, Weapon.HANDGUN),
-    SHIELD_BEARERS("Shield bearers", 600, 60, 250, Armour.PLATE, Weapon.SWORD);
+    SHIELD_BEARERS("Shield bearers", 600, 60, 250, Armour.PLATE, Weapon.SWORD),
+    OATHKEEPERS("Oathleepers", 500, 350, 50, Armour.MITHRIL, Weapon.AXE),
+    ROCK_HANDS("Rock hands", 300, 240, 200, Armour.MAIL, Weapon.AXE);
 
     private String name;
     private int healthPool;

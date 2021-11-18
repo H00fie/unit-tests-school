@@ -43,7 +43,8 @@ public class LittleMoonBattle {
             case PIKEMEN -> Weapon.PIKE;
             case THUNDERERS -> Weapon.HANDGUN;
             case SHIELD_BEARERS -> Weapon.SWORD;
-            default -> Weapon.AXE;
+            case SLAYERS -> Weapon.AXE;
+            default -> Weapon.NONE;
         };
     }
 

@@ -56,6 +56,17 @@ class LittleMoonBattleTest {
         assertThat(pickedWeapon).isEqualTo(expectedWeapon);
     }
 
+    @Test
+    void dwarvenRockHandsShouldPickAHammer() {
+        //given
+        Unit rockHands = Unit.ROCK_HANDS;
+        Weapon expectedWeapon = Weapon.HAMMER;
+        //when
+        Weapon pickedWeapon = littleMoonBattle.dispenseWeapons(rockHands);
+        //then
+
+    }
+
     @BeforeEach
     void setUp() {
         littleMoonBattle = new LittleMoonBattle();
