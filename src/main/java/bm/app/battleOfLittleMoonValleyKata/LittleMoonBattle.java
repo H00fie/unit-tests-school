@@ -43,7 +43,10 @@ public class LittleMoonBattle {
             case PIKEMEN -> Weapon.PIKE;
             case THUNDERERS -> Weapon.HANDGUN;
             case SHIELD_BEARERS -> Weapon.SWORD;
-            case SLAYERS -> Weapon.AXE;
+            case SLAYERS, OATHKEEPERS, ROCK_HANDS -> {
+                var weapon = unit == Unit.SLAYERS ? Weapon.AXE : Weapon.HAMMER;
+                yield weapon;
+            }
             default -> Weapon.NONE;
         };
     }

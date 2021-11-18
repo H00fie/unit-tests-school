@@ -64,7 +64,7 @@ class LittleMoonBattleTest {
         //when
         Weapon pickedWeapon = littleMoonBattle.dispenseWeapons(rockHands);
         //then
-
+        assertThat(pickedWeapon).isEqualTo(expectedWeapon);
     }
 
     @BeforeEach

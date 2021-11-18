@@ -80,18 +80,29 @@
       <recent name="bm.app.pokemonBattleKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LittleMoonBattleTest.dwarvenThunderersShouldPickAHandgun">
-    <configuration name="DuelTest.shieldShouldBlockIncomingDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.LittleMoonBattleTest.dwarvenRockHandsShouldPickAHammer">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LittleMoonBattleTest.dwarvenRockHandsShouldPickAHammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="PATTERN" value="bm.app.battleOfLittleMoonValleyKata.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
-      <option name="METHOD_NAME" value="shieldShouldBlockIncomingDamage" />
+      <option name="PACKAGE_NAME" value="bm.app.battleOfLittleMoonValleyKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfLittleMoonValleyKata.LittleMoonBattleTest" />
+      <option name="METHOD_NAME" value="dwarvenRockHandsShouldPickAHammer" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -163,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LittleMoonBattleTest.dwarvenRockHandsShouldPickAHammer" />
         <item itemvalue="JUnit.LittleMoonBattleTest.dwarvenThunderersShouldPickAHandgun" />
         <item itemvalue="JUnit.LittleMoonBattleTest.shouldDoubleTheDamageOfCrossbowmen" />
         <item itemvalue="JUnit.LittleMoonBattleTest.shouldSpawnThreeUnitsOfPikemen" />
         <item itemvalue="JUnit.LittleMoonBattleTest.shouldSpawnTwoUnitsOfCrossbowmen" />
-        <item itemvalue="JUnit.DuelTest.shieldShouldBlockIncomingDamage" />
       </list>
     </recent_temporary>
   </component>
