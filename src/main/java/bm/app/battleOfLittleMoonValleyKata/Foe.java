@@ -47,4 +47,28 @@ public enum Foe {
     public Weapon getWeapon() {
         return weapon;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setHealthPool(int healthPool) {
+        this.healthPool = healthPool;
+    }
+
+    public void setPower(int power) {
+        this.power = power;
+    }
+
+    public void setNumber(int number) {
+        this.number = number;
+    }
+
+    public void setArmour(Armour armour) {
+        this.armour = armour;
+    }
+
+    public void setWeapon(Weapon weapon) {
+        this.weapon = weapon;
+    }
 }

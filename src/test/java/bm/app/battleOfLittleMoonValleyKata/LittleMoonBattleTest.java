@@ -2,6 +2,7 @@ package bm.app.battleOfLittleMoonValleyKata;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -10,6 +11,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 class LittleMoonBattleTest {
 
     LittleMoonBattle littleMoonBattle;
+    MagicOfFilth magicOfFilth;
 
     @Test
     void shouldSpawnTwoUnitsOfCrossbowmen() {
@@ -73,14 +75,16 @@ class LittleMoonBattleTest {
         Foe goblin = Foe.GOBLIN;
         int expectedPower = 100;
         //when
-        littleMoonBattle.castBlessingOfFilth();
+        Mockito.when(magicOfFilth.blessingOfFilth()).thenReturn(50);
+        littleMoonBattle.castBlessingOfFilth(goblin);
         //then
         assertThat(goblin.getPower()).isEqualTo(expectedPower);
     }
 
     @BeforeEach
     void setUp() {
-        littleMoonBattle = new LittleMoonBattle();
+        magicOfFilth = Mockito.mock(MagicOfFilth.class);
+        littleMoonBattle = new LittleMoonBattle(magicOfFilth);
     }
 
 }

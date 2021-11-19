@@ -5,6 +5,12 @@ import java.util.Map;
 
 public class LittleMoonBattle {
 
+    MagicOfFilth magicOfFilth;
+
+    public LittleMoonBattle(MagicOfFilth magicOfFilth) {
+        this.magicOfFilth = magicOfFilth;
+    }
+
     private Map<Unit, Integer> armyOfRodghalikan = new HashMap<>();
 
     public Unit callForces(String name, int quantity) {
@@ -49,6 +55,10 @@ public class LittleMoonBattle {
             }
             default -> Weapon.NONE;
         };
+    }
+
+    public void castBlessingOfFilth(Foe foe) {
+        foe.setPower(foe.getPower() + magicOfFilth.blessingOfFilth());
     }
 
     public Map<Unit, Integer> getArmyOfRodghalikan() {
