@@ -67,6 +67,17 @@ class LittleMoonBattleTest {
         assertThat(pickedWeapon).isEqualTo(expectedWeapon);
     }
 
+    @Test
+    void blessingOfFilthShouldDoubleGoblinPower() {
+        //given
+        Foe goblin = Foe.GOBLIN;
+        int expectedPower = 100;
+        //when
+        littleMoonBattle.castBlessingOfFilth();
+        //then
+        assertThat(goblin.getPower()).isEqualTo(expectedPower);
+    }
+
     @BeforeEach
     void setUp() {
         littleMoonBattle = new LittleMoonBattle();

@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Unit.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,17 +79,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.LittleMoonBattleTest.dwarvenRockHandsShouldPickAHammer">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LittleMoonBattleTest.dwarvenRockHandsShouldPickAHammer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -300,7 +287,8 @@
       <workItem from="1637181395550" duration="306000" />
       <workItem from="1637181783910" duration="1561000" />
       <workItem from="1637236367810" duration="33000" />
-      <workItem from="1637249658824" duration="836000" />
+      <workItem from="1637249658824" duration="6893000" />
+      <workItem from="1637274355007" duration="1846000" />
     </task>
     <servers />
   </component>
