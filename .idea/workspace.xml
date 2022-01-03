@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/MagicOfFilth.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Foe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/Foe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/battleOfLittleMoonValleyKata/LittleMoonBattleTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,19 +78,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.LittleMoonBattleTest.blessingOfFilthShouldDoubleGoblinPower">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LittleMoonBattleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -304,7 +286,10 @@
       <workItem from="1637181783910" duration="1561000" />
       <workItem from="1637236367810" duration="33000" />
       <workItem from="1637249658824" duration="6893000" />
-      <workItem from="1637274355007" duration="3086000" />
+      <workItem from="1637274355007" duration="3258000" />
+      <workItem from="1637498872265" duration="2073000" />
+      <workItem from="1638959035844" duration="593000" />
+      <workItem from="1639732907031" duration="627000" />
     </task>
     <servers />
   </component>
