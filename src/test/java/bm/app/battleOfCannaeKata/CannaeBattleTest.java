@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import static org.assertj.core.api.Assertions.assertThat;
+
 class CannaeBattleTest {
 
     CannaeBattle cannaeBattle;
@@ -12,10 +14,12 @@ class CannaeBattleTest {
     @Test
     void numidianCavalryShouldCharge() {
         //given
-        String carthaginianUnit = "Numidian Mounted Javelinmen";
+        Carthaginian numidians = Carthaginian.NUMIDIAN_MOUNTED_JAVELINMEN;
         //when
-        cannaeBattle.soundTheCharge();
+        cannaeBattle.soundTheCharge(numidians);
         //then
+        assertThat(numidians.isCharging()).isTrue();
+
     }
 
     @BeforeEach
