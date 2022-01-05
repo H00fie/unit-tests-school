@@ -1,13 +1,10 @@
 package bm.app.battleOfCannaeKata;
 
-public enum Carthaginian {
+public enum Roman {
 
-    IBERIAN_SWOWRDSMEN("Iberian Swordsmen", 200, 100, 160, 80, 50, false),
-    NUMIDIAN_MOUNTED_JAVELINMEN("Numidian Mounted Javelinmen", 100, 160, 80, 20, 250, false),
-    GALLIC_NOBLE_CAVALRY("Gallic Noble Cavalry", 300, 250, 40, 250, 150, false),
-    CARTHAGINIAN_NOBLES("Carthaginian Nobles", 350, 300, 30, 350, 120, false),
-    LIBIAN_SPEARMEN("Libian Spearmen", 230, 80, 180, 120, 50, false),
-    BALEARIC_SLINGERS("Balearic Slingers", 80, 150, 140, 40, 75, false);
+    HASTATI("Hastati", 200, 100, 160, 80, 50, false),
+    PRINCIPES("Principes", 280, 150, 160, 150, 40, false),
+    TRIARII("Triarii", 320, 160, 100, 250, 40, false);
 
     private String name;
     private int healthPool;
@@ -17,7 +14,7 @@ public enum Carthaginian {
     private int speed;
     private boolean isCharging;
 
-    Carthaginian(String name, int healthPool, int power, int number, int defence, int speed, boolean isCharging) {
+    Roman(String name, int healthPool, int power, int number, int defence, int speed, boolean isCharging) {
         this.name = name;
         this.healthPool = healthPool;
         this.power = power;

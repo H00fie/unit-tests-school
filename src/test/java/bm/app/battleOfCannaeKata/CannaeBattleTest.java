@@ -27,8 +27,9 @@ class CannaeBattleTest {
         Carthaginian slingers = Carthaginian.BALEARIC_SLINGERS;
         Roman hastati = Roman.HASTATI;
         //when
-        cannaeBattle.dealDamage();
+        cannaeBattle.dealDamage(slingers, hastati);
         //then
+        assertThat(hastati.getHealthPool()).isEqualTo(130);
     }
 
     @BeforeEach
