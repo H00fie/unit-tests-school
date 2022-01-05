@@ -19,7 +19,16 @@ class CannaeBattleTest {
         cannaeBattle.soundTheCharge(numidians);
         //then
         assertThat(numidians.isCharging()).isTrue();
+    }
 
+    @Test
+    void volleyShouldDeal150Damage() {
+        //given
+        Carthaginian slingers = Carthaginian.BALEARIC_SLINGERS;
+        Roman hastati = Roman.HASTATI;
+        //when
+        cannaeBattle.dealDamage();
+        //then
     }
 
     @BeforeEach

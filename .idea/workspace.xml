@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfMagnesiaKata/BattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -303,7 +301,7 @@
       <workItem from="1637498872265" duration="2073000" />
       <workItem from="1638959035844" duration="593000" />
       <workItem from="1639732907031" duration="627000" />
-      <workItem from="1641250069708" duration="1458000" />
+      <workItem from="1641250069708" duration="2142000" />
     </task>
     <servers />
   </component>
