@@ -14,4 +14,12 @@ public class CannaeBattle {
             roman.setAlive(false);
         }
     }
+
+    public UnitStatus checkUnitStatus(Roman roman) {
+        if (roman.isAlive()) {
+            return UnitStatus.ALIVE;
+        } else {
+            return UnitStatus.DEAD;
+        }
+    }
 }

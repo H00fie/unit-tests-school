@@ -37,8 +37,9 @@ class CannaeBattleTest {
         Carthaginian carthaginianNobles = Carthaginian.CARTHAGINIAN_NOBLES;
         //when
         cannaeBattle.dealDamage(carthaginianNobles, hastati);
-        cannaeBattle.checkUnitStatus();
+        UnitStatus result = cannaeBattle.checkUnitStatus(hastati);
         //then
+        assertThat(result).isEqualTo(UnitStatus.DEAD);
     }
 
     @BeforeEach
