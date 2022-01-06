@@ -10,6 +10,8 @@ public class CannaeBattle {
 
     public void dealDamage(Carthaginian carthaginian, Roman roman) {
         roman.setHealthPool(roman.getHealthPool() - (carthaginian.getPower() - roman.getDefence()));
+        if (roman.getHealthPool() < 0) {
+            roman.setAlive(false);
+        }
     }
-
 }

@@ -2,9 +2,9 @@ package bm.app.battleOfCannaeKata;
 
 public enum Roman {
 
-    HASTATI("Hastati", 200, 100, 160, 80, 50, false),
-    PRINCIPES("Principes", 280, 150, 160, 150, 40, false),
-    TRIARII("Triarii", 320, 160, 100, 250, 40, false);
+    HASTATI("Hastati", 200, 100, 160, 80, 50, false, true),
+    PRINCIPES("Principes", 280, 150, 160, 150, 40, false, true),
+    TRIARII("Triarii", 320, 160, 100, 250, 40, false, true);
 
     private String name;
     private int healthPool;
@@ -13,8 +13,9 @@ public enum Roman {
     private int defence;
     private int speed;
     private boolean isCharging;
+    private boolean isAlive;
 
-    Roman(String name, int healthPool, int power, int number, int defence, int speed, boolean isCharging) {
+    Roman(String name, int healthPool, int power, int number, int defence, int speed, boolean isCharging, boolean isAlive) {
         this.name = name;
         this.healthPool = healthPool;
         this.power = power;
@@ -22,6 +23,7 @@ public enum Roman {
         this.defence = defence;
         this.speed = speed;
         this.isCharging = isCharging;
+        this.isAlive = isAlive;
     }
 
     public String getName() {
@@ -78,5 +80,13 @@ public enum Roman {
 
     public void setCharging(boolean charging) {
         isCharging = charging;
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 }

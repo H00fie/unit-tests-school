@@ -3,8 +3,6 @@ package bm.app.battleOfCannaeKata;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 import static org.assertj.core.api.Assertions.assertThat;
 
 class CannaeBattleTest {
@@ -30,6 +28,17 @@ class CannaeBattleTest {
         cannaeBattle.dealDamage(slingers, hastati);
         //then
         assertThat(hastati.getHealthPool()).isEqualTo(130);
+    }
+
+    @Test
+    void hastatiUnitShouldBeWipedOut() {
+        //given
+        Roman hastati = Roman.HASTATI;
+        Carthaginian carthaginianNobles = Carthaginian.CARTHAGINIAN_NOBLES;
+        //when
+        cannaeBattle.dealDamage(carthaginianNobles, hastati);
+        cannaeBattle.checkUnitStatus();
+        //then
     }
 
     @BeforeEach

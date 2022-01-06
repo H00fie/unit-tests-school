@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/Carthaginian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/Carthaginian.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/Roman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/Roman.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,17 +82,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CannaeBattleTest.volleyShouldDeal150Damage">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CannaeBattleTest.numidianCavalryShouldCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -304,6 +295,8 @@
       <workItem from="1638959035844" duration="593000" />
       <workItem from="1639732907031" duration="627000" />
       <workItem from="1641250069708" duration="2655000" />
+      <workItem from="1641463969873" duration="71000" />
+      <workItem from="1641498699137" duration="496000" />
     </task>
     <servers />
   </component>

@@ -2,12 +2,12 @@ package bm.app.battleOfCannaeKata;
 
 public enum Carthaginian {
 
-    IBERIAN_SWOWRDSMEN("Iberian Swordsmen", 200, 100, 160, 80, 50, false),
-    NUMIDIAN_MOUNTED_JAVELINMEN("Numidian Mounted Javelinmen", 100, 160, 80, 20, 250, false),
-    GALLIC_NOBLE_CAVALRY("Gallic Noble Cavalry", 300, 250, 40, 250, 150, false),
-    CARTHAGINIAN_NOBLES("Carthaginian Nobles", 350, 300, 30, 350, 120, false),
-    LIBIAN_SPEARMEN("Libian Spearmen", 230, 80, 180, 120, 50, false),
-    BALEARIC_SLINGERS("Balearic Slingers", 80, 150, 140, 40, 75, false);
+    IBERIAN_SWOWRDSMEN("Iberian Swordsmen", 200, 100, 160, 80, 50, false, true),
+    NUMIDIAN_MOUNTED_JAVELINMEN("Numidian Mounted Javelinmen", 100, 160, 80, 20, 250, false, true),
+    GALLIC_NOBLE_CAVALRY("Gallic Noble Cavalry", 300, 250, 40, 250, 150, false, true),
+    CARTHAGINIAN_NOBLES("Carthaginian Nobles", 350, 300, 30, 350, 120, false, true),
+    LIBIAN_SPEARMEN("Libian Spearmen", 230, 80, 180, 120, 50, false, true),
+    BALEARIC_SLINGERS("Balearic Slingers", 80, 150, 140, 40, 75, false, true);
 
     private String name;
     private int healthPool;
@@ -16,8 +16,9 @@ public enum Carthaginian {
     private int defence;
     private int speed;
     private boolean isCharging;
+    private boolean isAlive;
 
-    Carthaginian(String name, int healthPool, int power, int number, int defence, int speed, boolean isCharging) {
+    Carthaginian(String name, int healthPool, int power, int number, int defence, int speed, boolean isCharging, boolean isAlive) {
         this.name = name;
         this.healthPool = healthPool;
         this.power = power;
@@ -25,6 +26,7 @@ public enum Carthaginian {
         this.defence = defence;
         this.speed = speed;
         this.isCharging = isCharging;
+        this.isAlive = isAlive;
     }
 
     public String getName() {
@@ -81,5 +83,13 @@ public enum Carthaginian {
 
     public void setCharging(boolean charging) {
         isCharging = charging;
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 }
