@@ -48,12 +48,25 @@ class BowlingKataTest {
     }
 
     @Test
-    @DisplayName("10 pins felled in 2 throws awards a Spare - points for the next throw are doubled.")
+    @DisplayName("10 pins felled in 2 throws is a Spare and points for the next throw are doubled.")
     void shouldScoreSpare() {
+        //when
         bowlingKata.rollingWithSpare(2, 5);
         bowlingKata.rollingWithSpare(1, 4);
         bowlingKata.rollingWithSpare(17, 0);
+        //then
         assertThat(bowlingKata.getScore()).isEqualTo(18);
+    }
+
+    @Test
+    @DisplayName("10 pins felled in 1 throw is a Strike and points for following throws are doubled.")
+    void shouldScoreStrike() {
+        //when
+        bowlingKata.rollingWithStrike(1, 10);
+        bowlingKata.rollingWithStrike(2, 4);
+        bowlingKata.rollingWithStrike(16, 0);
+        //then
+        assertThat(bowlingKata.getScore()).isEqualTo(26);
     }
 
     @BeforeEach

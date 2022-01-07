@@ -80,7 +80,7 @@
       <recent name="bm.app.battleOfMagnesiaKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingKataTest.shouldScoreZeroWhenNoPinDownTwentyTimes">
+  <component name="RunManager" selected="JUnit.BowlingKataTest.shouldScoreStrike">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -109,22 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BowlingKataTest.shouldScoreOneWhenRolledOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.moduleThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
-      <option name="METHOD_NAME" value="shouldScoreOneWhenRolledOne" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="BowlingKataTest.shouldScoreSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -136,6 +120,22 @@
       <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
       <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
       <option name="METHOD_NAME" value="shouldScoreSpare" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingKataTest.shouldScoreStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
+      <option name="METHOD_NAME" value="shouldScoreStrike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -175,11 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BowlingKataTest.shouldScoreStrike" />
         <item itemvalue="JUnit.BowlingKataTest.shouldScoreZeroWhenNoPinDownTwentyTimes" />
         <item itemvalue="JUnit.BowlingKataTest" />
         <item itemvalue="JUnit.BowlingKataTest.shouldScoreSpare" />
         <item itemvalue="JUnit.BowlingKataTest.shouldScoreTwentyWhenOnePinDownTwentyTimes" />
-        <item itemvalue="JUnit.BowlingKataTest.shouldScoreOneWhenRolledOne" />
       </list>
     </recent_temporary>
   </component>
@@ -309,7 +309,7 @@
       <workItem from="1641250069708" duration="2655000" />
       <workItem from="1641463969873" duration="71000" />
       <workItem from="1641498699137" duration="1455000" />
-      <workItem from="1641550123059" duration="8868000" />
+      <workItem from="1641550123059" duration="13295000" />
     </task>
     <servers />
   </component>
@@ -362,6 +362,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/bm/app/moduleThree/BowlingKata.java</url>
+          <line>41</line>
+          <properties class="bm.app.moduleThree.BowlingKata" method="rollingWithStrike">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NullPointerException" package="java.lang" />
