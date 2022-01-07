@@ -28,9 +28,9 @@ class BowlingKataTest {
     void shouldScoreTwentyWhenOnePinDownTwentyTimes() {
         //given
         int numberOfThrows = 20;
-        int pinsFell = 1;
+        int pinsFelled = 1;
         //when
-        rolling(numberOfThrows, pinsFell);
+        bowlingKata.rolling(numberOfThrows, pinsFelled);
         //then
         assertThat(bowlingKata.getScore()).isEqualTo(20);
     }
@@ -40,17 +40,20 @@ class BowlingKataTest {
     void shouldScoreZeroWhenNoPinDownTwentyTimes() {
         //given
         int numberOfThrows = 20;
-        int pinsFell = 0;
+        int pinsFelled = 0;
         //when
-        rolling(numberOfThrows, pinsFell);
+        bowlingKata.rolling(numberOfThrows, pinsFelled);
         //then
         assertThat(bowlingKata.getScore()).isEqualTo(0);
     }
 
-    private void rolling(int numberOfThrows, int pins) {
-        for (int i = 0; i < numberOfThrows; i++) {
-            bowlingKata.roll(pins);
-        }
+    @Test
+    @DisplayName("10 pins felled in 2 throws awards a Spare - points for the next throw are doubled.")
+    void shouldScoreSpare() {
+        bowlingKata.rollingWithSpare(2, 5);
+        bowlingKata.rollingWithSpare(1, 4);
+        bowlingKata.rollingWithSpare(17, 0);
+        assertThat(bowlingKata.getScore()).isEqualTo(18);
     }
 
     @BeforeEach
