@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,9 +19,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -71,21 +70,55 @@
       <recent name="bm.app.bowlinggame" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="bm.app.moduleThree" />
       <recent name="bm.app.battleOfCannaeKata" />
       <recent name="bm.app.battleOfLittleMoonValleyKata" />
       <recent name="bm.app.dragoonFight" />
       <recent name="bm.app.battleOfMagnesiaKata" />
-      <recent name="bm.app.gameKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CannaeBattleTest.hastatiUnitShouldBeWipedOut">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.BowlingKataTest.shouldScoreOneWhenRolledOne">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingKataTest.shouldScoreOneWhenRolled" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
+      <option name="METHOD_NAME" value="shouldScoreOneWhenRolled" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingKataTest.shouldScoreOneWhenRolledOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
+      <option name="METHOD_NAME" value="shouldScoreOneWhenRolledOne" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,44 +171,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LittleMoonBattleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.battleOfLittleMoonValleyKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.battleOfLittleMoonValleyKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfLittleMoonValleyKata.LittleMoonBattleTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LittleMoonBattleTest.blessingOfFilthShouldDoubleGoblinPower" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.battleOfLittleMoonValleyKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.battleOfLittleMoonValleyKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfLittleMoonValleyKata.LittleMoonBattleTest" />
-      <option name="METHOD_NAME" value="blessingOfFilthShouldDoubleGoblinPower" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BowlingKataTest.shouldScoreOneWhenRolledOne" />
+        <item itemvalue="JUnit.BowlingKataTest.shouldScoreOneWhenRolled" />
         <item itemvalue="JUnit.CannaeBattleTest.hastatiUnitShouldBeWipedOut" />
         <item itemvalue="JUnit.CannaeBattleTest.volleyShouldDeal150Damage" />
         <item itemvalue="JUnit.CannaeBattleTest.numidianCavalryShouldCharge" />
-        <item itemvalue="JUnit.LittleMoonBattleTest.blessingOfFilthShouldDoubleGoblinPower" />
-        <item itemvalue="JUnit.LittleMoonBattleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +306,8 @@
       <workItem from="1639732907031" duration="627000" />
       <workItem from="1641250069708" duration="2655000" />
       <workItem from="1641463969873" duration="71000" />
-      <workItem from="1641498699137" duration="839000" />
+      <workItem from="1641498699137" duration="1455000" />
+      <workItem from="1641550123059" duration="3113000" />
     </task>
     <servers />
   </component>
