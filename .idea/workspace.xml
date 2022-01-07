@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleThree/BowlingKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleThree/BowlingKataTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +78,7 @@
       <recent name="bm.app.battleOfMagnesiaKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingKataTest.shouldScoreOneWhenRolledOne">
+  <component name="RunManager" selected="JUnit.BowlingKataTest.shouldScoreZeroWhenNoPinDownTwentyTimes">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -123,6 +124,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BowlingKataTest.shouldScoreTwentyWhenOnePinDownTwentyTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
+      <option name="METHOD_NAME" value="shouldScoreTwentyWhenOnePinDownTwentyTimes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BowlingKataTest.shouldScoreZeroWhenNoPinDownTwentyTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.moduleThree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
+      <option name="METHOD_NAME" value="shouldScoreZeroWhenNoPinDownTwentyTimes" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CannaeBattleTest.hastatiUnitShouldBeWipedOut" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -139,45 +172,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CannaeBattleTest.numidianCavalryShouldCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.battleOfCannaeKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.battleOfCannaeKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfCannaeKata.CannaeBattleTest" />
-      <option name="METHOD_NAME" value="numidianCavalryShouldCharge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CannaeBattleTest.volleyShouldDeal150Damage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.battleOfCannaeKata.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.battleOfCannaeKata" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfCannaeKata.CannaeBattleTest" />
-      <option name="METHOD_NAME" value="volleyShouldDeal150Damage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BowlingKataTest.shouldScoreZeroWhenNoPinDownTwentyTimes" />
+        <item itemvalue="JUnit.BowlingKataTest.shouldScoreTwentyWhenOnePinDownTwentyTimes" />
         <item itemvalue="JUnit.BowlingKataTest.shouldScoreOneWhenRolledOne" />
         <item itemvalue="JUnit.BowlingKataTest.shouldScoreOneWhenRolled" />
         <item itemvalue="JUnit.CannaeBattleTest.hastatiUnitShouldBeWipedOut" />
-        <item itemvalue="JUnit.CannaeBattleTest.volleyShouldDeal150Damage" />
-        <item itemvalue="JUnit.CannaeBattleTest.numidianCavalryShouldCharge" />
       </list>
     </recent_temporary>
   </component>
@@ -307,7 +308,7 @@
       <workItem from="1641250069708" duration="2655000" />
       <workItem from="1641463969873" duration="71000" />
       <workItem from="1641498699137" duration="1455000" />
-      <workItem from="1641550123059" duration="3113000" />
+      <workItem from="1641550123059" duration="4519000" />
     </task>
     <servers />
   </component>
