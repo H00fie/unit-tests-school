@@ -4,6 +4,7 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.withinPercentage;
 
 class CannaeBattleTest {
 
@@ -40,6 +41,17 @@ class CannaeBattleTest {
         UnitStatus result = cannaeBattle.checkUnitStatus(hastati);
         //then
         assertThat(result).isEqualTo(UnitStatus.DEAD);
+    }
+
+    @Test
+    void healingSalveShouldRecover30Health() {
+        //given
+        Carthaginian galls = Carthaginian.GALLIC_NOBLE_CAVALRY;
+        Roman princeps = Roman.PRINCIPES;
+        //when
+        cannaeBattle.dealDamage(galls, princeps);
+        cannaeBattle.applyHealingSalve();
+        //then
     }
 
     @BeforeEach
