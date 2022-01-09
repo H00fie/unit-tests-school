@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4b1f8e6-355f-4b4e-9130-cbe7545c84bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleThree/BowlingKata.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleThree/BowlingKata.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/moduleThree/BowlingKataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/moduleThree/BowlingKataTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/bm/app/moduleThree/BowlingKataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/bm/app/moduleThree/BowlingKataTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bm/app/battleOfCannaeKata/CannaeBattle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/bm/app/battleOfCannaeKata/CannaeBattleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +39,9 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="1fQFxsq0SuNuyTxdCIgvEEDJIlw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -59,11 +62,11 @@
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
@@ -80,38 +83,7 @@
       <recent name="bm.app.battleOfMagnesiaKata" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BowlingKataTest.shouldScoreStrike">
-    <configuration name="BowlingKataTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.moduleThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingKataTest.shouldScoreSpare" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.moduleThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
-      <option name="METHOD_NAME" value="shouldScoreSpare" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.CannaeBattleTest.healingSalveShouldRecover30Health">
     <configuration name="BowlingKataTest.shouldScoreStrike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="unit-tests-school" />
       <extension name="coverage">
@@ -123,22 +95,6 @@
       <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
       <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
       <option name="METHOD_NAME" value="shouldScoreStrike" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BowlingKataTest.shouldScoreTwentyWhenOnePinDownTwentyTimes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="unit-tests-school" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bm.app.moduleThree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="bm.app.moduleThree" />
-      <option name="MAIN_CLASS_NAME" value="bm.app.moduleThree.BowlingKataTest" />
-      <option name="METHOD_NAME" value="shouldScoreTwentyWhenOnePinDownTwentyTimes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +116,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CannaeBattleTest.healingSalveShouldRecover30Health" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.battleOfCannaeKata.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.battleOfCannaeKata" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.battleOfCannaeKata.CannaeBattleTest" />
+      <option name="METHOD_NAME" value="healingSalveShouldRecover30Health" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuelTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuelTest.shieldShouldBlockIncomingDamage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="unit-tests-school" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bm.app.dragoonFight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bm.app.dragoonFight" />
+      <option name="MAIN_CLASS_NAME" value="bm.app.dragoonFight.DuelTest" />
+      <option name="METHOD_NAME" value="shieldShouldBlockIncomingDamage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CannaeBattleTest.healingSalveShouldRecover30Health" />
+        <item itemvalue="JUnit.DuelTest.shieldShouldBlockIncomingDamage" />
+        <item itemvalue="JUnit.DuelTest" />
         <item itemvalue="JUnit.BowlingKataTest.shouldScoreStrike" />
         <item itemvalue="JUnit.BowlingKataTest.shouldScoreZeroWhenNoPinDownTwentyTimes" />
-        <item itemvalue="JUnit.BowlingKataTest" />
-        <item itemvalue="JUnit.BowlingKataTest.shouldScoreSpare" />
-        <item itemvalue="JUnit.BowlingKataTest.shouldScoreTwentyWhenOnePinDownTwentyTimes" />
       </list>
     </recent_temporary>
   </component>
@@ -297,6 +300,7 @@
       <workItem from="1641463969873" duration="71000" />
       <workItem from="1641498699137" duration="1455000" />
       <workItem from="1641550123059" duration="13295000" />
+      <workItem from="1641766362390" duration="710000" />
     </task>
     <servers />
   </component>
@@ -313,7 +317,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -337,7 +340,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java</url>
           <line>14</line>
-          <properties class="bm.app.forgeKata.Forge" method="forgeWeapons">
+          <properties class="bm.app.forgeKata.Forge">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="3" />
@@ -345,7 +348,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/bm/app/forgeKata/Forge.java</url>
           <line>67</line>
-          <properties class="bm.app.forgeKata.Forge" method="issueAWeapon">
+          <properties class="bm.app.forgeKata.Forge">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="6" />

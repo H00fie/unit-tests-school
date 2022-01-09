@@ -50,8 +50,9 @@ class CannaeBattleTest {
         Roman princeps = Roman.PRINCIPES;
         //when
         cannaeBattle.dealDamage(galls, princeps);
-        cannaeBattle.applyHealingSalve();
+        cannaeBattle.applyHealingSalve(princeps);
         //then
+        assertThat(princeps.getHealthPool()).isEqualTo(210);
     }
 
     @BeforeEach

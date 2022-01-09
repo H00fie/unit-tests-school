@@ -22,4 +22,8 @@ public class CannaeBattle {
             return UnitStatus.DEAD;
         }
     }
+
+    public void applyHealingSalve(Roman roman) {
+        roman.setHealthPool(roman.getHealthPool() + 30);
+    }
 }
