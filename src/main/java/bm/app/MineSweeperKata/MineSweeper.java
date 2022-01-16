@@ -12,4 +12,14 @@ public class MineSweeper {
         return resultArray;
     }
 
+    public int countTheBatches(int[][] inputArray) {
+        int result = 0;
+        for (int row = 0; row < inputArray.length; row++) {
+            if (inputArray[row][0] != '.') {
+                result++;
+            }
+        }
+        return result;
+    }
+
 }
