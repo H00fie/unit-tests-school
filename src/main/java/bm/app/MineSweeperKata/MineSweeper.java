@@ -1,5 +1,10 @@
 package bm.app.MineSweeperKata;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
 public class MineSweeper {
 
     public int[] countFieldsSimply(int[][] inputArray) {
@@ -12,7 +17,7 @@ public class MineSweeper {
         return resultArray;
     }
 
-    public int countTheBatches(int[][] inputArray) {
+    public int countTheFields(int[][] inputArray) {
         int result = 0;
         for (int row = 0; row < inputArray.length; row++) {
             if (inputArray[row][0] != '.') {
@@ -20,6 +25,27 @@ public class MineSweeper {
             }
         }
         return result;
+    }
+
+    public Map<Integer, Integer> countTheMinesForEveryField(int[][] inputArray) {
+        Map<Integer, Integer> resultMap = new HashMap<>();
+        int fieldCounter = 0;
+        int mineCounter  = 0;
+
+        for (int row = 0; row < inputArray.length; row++) {
+            if (inputArray[row][0] != '*' && inputArray[row][0] != '.') {
+                fieldCounter++;
+                resultMap.put(fieldCounter, 0);
+                mineCounter = 0;
+            }
+            for (int column = 0; column < inputArray[row].length; column++) {
+                if (inputArray[row][column] == '*') {
+                    mineCounter++;
+                }
+            }
+            resultMap.put(fieldCounter, mineCounter);
+        }
+        return resultMap;
     }
 
 }
