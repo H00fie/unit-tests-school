@@ -9,4 +9,11 @@ public class WordSlicer {
         return resultArray;
     }
 
+    public char[] cutStringIntoSingleCharacters(String providedWord) {
+        char[] resultArray = new char[providedWord.length()];
+        for (int i = 0; i < providedWord.length(); i++) {
+            resultArray[i] = providedWord.charAt(i);
+        }
+        return resultArray;
+    }
 }

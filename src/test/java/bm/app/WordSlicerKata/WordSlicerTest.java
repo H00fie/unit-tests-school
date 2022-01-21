@@ -22,6 +22,17 @@ class WordSlicerTest {
         assertThat(actualResult).isEqualTo(expectedResult);
     }
 
+    @Test
+    void shouldDivideProvidedStringIntoSingleCharacters() {
+        //given
+        String providedWord = "thorakitai";
+        char[] expectedResult = {'t', 'h', 'o', 'r', 'a', 'k', 'i', 't', 'a', 'i'};
+        //when
+        char[] actualResult = wordSlicer.cutStringIntoSingleCharacters(providedWord);
+        //then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
+
     @BeforeEach
     void setUp() {
         wordSlicer = new WordSlicer();
