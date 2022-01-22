@@ -44,6 +44,17 @@ class WordSlicerTest {
         assertThat(actualResult).isEqualTo(expectedResult);
     }
 
+    @Test
+    void shouldDivideProvidedStringIntoStringsOfTwoCharactersAndASingleCharacterAtTheEndWithAnUnderscore() {
+        //given
+        String providedWord = "tuskarr";
+        String[] expectedResult = {"tu", "sk", "ar", "r_"};
+        //when
+        String[] actualResult = wordSlicer.cutStringIntoPairsWithPossibleUnderscore(providedWord);
+        //then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
+
     @BeforeEach
     void setUp() {
         wordSlicer = new WordSlicer();
