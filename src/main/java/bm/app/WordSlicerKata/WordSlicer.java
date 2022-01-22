@@ -18,13 +18,7 @@ public class WordSlicer {
     }
 
     public String[] cutStringIntoPairs(String providedWord) {
-        int arrayLength;
-        if (providedWord.length() %2 == 0) {
-            arrayLength = providedWord.length() / 2;
-        } else {
-            arrayLength = providedWord.length() / 2 + 1;
-        }
-        String[] resultArray = new String[arrayLength];
+        String[] resultArray = new String[determineTheLengthOfTheArray(providedWord)];
         int indexCounter = 0;
         for (int i = 0; i < providedWord.length(); i += 2) {
             if (i < providedWord.length() - 1) {
@@ -38,13 +32,7 @@ public class WordSlicer {
     }
 
     public String[] cutStringIntoPairsWithPossibleUnderscore(String providedWord) {
-        int arrayLength;
-        if (providedWord.length() %2 == 0) {
-            arrayLength = providedWord.length() / 2;
-        } else {
-            arrayLength = providedWord.length() / 2 + 1;
-        }
-        String[] resultArray = new String[arrayLength];
+        String[] resultArray = new String[determineTheLengthOfTheArray(providedWord)];
         int indexCounter = 0;
         for (int i = 0; i < providedWord.length(); i += 2) {
             if (i < providedWord.length() - 1) {
@@ -55,5 +43,15 @@ public class WordSlicer {
             indexCounter++;
         }
         return resultArray;
+    }
+
+    private int determineTheLengthOfTheArray(String providedWord) {
+        int arrayLength;
+        if (providedWord.length() %2 == 0) {
+            arrayLength = providedWord.length() / 2;
+        } else {
+            arrayLength = providedWord.length() / 2 + 1;
+        }
+        return arrayLength;
     }
 }
