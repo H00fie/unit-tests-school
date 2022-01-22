@@ -33,6 +33,17 @@ class WordSlicerTest {
         assertThat(actualResult).isEqualTo(expectedResult);
     }
 
+    @Test
+    void shouldDivideProvidedStringIntoStringsOfTwoCharacters() {
+        //given
+        String providedWord = "pezhetairoi";
+        String[] expectedResult = {"pe", "zh", "et", "ai", "ro", "i"};
+        //when
+        String[] actualResult = wordSlicer.cutStringIntoPairs(providedWord);
+        //then
+        assertThat(actualResult).isEqualTo(expectedResult);
+    }
+
     @BeforeEach
     void setUp() {
         wordSlicer = new WordSlicer();

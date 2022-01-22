@@ -16,4 +16,24 @@ public class WordSlicer {
         }
         return resultArray;
     }
+
+    public String[] cutStringIntoPairs(String providedWord) {
+        int arrayLength;
+        if (providedWord.length() %2 == 0) {
+            arrayLength = providedWord.length() / 2;
+        } else {
+            arrayLength = providedWord.length() / 2 + 1;
+        }
+        String[] resultArray = new String[arrayLength];
+        int indexCounter = 0;
+        for (int i = 0; i < providedWord.length(); i += 2) {
+            if (i < providedWord.length() - 1) {
+                resultArray[indexCounter] = String.valueOf(providedWord.charAt(i)) + providedWord.charAt(i + 1);
+            } else {
+                resultArray[indexCounter] = String.valueOf(providedWord.charAt(i));
+            }
+            indexCounter++;
+        }
+        return resultArray;
+    }
 }
