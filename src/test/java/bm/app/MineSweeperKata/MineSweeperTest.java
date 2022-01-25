@@ -3,7 +3,6 @@ package bm.app.MineSweeperKata;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.List;
 import java.util.Map;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -56,11 +55,31 @@ class MineSweeperTest {
                 {'*', '.', '.'}
         };
         //when
-        Integer expectedResult = 2;
         Map<Integer, Integer> actualNumbersOfMinesForEveryField = mineSweeper.countTheMinesForEveryField(inputArray);
         //then
         assertThat(actualNumbersOfMinesForEveryField.get(2)).isEqualTo(3);
     }
+
+//    @Test
+//    void shouldCountHowManyAdjacentMinesEverySquareHas() {
+//        //given
+//        int[][] inputArray = {
+//                {4, 4},
+//                {'.', '*', '.', '.'},
+//                {'*', '*', '.', '.'},
+//                {'.', '.', '*', '.'},
+//                {'*', '.', '.', '*'},
+//                {0,0}
+//        };
+//        int[][] expectedArray = {
+//                {"Field #1:"},
+//                {},
+//        };
+//        //when
+//        mineSweeper.countTheAdjacentMinesForEverySquare();
+//        //then
+//        assertThat()
+//    }
 
     @BeforeEach
     void setUp() {
