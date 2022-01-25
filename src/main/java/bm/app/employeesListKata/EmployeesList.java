@@ -1,6 +1,7 @@
 package bm.app.employeesListKata;
 
 import java.util.Map;
+import java.util.TreeMap;
 
 public class EmployeesList {
 
@@ -16,4 +17,9 @@ public class EmployeesList {
         return stringBuffer.toString();
     }
 
+    public TreeMap<String, Employee> showSortedEmployees(Map<String, Employee> inputMap) {
+        TreeMap<String, Employee> sortedMap = new TreeMap<>();
+        sortedMap.putAll(inputMap);
+        return sortedMap;
+    }
 }
