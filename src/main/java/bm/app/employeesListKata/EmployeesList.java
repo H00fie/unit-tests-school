@@ -17,6 +17,8 @@ public class EmployeesList {
         return stringBuffer.toString();
     }
 
+    //TreeMap is a map implementation that keeps its entries sorted according to the natural
+    //ordering of its keys or better still using a comparator if provided by the user at construction time.
     public TreeMap<String, Employee> showSortedEmployees(Map<String, Employee> inputMap) {
         TreeMap<String, Employee> sortedMap = new TreeMap<>();
         sortedMap.putAll(inputMap);

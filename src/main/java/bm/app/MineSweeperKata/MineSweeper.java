@@ -48,4 +48,11 @@ public class MineSweeper {
         return resultMap;
     }
 
+//    public int[][] countTheAdjacentMinesForEverySquare(int[][] inputArray) {
+//        for (int row = 0; row <inputArray.length; row++) {
+//            for (int column = 0; column < inputArray[row].length; column++) {
+//
+//            }
+//        }
+//    }
 }
