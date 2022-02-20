@@ -20,6 +20,17 @@ class TextConverterTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldConvertStringFormatToCamelCase() {
+        //given
+        String providedWord = "My_little-bear-is_called-Abydon";
+        String expectedResult = "myLittleBearIsCalledAbydon";
+        //when
+        String actualResult = textConverter.convertToCamelCase(providedWord);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
     @BeforeEach
     void setUp() {
         textConverter = new TextConverter();
