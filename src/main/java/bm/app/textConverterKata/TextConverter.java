@@ -21,4 +21,11 @@ public class TextConverter {
                 providedString.substring(1).toLowerCase();
     }
 
+    public String maskify(String stringToMaskify) {
+        String partToMaskify = stringToMaskify.substring(0, stringToMaskify.length() - 4);
+        partToMaskify = "#".repeat(partToMaskify.length());
+        String partToNotMaskify = stringToMaskify.substring(stringToMaskify.length() - 4);
+        return partToMaskify + partToNotMaskify;
+    }
+
 }

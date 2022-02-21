@@ -31,6 +31,17 @@ class TextConverterTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldReplaceAllButLastFourCharactersWithHashtag() {
+        //given
+        String stringToMaskify = "My little dog's name is Attalos.";
+        String expectedResult = "############################los.";
+        //when
+        String actualResult = textConverter.maskify(stringToMaskify);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
     @BeforeEach
     void setUp() {
         textConverter = new TextConverter();
