@@ -42,6 +42,17 @@ class TextConverterTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldReturnTheProvidedWordDueToASmallNumberOfCharacters() {
+        //given
+        String providedWord = "ogre";
+        String expectedResult = "ogre";
+        //when
+        String actualResult = textConverter.maskify(providedWord);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
     @BeforeEach
     void setUp() {
         textConverter = new TextConverter();

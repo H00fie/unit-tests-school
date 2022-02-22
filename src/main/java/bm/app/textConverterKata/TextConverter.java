@@ -22,10 +22,14 @@ public class TextConverter {
     }
 
     public String maskify(String stringToMaskify) {
-        String partToMaskify = stringToMaskify.substring(0, stringToMaskify.length() - 4);
-        partToMaskify = "#".repeat(partToMaskify.length());
-        String partToNotMaskify = stringToMaskify.substring(stringToMaskify.length() - 4);
-        return partToMaskify + partToNotMaskify;
+        if (stringToMaskify.length() > 4) {
+            String partToMaskify = stringToMaskify.substring(0, stringToMaskify.length() - 4);
+            partToMaskify = "#".repeat(partToMaskify.length());
+            String partToNotMaskify = stringToMaskify.substring(stringToMaskify.length() - 4);
+            return partToMaskify + partToNotMaskify;
+        } else {
+            return stringToMaskify;
+        }
     }
 
 }
