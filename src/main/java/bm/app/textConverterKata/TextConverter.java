@@ -32,4 +32,20 @@ public class TextConverter {
         }
     }
 
+    public String convertToT(String providedWord) {
+        int cCounter = 0;
+        StringBuilder resultString = new StringBuilder();
+        resultString.append(providedWord);
+        for (int i = 0; i < providedWord.length(); i++) {
+            if (providedWord.charAt(i) == 'c') {
+                cCounter++;
+            }
+        }
+        if (cCounter >= 3) {
+            for (int i = 0; i < providedWord.length(); i++) {
+                resultString.setCharAt(i + 1, 'T');
+            }
+        }
+        return resultString.toString();
+    }
 }
