@@ -37,13 +37,13 @@ public class TextConverter {
         StringBuilder resultString = new StringBuilder();
         resultString.append(providedWord);
         for (int i = 0; i < providedWord.length(); i++) {
-            if (providedWord.charAt(i) == 'c') {
+            if (providedWord.charAt(i) == 'c' || providedWord.charAt(i) == 'C') {
                 cCounter++;
             }
         }
         if (cCounter >= 3) {
-            for (int i = 0; i < providedWord.length(); i++) {
-                resultString.setCharAt(i + 1, 'T');
+            for (int j = 0; j < providedWord.length() - 1; j += 2) {
+                resultString.setCharAt(j + 1, 'T');
             }
         }
         return resultString.toString();

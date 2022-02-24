@@ -57,7 +57,7 @@ class TextConverterTest {
     void shouldReplaceEverySecondCharacterWithLetterTIfTheStringContainsThreeCs() {
         //given
         String providedWord = "Cast a shimmering cascade!";
-        String expectedResult = "CTst T ThTmTeTiTgTcTsTaTeT";
+        String expectedResult = "CTsT T ThTmTeTiTgTcTsTaTeT";
         //when
         String actualResult = textConverter.convertToT(providedWord);
         //then
