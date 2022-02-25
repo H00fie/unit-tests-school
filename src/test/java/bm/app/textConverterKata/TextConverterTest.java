@@ -64,6 +64,19 @@ class TextConverterTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldReplaceAllVowelsWithTomato() {
+        //given
+        String providedWord = "A mug with Asuna.";
+        String expectedResult = "Tomato mTomatog wTomatoth TomatosTomatonTomato.";
+        //when
+        String actualResult = textConverter.replaceVowelsWithTomato(providedWord);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
+
+
     @BeforeEach
     void setUp() {
         textConverter = new TextConverter();

@@ -1,5 +1,8 @@
 package bm.app.textConverterKata;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class TextConverter {
 
     public String removeUnderscores(String providedWord) {
@@ -47,5 +50,10 @@ public class TextConverter {
             }
         }
         return resultString.toString();
+    }
+
+    public String replaceVowelsWithTomato(String providedWord) {
+        providedWord = providedWord.replaceAll("[aAeEiIoOuUyY]", "Tomato");
+        return providedWord;
     }
 }
