@@ -22,6 +22,17 @@ class CountererTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldSumUpAllNumbersLowerThanInputIfDividableBy3Or5() {
+        //given
+        int providedNumber = 10;
+        int expectedResult = 23;
+        //when
+        int actualResult = counterer.countDivisorsOf3And5(providedNumber);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
     @BeforeEach
     void setUp() {
         counterer = new Counterer();

@@ -12,4 +12,14 @@ public class Counterer {
         return result;
     }
 
+    public int countDivisorsOf3And5(int providedNumber) {
+        int result = 0;
+        for (int i = 0; i < providedNumber; i++) {
+            if (i%3 == 0 || i%5 == 0) {
+                result += i;
+            }
+        }
+        return result;
+    }
+
 }
