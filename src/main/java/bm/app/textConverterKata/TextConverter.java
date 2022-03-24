@@ -56,4 +56,13 @@ public class TextConverter {
         providedWord = providedWord.replaceAll("[aAeEiIoOuUyY]", "Tomato");
         return providedWord;
     }
+
+//    public String sortTheInternalsByTheirNumbers(String providedString) {
+//        List<String> parts = new ArrayList<>();
+//        for (int i = 0; i < providedString.length(); i++) {
+//            if (Character.isDigit(providedString.charAt(i))) {
+//                parts.add(providedString.split(" "))
+//            }
+//        }
+//    }
 }

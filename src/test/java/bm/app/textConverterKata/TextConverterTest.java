@@ -75,6 +75,17 @@ class TextConverterTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+//    @Test
+//    void shouldSortTheWordsWithinTheStringDependingOnTheirAttachedNumber() {
+//        //given
+//        String providedString = "the3 ogre5 Greasus1 best4 is2";
+//        String expectedResult = "Greasus1 is2 the3 best4 ogre5";
+//        //when
+//        String actualResult = textConverter.sortTheInternalsByTheirNumbers(providedString);
+//        //then
+//        assertThat(expectedResult).isEqualTo(actualResult);
+//    }
+
 
 
     @BeforeEach
