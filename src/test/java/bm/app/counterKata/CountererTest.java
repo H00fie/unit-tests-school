@@ -33,6 +33,18 @@ class CountererTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldDistributeNumbersFromTheListEvenlyBetweenTheTablesOfTheNumberProvided() {
+        //given
+        int providedNumberOfArrays = 5;
+        int[] providedArray = {1, 2, 3, 4, 5, 6, 7, 8, 9, 0};
+        int[][] expectedResult = {{1, 2}, {3, 4}, {5, 6}, {7, 8}, {9, 0}};
+        //when
+        int[][] actualResult = counterer.createAMultidimensionalArray(providedArray, providedNumberOfArrays);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
     @BeforeEach
     void setUp() {
         counterer = new Counterer();
