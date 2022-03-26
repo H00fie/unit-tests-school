@@ -27,11 +27,11 @@ public class Counterer {
         int rowIndex = 0;
         int columnIndex = 0;
 
-        for (int i = 0; i < providedArray.length; i++) {
-            temporaryArray[rowIndex][columnIndex] = providedArray[i];
+        for (int element : providedArray) {
+            temporaryArray[rowIndex][columnIndex] = element;
 
             columnIndex++;
-            if (columnIndex == 2) {
+            if (columnIndex == (providedArray.length / numberOfArrays)) {
                 rowIndex++;
                 columnIndex = 0;
             }
