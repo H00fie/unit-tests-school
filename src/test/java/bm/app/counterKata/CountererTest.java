@@ -45,6 +45,18 @@ class CountererTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldCountUpperCaseLetters() {
+        //given
+        String providedWord = "TheFallOfNumenorIsTheGreatestTragedyOfAllTime";
+        int expectedResult = 11;
+        //when
+        int actualResult = counterer.countUpperCaseLetters(providedWord);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
+
     @BeforeEach
     void setUp() {
         counterer = new Counterer();

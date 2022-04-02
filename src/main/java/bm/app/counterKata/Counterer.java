@@ -40,4 +40,13 @@ public class Counterer {
         return temporaryArray;
     }
 
+    public int countUpperCaseLetters(String providedWord) {
+        int counter = 0;
+        for (int i = 0; i < providedWord.length(); i++) {
+            if (Character.isUpperCase(providedWord.charAt(i))) {
+                counter++;
+            }
+        }
+        return counter;
+    }
 }

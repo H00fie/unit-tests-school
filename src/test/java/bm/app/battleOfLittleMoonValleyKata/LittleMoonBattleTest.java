@@ -47,27 +47,27 @@ class LittleMoonBattleTest {
         assertThat(actualResult).isEqualTo(expectedResult);
     }
 
-    @Test
-    void dwarvenThunderersShouldPickAHandgun(){
-        //given
-        Unit thunderers = Unit.THUNDERERS;
-        Weapon expectedWeapon = Weapon.HANDGUN;
-        //when
-        Weapon pickedWeapon = littleMoonBattle.dispenseWeapons(thunderers);
-        //then
-        assertThat(pickedWeapon).isEqualTo(expectedWeapon);
-    }
+//    @Test
+//    void dwarvenThunderersShouldPickAHandgun(){
+//        //given
+//        Unit thunderers = Unit.THUNDERERS;
+//        Weapon expectedWeapon = Weapon.HANDGUN;
+//        //when
+//        Weapon pickedWeapon = littleMoonBattle.dispenseWeapons(thunderers);
+//        //then
+//        assertThat(pickedWeapon).isEqualTo(expectedWeapon);
+//    }
 
-    @Test
-    void dwarvenRockHandsShouldPickAHammer() {
-        //given
-        Unit rockHands = Unit.ROCK_HANDS;
-        Weapon expectedWeapon = Weapon.HAMMER;
-        //when
-        Weapon pickedWeapon = littleMoonBattle.dispenseWeapons(rockHands);
-        //then
-        assertThat(pickedWeapon).isEqualTo(expectedWeapon);
-    }
+//    @Test
+//    void dwarvenRockHandsShouldPickAHammer() {
+//        //given
+//        Unit rockHands = Unit.ROCK_HANDS;
+//        Weapon expectedWeapon = Weapon.HAMMER;
+//        //when
+//        Weapon pickedWeapon = littleMoonBattle.dispenseWeapons(rockHands);
+//        //then
+//        assertThat(pickedWeapon).isEqualTo(expectedWeapon);
+//    }
 
     @Test
     void blessingOfFilthShouldDoubleGoblinPower() {

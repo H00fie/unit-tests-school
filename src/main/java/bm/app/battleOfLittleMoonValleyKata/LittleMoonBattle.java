@@ -43,19 +43,19 @@ public class LittleMoonBattle {
     }
 
     // Switch expressions!!!
-    public Weapon dispenseWeapons(Unit unit) {
-        return switch(unit) {
-            case CROSSBOWMEN -> Weapon.CROSSBOW;
-            case PIKEMEN -> Weapon.PIKE;
-            case THUNDERERS -> Weapon.HANDGUN;
-            case SHIELD_BEARERS -> Weapon.SWORD;
-            case SLAYERS, OATHKEEPERS, ROCK_HANDS -> {
-                var weapon = unit == Unit.SLAYERS ? Weapon.AXE : Weapon.HAMMER;
-                yield weapon;
-            }
-            default -> Weapon.NONE;
-        };
-    }
+//    public Weapon dispenseWeapons(Unit unit) {
+//        return switch(unit) {
+//            case CROSSBOWMEN -> Weapon.CROSSBOW;
+//            case PIKEMEN -> Weapon.PIKE;
+//            case THUNDERERS -> Weapon.HANDGUN;
+//            case SHIELD_BEARERS -> Weapon.SWORD;
+//            case SLAYERS, OATHKEEPERS, ROCK_HANDS -> {
+//                var weapon = unit == Unit.SLAYERS ? Weapon.AXE : Weapon.HAMMER;
+//                yield weapon;
+//            }
+//            default -> Weapon.NONE;
+//        };
+//    }
 
     public void castBlessingOfFilth(Foe foe) {
         foe.setPower(foe.getPower() + magicOfFilth.blessingOfFilth());
