@@ -56,6 +56,17 @@ class CountererTest {
         assertThat(expectedResult).isEqualTo(actualResult);
     }
 
+    @Test
+    void shouldInsertABlankSpaceBeforeEveryCapitalLetter() {
+        //given
+        String providedWord = "AttalosIsMyLittleMoonMoon";
+        String expectedResult = "Attalos Is My Little Moon Moon";
+        //when
+        String actualResult = counterer.insertBlanks(providedWord);
+        //then
+        assertThat(expectedResult).isEqualTo(actualResult);
+    }
+
 
     @BeforeEach
     void setUp() {
