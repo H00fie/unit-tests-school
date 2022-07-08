@@ -2,6 +2,12 @@ package bm.app.battleOfBannockburnKata;
 
 public class BannockburnBattle {
 
+    ChristianMagic christianMagic;
+
+    public BannockburnBattle(ChristianMagic christianMagic) {
+        this.christianMagic = christianMagic;
+    }
+
     public void formUp(Scottish warrior){
         warrior.setInFormation(true);
     }
@@ -18,6 +24,10 @@ public class BannockburnBattle {
         if (checkifAlive(englishKnights)) {
             englishKnights.setAlive(false);
         }
+    }
+
+    public void castRessurectionSpell(Scottish warriors) {
+        warriors.setHealthPool(warriors.getHealthPool() + christianMagic.castRessurection());
     }
 
     private int calculateDamageDealt(int attackerPower, ArmourType defendersArmour) {
