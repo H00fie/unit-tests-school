@@ -20,6 +20,18 @@ class BannockburnBattleTest {
         assertThat(pikemen.isInFormation()).isTrue();
     }
 
+    @Test
+    void manAtArmsShouldDeal18Damage() {
+        //given
+        Scottish pikemen = Scottish.PIKEMEN;
+        English manAtArms = English.MAN_AT_ARMS;
+        int expectedPikemenHealthPool = 582;
+        //when
+        bannockburnBattle.infantryCharge(manAtArms, pikemen);
+        //then
+        assertThat(pikemen.getHealthPool()).isEqualTo(expectedPikemenHealthPool);
+    }
+
     @BeforeEach
     void setUp() {
         bannockburnBattle = new BannockburnBattle();
