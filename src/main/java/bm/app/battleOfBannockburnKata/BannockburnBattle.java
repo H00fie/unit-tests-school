@@ -11,6 +11,15 @@ public class BannockburnBattle {
         scottishWarrior.setHealthPool(scottishWarrior.getHealthPool() - damageDealt);
     }
 
+    public void cavalryCharge(Scottish scottishKnights, English englishKnights) {
+        regroupAfterAFailedChargeAtPikemen(englishKnights);
+        int damageDealt = calculateDamageDealt(scottishKnights.getPower(), englishKnights.getArmourType());
+        englishKnights.setHealthPool(englishKnights.getHealthPool() - damageDealt);
+        if (checkifAlive(englishKnights)) {
+            englishKnights.setAlive(false);
+        }
+    }
+
     private int calculateDamageDealt(int attackerPower, ArmourType defendersArmour) {
         int damageDealt = 0;
         switch (defendersArmour) {
@@ -21,5 +30,16 @@ public class BannockburnBattle {
             case FULL_PLATE -> damageDealt = attackerPower / 4;
         }
         return damageDealt;
+    }
+
+    private void regroupAfterAFailedChargeAtPikemen(English englishKnights) {
+        englishKnights.setHealthPool(50);
+    }
+
+    private boolean checkifAlive(English unit) {
+        if (unit.getHealthPool() < 0) {
+            return false;
+        }
+        return true;
     }
 }

@@ -2,7 +2,8 @@ package bm.app.battleOfBannockburnKata;
 
 public enum Scottish {
 
-    PIKEMEN("Pikemen", 600, 30, 200, ArmourType.LEATHER, 10, false);
+    PIKEMEN("Pikemen", 600, 30, 200, ArmourType.LEATHER, 10, false, true),
+    KNIGHTS("Knights", 1000, 100,40, ArmourType.HALF_PLATE, 80, false, true);
 
     private String name;
     private int healthPool;
@@ -11,8 +12,9 @@ public enum Scottish {
     private ArmourType armourType;
     private int speed;
     private boolean isInFormation;
+    private boolean isAlive;
 
-    Scottish(String name, int healthPool, int power, int number, ArmourType armourType, int speed, boolean isInFormation) {
+    Scottish(String name, int healthPool, int power, int number, ArmourType armourType, int speed, boolean isInFormation, boolean isAlive) {
         this.name = name;
         this.healthPool = healthPool;
         this.power = power;
@@ -20,6 +22,7 @@ public enum Scottish {
         this.armourType = armourType;
         this.speed = speed;
         this.isInFormation = isInFormation;
+        this.isAlive = isAlive;
     }
 
     public String getName() {
@@ -76,5 +79,13 @@ public enum Scottish {
 
     public void setInFormation(boolean inFormation) {
         isInFormation = inFormation;
+    }
+
+    public boolean isAlive() {
+        return isAlive;
+    }
+
+    public void setAlive(boolean alive) {
+        isAlive = alive;
     }
 }
