@@ -68,4 +68,17 @@ class BannockburnBattleTest {
         bannockburnBattle = new BannockburnBattle(christianMagic);
     }
 
+    /**
+     * Mockito służy do mimikowania działania zewnętrznego serwisu. Mamy metodę, która np. do obliczeń pobiera
+     * jakąś wartość z zewnętrznego API, np. wysokość VATu w danym kraju. Chcemy przetestować sobie działanie naszej
+     * metody, ale niekoniecznie z udziałem tego zewnętrznego API, no bo testujemy NASZE funkcjonalności.
+     * Potrzebujemy zatem mechanizmu, który będzie udawał zewnętrzne źródło danych - gdy nasza metoda będzie potrzebowała
+     * np. wysokości podatku w danym kraju, to pobierze sobie tę wartość tak jak normalnie ją pobiera, ALE w testach
+     * zaMOCKujemy wkładaną do naszej funkcji wartość, dzięki czemu nie wyjdziemy z testowaniem poza nasz serwis.
+     * Dlatego ustawiamy w setUp'ie mocka - mockuje on nam to, czego nasza funkcja obliczeniowa potrzebuje z zewnątrz
+     * do swoich obliczeń. W każdym teście, gdy nasza funkcja coś licząca woła metodę mającą jej coś z zewnątrz
+     * dostarczyć - ustawiamy sobie dzięki Mockito dokładnie taką wartość jakiej chcemy. A więc, na potrzeby testów,
+     * dostarczamy sobie sztuczne wartości, które zazwyczaj przychodziłyby z zewnątrz - Mockito.when(...)thenReturn(...).
+     */
+
 }
