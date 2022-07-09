@@ -2,6 +2,7 @@ package bm.app.BlackMarketKata;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.mockito.Mockito;
 
 import java.math.BigDecimal;
 import java.util.UUID;
@@ -12,6 +13,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class BlackMarketTest {
 
     BlackMarket blackMarket;
+    Extortion extortion;
 
     @Test
     void shouldCalculateThePriceOfFourRifles() {
@@ -25,13 +27,27 @@ class BlackMarketTest {
         assertThat(expectedPrice).isEqualTo(actualPrice);
     }
 
+    @Test
+    void shouldCalculateThePriceWithProvidedExtortion() {
+        //given
+        Contraband contraband = generateAProductWithAPrice("89", "Light drug");
+        int numberOfGoods = 7;
+        Mockito.when(extortion.getExtortion()).thenReturn(new BigDecimal("0.40"));
+        BigDecimal expectedPrice = new BigDecimal("872.2");
+        //when
+        BigDecimal actualPrice = blackMarket.calculateThePriceWithExtortion(contraband, numberOfGoods);
+        //then
+        assertThat(actualPrice).isEqualTo(expectedPrice);
+    }
+
     private Contraband generateAProductWithAPrice(String price, String type) {
         return new Contraband(UUID.randomUUID(), new BigDecimal(price), type);
     }
 
     @BeforeEach
     void setUp() {
-        blackMarket = new BlackMarket();
+        extortion = Mockito.mock(Extortion.class);
+        blackMarket = new BlackMarket(extortion);
     }
 
 }
