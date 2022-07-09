@@ -8,6 +8,7 @@ import java.math.BigDecimal;
 import java.util.UUID;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.assertThatExceptionOfType;
 
 class BlackMarketTest {
 
@@ -27,7 +28,7 @@ class BlackMarketTest {
     }
 
     @Test
-    void shouldCalculateThePriceWithProvidedExtortion() {
+    void shouldCalculateThePriceWithProvidedExtortion() throws RidiculousExtortionException {
         //given
         Contraband contraband = generateAProductWithAPrice("89", "Light drug");
         int numberOfGoods = 7;
@@ -40,7 +41,7 @@ class BlackMarketTest {
     }
 
     @Test
-    void shouldCalculateThePriceWithExtortionForParticularType() {
+    void shouldCalculateThePriceWithExtortionForParticularType() throws RidiculousExtortionException {
         //given
         Contraband contraband = generateAProductWithAPrice("139", "Heavy drug");
         int numberOfGoods = 3;
@@ -50,6 +51,18 @@ class BlackMarketTest {
         BigDecimal actualPrice = blackMarket.calculateThePriceWithExtortionForAType(contraband, numberOfGoods);
         //then
         assertThat(actualPrice).isEqualTo(expectedPrice);
+    }
+
+    @Test
+    void shouldThrowRidiculousExtortionException() {
+        //given
+        Contraband contraband = generateAProductWithAPrice("50", "Plushies");
+        int number = 4;
+        Mockito.when(extortion.getExtortion()).thenReturn(new BigDecimal("101"));
+        //then
+        assertThatExceptionOfType(RidiculousExtortionException.class).isThrownBy(() -> {
+            blackMarket.calculateThePriceWithExtortion(contraband, number);
+        }).withMessage("The boss forbids the extortion to exceed 100% value of the base product.");
     }
 
     private Contraband generateAProductWithAPrice(String price, String type) {
