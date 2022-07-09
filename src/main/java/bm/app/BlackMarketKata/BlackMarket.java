@@ -19,6 +19,11 @@ public class BlackMarket {
         return calculateFullCost(contraband.getPrice(), extortion.getExtortion(), number);
     }
 
+    public BigDecimal calculateThePriceWithExtortionForAType(Contraband contraband, int number) {
+        BigDecimal extortionAmount = extortion.getExtortionForType(contraband.getType());
+        return calculateFullCost(contraband.getPrice(), extortionAmount, number);
+    }
+
     private BigDecimal calculateFullCost(BigDecimal netPrice, BigDecimal extortionPercent, int number) {
         MathContext precision = new MathContext(4);
         return netPrice.multiply(BigDecimal.ONE.add(extortionPercent)).round(precision).multiply(BigDecimal.valueOf(number));

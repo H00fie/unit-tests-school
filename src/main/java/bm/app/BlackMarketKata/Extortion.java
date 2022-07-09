@@ -5,6 +5,6 @@ import java.math.BigDecimal;
 public interface Extortion {
 
     BigDecimal getExtortion();
-    BigDecimal getExtortionForType();
+    BigDecimal getExtortionForType(String type);
 
 }
